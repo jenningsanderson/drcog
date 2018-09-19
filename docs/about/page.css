@@ -2,13 +2,14 @@ body{
 	text-align:center;
 }
 .container{
-	max-width: 800px;
+	max-width: 700px;
 	margin: 0px auto;
 	text-align:left;
 	border: 1px solid blue;
 	padding-left: 3px;
+	padding-right: 3px;
 }
 
 div{
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 }
