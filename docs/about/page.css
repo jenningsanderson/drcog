@@ -1,15 +1,51 @@
 body{
 	text-align:center;
 }
-.container{
-	max-width: 700px;
-	margin: 0px auto;
+
+p, h2, h3{
+	text-align;left;
+}
+
+h1.title{
+	padding-top: 5vh;
+	font-family: arial;
+	font-weight: 800;
+}
+
+h4{
+	font-weight:600;
+}
+
+h5{
+	font-family:arial;
+	font-weight:400;
+}
+
+.wrapper{
 	text-align:left;
-	border: 1px solid blue;
-	padding-left: 3px;
-	padding-right: 3px;
+	width:50%;
+	min-width: 350px;
+}
+
+.text-container{
+	padding: 5px;
 }
 
 div{
 	/*border: 1px solid red;*/
+}
+
+.min-half{
+	min-width:320px;
+	width:50%;
+}
+
+.min-third{
+	min-width:200px;
+	width:33%;
+}
+
+.min-two-third{
+	min-width:320px;
+	width:66%;
 }
