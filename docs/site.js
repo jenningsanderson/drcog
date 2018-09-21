@@ -101,8 +101,8 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiamVubmluZ3NhbmRlcnNvbiIsImEiOiIzMHZndnpvIn0.P
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/light-v9',
-    center: [-113, 40],
-    zoom: 5,
+    center: [-105, 39.86],
+    zoom: 8,
     hash:true
 });
 
@@ -116,19 +116,11 @@ map.on('load', function () {
             "data": getFeatureCollection(whatData())
         },
         "layout": {
-            "icon-image": "monument-15",
+            "icon-image": "monument-8",
             "text-field": "{name}",
             "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
             "text-offset": [0, 0.6],
             "text-anchor": "top"
         }
     });
-
-    // map.addSource('loi',{
-    //     'type':"geojson",
-    //     'data':null
-    // })
-    // map.addLayer({
-    //     'type':
-    // }
 });
