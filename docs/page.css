@@ -54,4 +54,7 @@ div{
 	z-index:3;
 	margin-top:-4vh;
 	height:30vh;
+	-webkit-filter: drop-shadow(3px 3px 3px #222);
+    filter: drop-shadow(3px 3px 3px #222);
+
 }
