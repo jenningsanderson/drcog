@@ -49,3 +49,9 @@ div{
 	min-width:320px;
 	width:66%;
 }
+
+#header-logo{
+	z-index:3;
+	margin-top:-4vh;
+	height:30vh;
+}
