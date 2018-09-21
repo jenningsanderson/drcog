@@ -3,7 +3,7 @@
 <head>
 <!-- Global site tag (gtag.js) - Google Analytics -->
   <meta charset='utf-8' />
-  <title></title>
+  <title>OpenStreetMap Denver Buildings Import</title>
   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 
   <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.js'></script>
@@ -25,8 +25,8 @@
   silverish: #6F7174;
   orange: #EFAD24;
   treegreen: #388635;
-
  -->
+
 <body>
   <header>
     <div style="height:5vh; background-color:#3172DC;">
@@ -47,7 +47,7 @@
 
     <div class="flex-child wrapper">
 
-      <h4 class="txt-h4 align-center txt-em py12">Why are we doing this?</h4>
+      <!-- <h4 class="txt-h4 align-center txt-em py12">Why are we doing this?</h4> -->
 
       <div class="text-container flex-parent flex-parent--center-main flex-parent--wrap">
 
@@ -55,11 +55,10 @@
           
           <p class="txt-m px12">
 
-            <a class="link" target="_blank" href="//openstreetmap.org/">OpenStreetMap</a> is an open map of the world that anyone can edit and use freely. In support of open data, The Denver Regional Council of Governments is making available over 1M building footprints with 6cm accuracy for importing to OpenStreetMap.
-          
+            <a class="link txt-l" target="_blank" href="//openstreetmap.org/">OpenStreetMap</a> is an open map of the world that anyone can edit and use freely. In support of open data, The Denver Regional Council of Governments is making over 1M building footprints with 6cm accuracy available for importing to OpenStreetMap.
           </p>
 
-          <p class="txt-m py12 px12">Over the next few months, various import-a-thons</p>
+          <p class="txt-m py12 px12">Over the next few months, various import-a-thons across the Colorado Front-Range will make this region one of the best-mapped in OpenStreetMap!</p>
           
         </div>
 
@@ -76,21 +75,20 @@
   <section style="background-color:#3172DC;" class="flex-parent flex-parent--center-main color-white">
     <div class="flex-child wrapper">
 
-      <h4 class="txt-h4 align-center txt-em py12">What is an Import-a-thon?</h4>
-
       <div class="text-container flex-parent flex-parent--center-main flex-parent--wrap">
 
-        <div class="flex-child min-third bg-gray-light">
-          <div id="map" class="py12 px12">
-            <img src="">
-            <p class="txt">Small enticing picture of building footprint </p>
+        <div class="flex-child min-third">
+          <div class="my12">
+            <img src="img/buildings-short.png">
           </div>
         </div>
 
 
         <div class="flex-child min-two-third">
+
+          <h4 class="txt-h4 px12 txt-em py12">What is an Import-a-thon?</h4>
           
-          <p class="txt-m px12">There are over 1M building footprints to be imported. These buildings need to be reviewed by volunteers.</p>
+          <p class="txt-m px12">There are over 1M building footprints to be imported. These footprints, like the ones shown here, need to be reviewed by volunteers for accuracy and attributes. When merging data into OSM, we need to compare to any existing data and conflate attributes properly!</p>
           
         </div>
 
@@ -105,33 +103,69 @@
   <section style="background-color:#EEF0F0;" class="flex-parent flex-parent--center-main">
     <div class="flex-child wrapper color-blue-dark">
 
-      <h4 class="txt-h4 align-center txt-em py12">Where to get Started</h4>
+      <h4 class="txt-h4 align-center txt-em py12">Getting Involved</h4>
       <p class="px12">
-        There are many resources available to help with this effort.
+        RSVP to one of the upcoming import-a-thons to get started:
       </p>
 
-      <ul>
-        <li>Wiki 1</li>
-        <li>Wiki 2</li>
-        <li>Github 1</li>
+      <ul class="px24 pb12">
+        <li class="mb12"><a href="#" target="_blank"><div class="px12 event shadow-darken10-bold-on-hover">
+            <h4 class="txt-h4">Central Denver - Auraria Campus</h4>
+            <p>6pm October 25, 2018</p>
+          </div></a></li>        
+        <li class="mb12"><a href="#" target="_blank"><div class="px12 event shadow-darken10-bold-on-hover">
+            <h4 class="txt-h4">East Denver - Woods Boss Brewing Company</h4>
+            <p>6pm October 25, 2018</p>
+          </div></a></li>
+        <li class="mb12"><a href="#" target="_blank"><div class="px12 event shadow-darken10-bold-on-hover">
+            <h4 class="txt-h4">Englewood</h4>
+            <p>6pm October 22, 2018</p>
+          </div></a></li>
+        <li class="mb12"><a href="#" target="_blank"><div class="px12 event shadow-darken10-bold-on-hover">
+            <h4 class="txt-h4">Fort Collins</h4>
+            <p>6pm October 25, 2018</p>
+          </div></a></li>
+        <li><a href="https://www.meetup.com/Maptime-Boulder/events/254667358/" target="_blank"><div class="px12 event shadow-darken10-bold-on-hover">
+            <h4 class="txt-h4">Boulder - Boulder Public Library</h4>
+            <p>6pm October 25, 2018</p>
+          </div></a></li>
       </ul>
 
     </div>
   </section>
 
-   <section style="background-color:#3172DC;" class="flex-parent flex-parent--center-main color-white">
+  <section style="background-color:#3172DC;" class="flex-parent flex-parent--center-main color-white">
     <div class="flex-child wrapper">
 
+      <h4 class="txt-h4 align-center txt-em py12">Getting Started:</h4>
+      <p>1. Download JSOM</p>
+      <p>2. Task Manager</p>
+
+    </div>
+  </section>
+
+
+  <section style="background-color:#EEF0F0;" class="flex-parent flex-parent--center-main color-blue-dark">
+    <div class="flex-child wrapper pb12">
+
       <h4 class="txt-h4 align-center txt-em py12">Other Resources</h4>
+
+      <p>DRCOG Building Import Page on the OSM Wiki</p>
+      <p>
 
     </div>
   </section>
 
 
   <footer style="background-color:#3172DC;" class="py12 flex-parent flex-parent--center-main">
-    <div class='flex-child'>
+    <div class='flex-child color-white'>
+
+      <p>Special Thanks to: </p>
       <p class="txt-s">Denver Regional Council of Governments, OpenStreetMap Colorado, Maptime MileHigh, Maptime Boulder</p></div>
 
   </footer>
+
+  <script src="site.js"></script>
+
 </body>
 </html>

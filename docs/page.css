@@ -56,5 +56,12 @@ div{
 	height:30vh;
 	-webkit-filter: drop-shadow(3px 3px 3px #222);
     filter: drop-shadow(3px 3px 3px #222);
+}
 
+div.event{
+
+}
+
+div.event:hover{
+	background-color:;
 }
