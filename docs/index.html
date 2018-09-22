@@ -43,6 +43,7 @@
     </div>
   </section>
 
+
   <section style="background-color:#EEF0F0;" class="flex-parent flex-parent--center-main color-blue-dark">
 
     <div class="flex-child wrapper">
@@ -73,6 +74,16 @@
     
   </section>
 
+  <section style="background-color:#EEF0F0;" class="flex-parent flex-parent--center-main color-blue-dark">
+    
+    <div class="flex-child wrapper align-center py12">
+
+      <a style="background-color:#388635;" href="" class="link btn round color-white txt-l">Coming Soon: Building Numbers</a>
+
+    </div>
+  </section>
+
+
   <section style="background-color:#3172DC;" class="flex-parent flex-parent--center-main color-white">
     <div class="flex-child wrapper">
 
@@ -89,7 +100,7 @@
 
           <h4 class="txt-h4 px12 txt-em py12">What is an Import-a-thon?</h4>
           
-          <p class="txt-m px12">There are over 1M building footprints to be imported. These footprints, like the ones shown here, need to be reviewed by volunteers for accuracy and attributes. When merging data into OSM, we need to compare to any existing data and conflate attributes properly!</p>
+          <p class="txt-m px12">There are over 1M building footprints to be imported. These footprints, like the ones shown here, need to be reviewed by volunteers for accuracy, attributes, and ensuring we don't overwrite existing map data. To do this, we'll meet at one of the events below and work side-by-side, answering questions as we go.</p>
           
         </div>
 
@@ -106,11 +117,10 @@
 
       <div class="text-container flex-parent flex-parent--center-main flex-parent--wrap">
 
-        <div class="flex-child min-half">
+        <h4 class="txt-h4 align-center txt-em py12">RSVP to one of the upcoming import-a-thons</h4>
 
-          <h4 class="txt-h4 align-center txt-em py12">Getting Involved</h4>
-          <p class="px12">
-            RSVP to one of the upcoming import-a-thons to get started:
+        <div class="flex-child min-half">
+            
           </p>
 
           <ul class="px24 pb12">
@@ -122,7 +132,7 @@
             <li class="mb12"><div data-locid="2" class="px12 event shadow-darken10-bold-on-hover cursor-pointer">
                 <h4 class="txt-h4">East Denver - Woods Boss Brewing Company</h4>
                 <p>6pm October 25, 2018</p>
-                <a class="event-link link" href="#" target="_blank">RSVP</a>
+                <a class="event-link link" href="https://www.meetup.com/OSM-Colorado/events/254808409/" target="_blank">RSVP</a>
               </div></li>
             <li class="mb12"><div data-locid="3" class="px12 event shadow-darken10-bold-on-hover cursor-pointer">
                 <h4 class="txt-h4">Englewood</h4>
@@ -154,22 +164,41 @@
   <section style="background-color:#388635;" class="flex-parent flex-parent--center-main color-white">
     <div class="flex-child wrapper">
 
-      <h4 class="txt-h4 align-center txt-em py12">Getting Started:</h4>
-      <p>1. Download JSOM</p>
-      <p>2. Task Manager</p>
+      <h4 id="resources" class="txt-h4 align-center txt-em py12">Resources</h4>
+      <ol class="txt-ol">
+        <li class="py6 txt-li"><a class="txt-underline" target="_blank" href="https://github.com/geochasm/DRCOG_Buildings/blob/master/workflow.md">Read the workflow document</a> for step-by-step instructions on how to get started.<br>
+        It is a good idea to keep this page open in your browser to consult as you go.</li>
+
+        <li class="py6 txt-li">Ask questions on the #Colorado Slack Channel in the <a class="txt-underline" target="_blank" href="//https://osmus.slack.com/">OpenStreetMap US slack</a>. 
+          <br>Not a member of the OpenStreetMap US Slack workspace? <a class="txt-underline" target="_blank" href="//osmus-slack.herokuapp.com">Sign up here</a>.</li>
+
+        <li class="py6 txt-li">Contact <a href="//drcog.org" target="_blank" class="txt-underline">DRCOG</a> or <a href="https://www.meetup.com/OSM-Colorado/events/254808409/" target="_blank" class="txt-underline">OSM-Colorado</a>.</li>
+
+        <li class="py6">See the <a target="_blank" class="txt-underline" href="https://wiki.openstreetmap.org/wiki/Denver_Planimetrics_Import">Denver Planimetrics Import</a> page on the OpenStreetMap wiki for more details on this project.</li>
+      </ol>
 
     </div>
   </section>
 
+  <section style="background-color:#EEF0F0;" class="flex-parent flex-parent--center-main pb12">
+    <div class="flex-child wrapper color-blue-dark align-center">
 
-  <section style="background-color:#EEF0F0;" class="flex-parent flex-parent--center-main color-blue-dark">
-    <div class="flex-child wrapper pb12">
+      <h4 class="txt-h4 align-center txt-em py12">Track our Progress</h4>
 
-      <h4 class="txt-h4 align-center txt-em py12">Other Resources</h4>
+      <img class='graph' src="stats/graph_2.png" />
 
-      <p>DRCOG Building Import Page on the OSM Wiki</p>
-      <p>
+      <!-- <div class="text-container flex-parent flex-parent--center-main flex-parent--wrap">
 
+
+        <div class="flex-child min-half">
+          <img class='graph' src="">
+        </div>
+            
+        <div class="flex-child min-half">
+
+        </div>
+ -->
+      </div>
     </div>
   </section>
 
@@ -178,7 +207,12 @@
     <div class='flex-child color-white'>
 
       <p>Special Thanks to: </p>
-      <p class="txt-s">Denver Regional Council of Governments, OpenStreetMap Colorado, Maptime MileHigh, Maptime Boulder</p></div>
+      <p class="txt-s">
+        <a class="txt-underline" target="_blank" href="//drcog.org">Denver Regional Council of Governments</a>, 
+        <a class="txt-underline" target="_blank" href="//www.meetup.com/osm-colorado/">OpenStreetMap Colorado</a>, 
+        <a class="txt-underline" target="_blank" href="//www.meetup.com/maptimemilehigh/">Maptime MileHigh, 
+        <a class="txt-underline" target="_blank" href="https://www.meetup.com/maptime-boulder/">Maptime Boulder</a>
+      </p></div>
 
   </footer>
 

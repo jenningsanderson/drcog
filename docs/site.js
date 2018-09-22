@@ -103,8 +103,8 @@ var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/light-v9',
     center: [-105, 39.86],
-    zoom: 8,
-    hash:true
+    zoom: 8
+    // hash:true
 });
 
 var nav = new mapboxgl.NavigationControl();
