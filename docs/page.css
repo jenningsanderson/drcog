@@ -69,3 +69,20 @@ div.event:hover{
 #first-img{
 	width:65%;
 }
+
+.mapboxgl-popup {
+  max-width: 200px;
+}
+
+.mapboxgl-popup-content {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.marker {
+  background-image: url('/img/osm-logo.png');
+  background-size: cover;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
