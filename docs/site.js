@@ -7,7 +7,7 @@ var data = {
             },
             geometry:{
                 type:"Point",
-                coordinates:[-113,40]
+                coordinates:[-105.002931,39.743355]
             }
         },
     "2" : {
@@ -18,7 +18,7 @@ var data = {
             },
             geometry:{
                 type:"Point",
-                coordinates:[-113,40]
+                coordinates:[-104.9867597,39.750958]
             }
         },
     "3" : {
@@ -51,7 +51,7 @@ var data = {
             },
             geometry:{
                 type:"Point",
-                coordinates:[-113,40]
+                coordinates:[-105.2754031,39.9991963]
             }
         }
     }
@@ -75,6 +75,7 @@ function updateMap(feature){
         console.log(JSON.stringify(feature))
 
         //create a marker popup
+        map.flyTo({center: feature.geometry.coordinates, zoom: 14});
 
         //put it where it belongs
     }
@@ -106,6 +107,9 @@ var map = new mapboxgl.Map({
     hash:true
 });
 
+var nav = new mapboxgl.NavigationControl();
+map.addControl(nav, 'top-right');
+
 map.on('load', function () {
 
     map.addLayer({
@@ -116,7 +120,7 @@ map.on('load', function () {
             "data": getFeatureCollection(whatData())
         },
         "layout": {
-            "icon-image": "monument-8",
+            "icon-image": "monument-15",
             "text-field": "{name}",
             "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
             "text-offset": [0, 0.6],

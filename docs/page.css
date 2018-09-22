@@ -65,3 +65,7 @@ div.event{
 div.event:hover{
 	background-color:;
 }
+
+#first-img{
+	width:65%;
+}
