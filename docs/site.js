@@ -118,27 +118,53 @@ var data = {
     "3" : {
             type: "Feature",
             properties: {
-                name: "Englewood",
-                location: "Somewhere",
-                rsvp: ""
+                name: "TableTop Tap",
+                location: "Englewood",
+                rsvp: "https://www.meetup.com/OSM-Colorado/events/255185610/"
             },
-            geometry:{
-                type:"Point",
-                coordinates:[-113,40]
-            }
+            "geometry": {
+  "type": "MultiPolygon",
+  "coordinates": [
+    [
+      [
+        [-104.9874639, 39.6550362],
+        [-104.9871092, 39.6550338],
+        [-104.9871081, 39.655126],
+        [-104.9871747, 39.6551265],
+        [-104.9871731, 39.6552622],
+        [-104.9872181, 39.6552625],
+        [-104.9872161, 39.6554274],
+        [-104.9872532, 39.6554277],
+        [-104.9872523, 39.6555036],
+        [-104.9870925, 39.6555024],
+        [-104.9870916, 39.6555757],
+        [-104.987067, 39.6555756],
+        [-104.9870661, 39.6556481],
+        [-104.9871247, 39.6556485],
+        [-104.9871242, 39.655686],
+        [-104.987217, 39.6556867],
+        [-104.9872167, 39.6557159],
+        [-104.9872921, 39.6557164],
+        [-104.9872891, 39.6559723],
+        [-104.9874528, 39.6559735],
+        [-104.9874639, 39.6550362]
+      ]
+    ]
+  ]
+}
         },
-    "4" : {
-            type: "Feature",
-            properties: {
-                name: "Fort Collins",
-                location: "Library",
-                rsvp: ""
-            },
-            geometry:{
-                type:"Point",
-                coordinates:[-113,40]
-            }
-        },
+    // "4" : {
+    //         type: "Feature",
+    //         properties: {
+    //             name: "Fort Collins",
+    //             // location: "Library",
+    //             rsvp: ""
+    //         },
+    //         // geometry:{
+    //         //     type:"Point",
+    //         //     coordinates:[-113,40]
+    //         // }
+    //     },
     "5" : {
             type: "Feature",
             properties: {
@@ -362,7 +388,7 @@ function updateMap(feature,id){
         });
 
         popup.setLngLat(turf.center(feature.geometry).geometry.coordinates)
-        
+
             .setHTML('<h3 class="txt-h3">' + feature.properties.name + '</h3>'+
                 '<h5 class="txt-h5">' + feature.properties.location + '</h5>'+
                 '<a class="btn round bg-orange-light mt12 mx6 event-link link color-white" href="' + feature.properties.rsvp + '">RSVP</a>')
@@ -438,7 +464,7 @@ map.on('load', function () {
         el.addEventListener('click',function(m){
             updateMap(d[key],key)
         })
-        markers[key] = {'el':el, 
+        markers[key] = {'el':el,
         'marker': new mapboxgl.Marker(el)
             .setLngLat(d[key].geometry.coordinates)
             .addTo(map)
