@@ -15,7 +15,7 @@ var features = []
 tileReduce({
     map: path.join(__dirname, mapScript),
     zoom: 12,
-    sources: [{name: 'osm', mbtiles: path.join("/data/planet/penultimate.planet.mbtiles"), raw: false},
+    sources: [{name: 'osm', mbtiles: path.join("/data/planet/latest.planet.mbtiles"), raw: false},
               {name: 'drcog', mbtiles: path.join(__dirname, "../drcog.mbtiles"), raw:false}],
     bbox: [-105.5598,39.2467,-104.2325,40.6206],
     maxWorkers: 8
