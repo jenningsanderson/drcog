@@ -30,7 +30,29 @@ const map = new mapboxgl.Map({
         customAttribution: [`<a href="https://drcog.org/">Denver Regional Council of Governments</a>`,`Mapbox LabelMaker Style`]
     }));
 
-    
+map.on('load', function () {
+  map.addLayer({
+        'id': 'coverage',
+        'type': 'fill',
+        'source': {
+            'type': 'geojson',
+            'data': "drcog.geojson"
+        },
+        'layout': {},
+        'paint': {
+            'fill-color': {
+            	'property':'percentComplete',
+            	'stops'   : [
+            		[0, 'white'],
+            		[50,'gray'],
+            		[100,'blue']
+            	]
+            },
+            'fill-opacity': 0.2
+        }
+    });
+});
+
 </script>
  
 </body>
