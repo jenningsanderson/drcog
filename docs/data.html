@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8' />
+<title>DrCog Building Data</title>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css' rel='stylesheet' />
+<style>
+body { margin:0; padding:0; }
+#map { position:absolute; top:0; bottom:0; width:100%; }
+</style>
+</head>
+<body>
+ 
+<div id='map'></div>
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoiamVubmluZ3NhbmRlcnNvbiIsImEiOiIzMHZndnpvIn0.PS-j7fRK3HGU7IE8rbLT9A';
+const map = new mapboxgl.Map({
+	attributionControl:false,
+	container: 'map',
+	style: 'mapbox://styles/jenningsanderson/cjn3uzbv97t9x2rp6aeverou8',
+	center: [-104.924156, 39.771730],
+	zoom: 8.9,
+	minZoom:8,
+	hash:true,
+	maxBounds: [-106.5, 39, -103, 41]
+}).addControl(new mapboxgl.AttributionControl({
+        compact: true,
+        customAttribution: `<a href="https://drcog.org/">Denver Regional Council of Governments</a>`
+    }));
+
+    
+</script>
+ 
+</body>
+</html>
