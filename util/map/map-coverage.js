@@ -7,17 +7,11 @@ module.exports = function(data, tile, writeData, done) {
   //Extract the osm layer from the mbtile
   var drcog = data.drcog.polies_4326
   var osm   = data.osm.osm
-    
-  osmBuildings = 0;
-  osm.features.forEach(function(feat){
-      if (feat.properties.building && feat.properties.building!='no'){
-          osmBuildings++
-      }
-  });
-  
+
+  var osmBuildings = osm.features.length;
   var drCogBuildings = drcog.features.length;
-    
-  var percentageComplete =  osmBuildings / drCogBuildings * 100  
+
+  var percentageComplete =  osmBuildings / drCogBuildings * 100
   var thisTile = {
       type:"Feature",
       geometry: tilebelt.tileToGeoJSON(tile),
@@ -27,6 +21,7 @@ module.exports = function(data, tile, writeData, done) {
           'percentComplete':Math.round(percentageComplete)
       }
   }
+
 //   writeData(JSON.stringify(thisTile)+"\n")
 
   done(null, thisTile)

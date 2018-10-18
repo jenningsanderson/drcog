@@ -4,15 +4,15 @@
 <meta charset='utf-8' />
 <title>DrCog Building Data</title>
 <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js'></script>
-<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css' rel='stylesheet' />
+<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.css' rel='stylesheet' />
 <style>
 body { margin:0; padding:0; }
 #map { position:absolute; top:0; bottom:0; width:100%; }
 </style>
 </head>
 <body>
- 
+
 <div id='map'></div>
 <script>
 mapboxgl.accessToken = 'pk.eyJ1IjoiamVubmluZ3NhbmRlcnNvbiIsImEiOiIzMHZndnpvIn0.PS-j7fRK3HGU7IE8rbLT9A';
@@ -36,9 +36,9 @@ map.on('load', function () {
         'type': 'fill',
         'source': {
             'type': 'geojson',
-            'data': "drcog.geojson"
+            'data': "drcog2.geojson"
         },
-	'maxzoom':12.5,
+	'maxzoom':14,
         'paint': {
             'fill-color': {
             	'property':'percentComplete',
@@ -51,9 +51,38 @@ map.on('load', function () {
             'fill-opacity': 0.2
         }
     });
+
+    map.on('click', 'coverage', function (e) {
+        var feat = e.features[0]
+        var coordinates = e.lngLat;
+
+        // Ensure that if the map is zoomed out such that multiple
+        // copies of the feature are visible, the popup appears
+        // over the copy being pointed to.
+        // while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+        //     coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+        // }
+
+        new mapboxgl.Popup()
+            .setLngLat(coordinates)
+            .setHTML(`<table><tr><td>% Complete: </td><td>${feat.properties.percentComplete}</td></tr>
+              <tr><td>Buildings in OSM: </td><td>${feat.properties.osm}</td></tr>
+              <tr><td>Buildings in DrCOG: </td><td>${feat.properties.drcog}</td></tr></table>`)
+            .addTo(map);
+    });
+
+    // Change the cursor to a pointer when the mouse is over the places layer.
+    map.on('mouseenter', 'coverage', function () {
+        map.getCanvas().style.cursor = 'pointer';
+    });
+
+    // Change it back to a pointer when it leaves.
+    map.on('mouseleave', 'coverage', function () {
+        map.getCanvas().style.cursor = '';
+    });
 });
 
 </script>
- 
+
 </body>
 </html>
