@@ -1,5 +1,8 @@
 body{
 	text-align:center;
+	/*width:80%;*/
+	/*min-width:320px !important;*/
+	margin:0 auto;
 }
 
 p, h2, h3{
@@ -37,7 +40,7 @@ div{
 
 .min-half{
 	min-width:320px;
-	width:50%;
+	width:45%;
 }
 
 .min-third{
