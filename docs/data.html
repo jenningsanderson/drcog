@@ -24,9 +24,9 @@ body { margin:0; padding:0; }
   padding: 10px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   line-height: 18px;
-  height: 50px;
+  height: 120px;
   margin-bottom: 40px;
-  width: 100px;
+  width: 120px;
 }
 
 .legend-key {
@@ -41,7 +41,7 @@ body { margin:0; padding:0; }
 <body>
 
 <div id='map'></div>
-<div class='map-overlay' id='legend'></div>
+<div class='map-overlay' id='legend'><p style="margin:0px 0px 10px 0px">Completed or Existing OSM Data?</p></div>
 <script>
 mapboxgl.accessToken = 'pk.eyJ1IjoiamVubmluZ3NhbmRlcnNvbiIsImEiOiIzMHZndnpvIn0.PS-j7fRK3HGU7IE8rbLT9A';
 const map = new mapboxgl.Map({
@@ -71,9 +71,9 @@ map.on('load', function () {
             'fill-color': {
             	'property':'percentComplete',
             	'stops'   : [
-            		[0, 'green'],
+            		[0, 'lightgreen'],
             		[50,'blue'],
-            		[100,'red']
+            		[100,'salmon']
             	]
             },
             'fill-opacity': 0.3
@@ -111,8 +111,8 @@ map.on('load', function () {
         map.getCanvas().style.cursor = '';
     });
 
-    colors = ['green','blue','red']
-    labels = ['Easy','Medium','Hard']
+    colors = ['lightgreen','blue','salmon']
+    labels = ['Little','Some','Most']
 
     for (i = 0; i < colors.length; i++) {
       var label = labels[i];
