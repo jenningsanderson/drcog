@@ -17,6 +17,7 @@
     "sqlite3": "^4.0.2",
     "tile-reduce": "^3.1.1",
     "tilebelt": "^1.0.1",
-    "topojson": "^3.0.2"
+    "topojson": "^3.0.2",
+    "turf-clip": "0.0.1"
   }
 }

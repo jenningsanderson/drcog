@@ -22,24 +22,24 @@ module.exports = function(data, tile, writeData, done) {
   var layer = data.history.historical_topojson;
 
   var featCount = 0;
-   
+
   var users = {}
 
   layer.features.forEach(function(feat){
 
     featCount++;
-      
+
     hG = historyGenerator(feat.properties['@history'])
-            
-      
+
+
     var done, version, vIt, newName, thisUser, prevUser
     while(!done){
       vIt     = hG.next();
       version = vIt.value
       done    = vIt.done
-            
+
       if (!done){
-                
+
 //         // Record the edge
 //         thisUser = version.properties['@user']
 //         if (version.properties['@version']>1){
@@ -51,13 +51,13 @@ module.exports = function(data, tile, writeData, done) {
 //           }
 //         }
 //         prevUser = thisUser;
-          
+
         //How about geometries?
         if(feat.geometry.type=="LineString"){
           var len = turf.length(feat.geometry)
         }
-                  
-        //attributes?        
+
+        //attributes?
         var tigerDel = []
         if ( version.properties.hasOwnProperty('aD') ){
           Object.keys(version.properties.aD).forEach(function(key){
@@ -66,9 +66,9 @@ module.exports = function(data, tile, writeData, done) {
             }
           })
         }
-          
-        
-        if (tigerDel.length>0){  
+
+
+        if (tigerDel.length>0){
             //Write the row
             writeData(`${[
                   feat.properties['@id'],
