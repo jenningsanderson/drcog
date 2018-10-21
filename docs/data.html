@@ -43,6 +43,9 @@ body { margin:0; padding:0; }
 <div id='map'></div>
 <div class='map-overlay' id='legend'><p style="margin:0px 0px 10px 0px">Completed or Existing OSM Data?</p></div>
 <script>
+
+var clicked_tile_ids = [];
+
 mapboxgl.accessToken = 'pk.eyJ1IjoiamVubmluZ3NhbmRlcnNvbiIsImEiOiIzMHZndnpvIn0.PS-j7fRK3HGU7IE8rbLT9A';
 const map = new mapboxgl.Map({
 	attributionControl:false,
@@ -90,6 +93,7 @@ map.on('load', function () {
         // while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
         //     coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
         // }
+        clicked_tile_ids.push(feat.properties.grid_ref)
 
         new mapboxgl.Popup()
             .setLngLat(coordinates)
