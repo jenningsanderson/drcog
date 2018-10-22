@@ -1,75 +1,26 @@
 OSM-DRCOG-Import_Beginner-Experience_Block_Walk-Through_with_Screenshots
 
 Block 1 - NW corner of Drcog_building_grid_ref_77_83.osm data file - partial block includes only ~15 structures
+Subset of data fixes for one partial block
 
 Data Fix #1 - Bulk Change Residential=House
 Attributes can be changed on a group of buildings if they are all selected, and then by double clicking one of the selected objects and changing the desired attribute. For example, in this block, all four of these houses were changed to building=house with one edit. One building selected and changed to building=house. Four buildings selected and changed to building=house
-
-
 
 Data Fix #2 - Address change - remove “North”
 Denver addresses include all prefixes except “North” - if “North” is found in the database, the it should be bulk replaced. 
 
 Data Fix #3 - Alley Not Building
 No Conflict - Review Buildings -- Use High Res Imagery. Be sure to check if you are able to turn on the link to the DRCOG14 imagery that the Planimetrics data was created with.  In this scenario, there are no buildings in OSM - the temptation is to quickly just add them and move on.  The better practice is to review the data more closely and make sure you are importing the best data possible.
-
-
-
-
-
-
-
-
-
-
-
-
 Clearly from the imagery, and from knowing this area
-
-
-
-
-
-
-
-
-
-
-
-
 Human smarts let us know it is ok to update the building=residential to building=house. Clicking on the tag for each building, and you will find the conspicuous looking long slender building is tagged a shed.
-
-
-
 The imagery shows it is a shadowed alley - you can see a propane tank sitting outside.
-
-
-
-
-
 Import all buildings (select all, ctrl+shft+m)  -- but not that one!
 
+Heads up! - Bulk Merge Warning
 
-
-
-
-
-
-
-
-Data Fix #4 - Bulk Merge Warning
-
-
-
-Data Fix #5 - DRCOG tagged House as Garage
-drcog_building_grid_ref_77_83.osm
-
-
-
-
+Data Fix #4 - DRCOG tagged House as Garage
 1715 E 33rd Avenue - went to site and took this pic, in my neighborhood.
 
-Data Fix #6 - Changed shed to garage
-drcog_building_grid_ref_77_83.osm
+Data Fix #5 - Changed shed to garage
 
 
