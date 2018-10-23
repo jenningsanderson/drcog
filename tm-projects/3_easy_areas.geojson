@@ -1,0 +1,121 @@
+{"type":"FeatureCollection","features":[
+{
+      "type": "Feature",
+      "properties": {
+        "osm": 0,
+        "drcog": 6,
+        "grid_ref": "33_69",
+        "rooftop_count": 3,
+        "grid_id": 5189,
+        "city": "Erie",
+        "percentComplete": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -105.09287203,
+              40.06687406
+            ],
+            [
+              -105.08388887,
+              40.06687406
+            ],
+            [
+              -105.08388887,
+              40.05999896
+            ],
+            [
+              -105.09287203,
+              40.05999896
+            ],
+            [
+              -105.09287203,
+              40.06687406
+            ]
+          ]
+        ]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "osm": 1,
+        "drcog": 1,
+        "grid_ref": "33_70",
+        "rooftop_count": 2,
+        "grid_id": 5190,
+        "city": "Erie",
+        "percentComplete": 100
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -105.08388887,
+              40.06687406
+            ],
+            [
+              -105.07490572,
+              40.06687406
+            ],
+            [
+              -105.07490572,
+              40.05999896
+            ],
+            [
+              -105.08388887,
+              40.05999896
+            ],
+            [
+              -105.08388887,
+              40.06687406
+            ]
+          ]
+        ]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "osm": 169,
+        "drcog": 213,
+        "grid_ref": "33_71",
+        "rooftop_count": 219,
+        "grid_id": 5191,
+        "city": "Erie",
+        "percentComplete": 79
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -105.07490572,
+              40.06687406
+            ],
+            [
+              -105.06592257,
+              40.06687406
+            ],
+            [
+              -105.06592257,
+              40.05999896
+            ],
+            [
+              -105.07490572,
+              40.05999896
+            ],
+            [
+              -105.07490572,
+              40.06687406
+            ]
+          ]
+        ]
+      }
+    }
+    ]}

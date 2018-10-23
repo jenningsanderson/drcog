@@ -24,7 +24,7 @@ body { margin:0; padding:0; }
   padding: 10px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   line-height: 18px;
-  height: 120px;
+  height: 175px;
   margin-bottom: 40px;
   width: 120px;
 }
@@ -36,12 +36,22 @@ body { margin:0; padding:0; }
   height: 10px;
   margin-right: 5px;
 }
+
+
 </style>
 </head>
 <body>
 
+<script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.3.0/mapbox-gl-geocoder.min.js'></script>
+<link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.3.0/mapbox-gl-geocoder.css' type='text/css' />
+
+
 <div id='map'></div>
-<div class='map-overlay' id='legend'><p style="margin:0px 0px 10px 0px">Completed or Existing OSM Data?</p></div>
+<div class='map-overlay' id='legend'>
+<label for='imagery'>DrCog Imagery</label>
+<input type="checkbox" id='imagery'>
+<hr>
+<p style="margin:0px 0px 10px 0px">Completed or Existing OSM Data?</p></div>
 <script>
 
 var clicked_tile_ids = [];
@@ -54,6 +64,7 @@ const map = new mapboxgl.Map({
 	center: [-104.924156, 39.771730],
 	zoom: 8.9,
 	minZoom:8,
+  maxZoom:20,
 	hash:true,
 	maxBounds: [-106.5, 39, -103, 41]
 }).addControl(new mapboxgl.AttributionControl({
@@ -81,58 +92,89 @@ map.on('load', function () {
             },
             'fill-opacity': 0.3
         }
-    });
+    },'small place'); //So damn smart, thanks Mapbox!
 
-    map.on('click', 'coverage', function (e) {
-        var feat = e.features[0]
-        var coordinates = e.lngLat;
+  map.addLayer({
+        'id':'drcog-imagery',
+        'type': "raster",
+        'source':{
+          "type": "raster",
+          "tiles": [
+            "http://tiles.openaerialmap.org/user/5bc8ba7fa8a0140005ce649b/{z}/{x}/{y}@2x"
+          ],
+          "tileSize": 256
+        },
+        "minzoom": 10,
+        "maxzoom": 20,
+        "layout": {
+          'visibility':'none'
+        }
+  },'waterway')
 
-        // Ensure that if the map is zoomed out such that multiple
-        // copies of the feature are visible, the popup appears
-        // over the copy being pointed to.
-        // while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
-        //     coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
-        // }
-        clicked_tile_ids.push(feat.properties.grid_ref)
+  map.addControl(new MapboxGeocoder({
+    accessToken: mapboxgl.accessToken
+  }));
 
-        new mapboxgl.Popup()
-            .setLngLat(coordinates)
-            .setHTML(`<table><tr><td>% Complete: </td><td>${feat.properties.percentComplete}</td></tr>
-              <tr><td>Buildings in OSM: </td><td>${feat.properties.osm}</td></tr>
-              <tr><td>Buildings in DrCOG: </td><td>${feat.properties.drcog}</td></tr>
-              <tr><td>Rooftops from original: </td><td>${feat.properties.rooftop_count}</td></tr>
-              <tr><td>grid_ref: </td><td>${feat.properties.grid_ref}</td></tr></table>`)
-            .addTo(map);
-    });
+  map.on('click', 'coverage', function (e) {
+      var feat = e.features[0]
+      var coordinates = e.lngLat;
 
-    // Change the cursor to a pointer when the mouse is over the places layer.
-    map.on('mouseenter', 'coverage', function () {
-        map.getCanvas().style.cursor = 'pointer';
-    });
+      // Ensure that if the map is zoomed out such that multiple
+      // copies of the feature are visible, the popup appears
+      // over the copy being pointed to.
+      // while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+      //     coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+      // }
+      clicked_tile_ids.push(feat.properties.grid_ref)
 
-    // Change it back to a pointer when it leaves.
-    map.on('mouseleave', 'coverage', function () {
-        map.getCanvas().style.cursor = '';
-    });
+      new mapboxgl.Popup()
+          .setLngLat(coordinates)
+          .setHTML(`<table><tr><td>% Complete: </td><td>${feat.properties.percentComplete}</td></tr>
+            <tr><td>Buildings in OSM: </td><td>${feat.properties.osm}</td></tr>
+            <tr><td>Buildings in DrCOG: </td><td>${feat.properties.drcog}</td></tr>
+            <tr><td>Rooftops from original: </td><td>${feat.properties.rooftop_count}</td></tr>
+            <tr><td>grid_ref: </td><td>${feat.properties.grid_ref}</td></tr></table>`)
+          .addTo(map);
+  });
 
-    colors = ['lightgreen','blue','salmon']
-    labels = ['Little','Some','Most']
+  // Change the cursor to a pointer when the mouse is over the places layer.
+  map.on('mouseenter', 'coverage', function () {
+      map.getCanvas().style.cursor = 'pointer';
+  });
 
-    for (i = 0; i < colors.length; i++) {
-      var label = labels[i];
-      var color = colors[i];
-      var item = document.createElement('div');
-      var key = document.createElement('span');
-      key.className = 'legend-key';
-      key.style.backgroundColor = color;
+  // Change it back to a pointer when it leaves.
+  map.on('mouseleave', 'coverage', function () {
+      map.getCanvas().style.cursor = '';
+  });
 
-      var value = document.createElement('span');
-      value.innerHTML = label;
-      item.appendChild(key);
-      item.appendChild(value);
-      legend.appendChild(item);
-}
+  colors = ['lightgreen','blue','salmon']
+  labels = ['Little','Some','Most']
+
+  for (i = 0; i < colors.length; i++) {
+    var label = labels[i];
+    var color = colors[i];
+    var item = document.createElement('div');
+    var key = document.createElement('span');
+    key.className = 'legend-key';
+    key.style.backgroundColor = color;
+
+    var value = document.createElement('span');
+    value.innerHTML = label;
+    item.appendChild(key);
+    item.appendChild(value);
+    legend.appendChild(item);
+  }
 });
+
+document.getElementById('imagery').addEventListener('change',function(e){
+  if (this.checked){
+    map.setLayoutProperty('drcog-imagery','visibility','visible')
+  }else{
+    map.setLayoutProperty('drcog-imagery','visibility','none')
+  }
+
+
+})
 
 </script>
 
