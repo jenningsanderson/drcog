@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title></title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.css' rel='stylesheet' />
+    
+    <style>
+        body { margin:0; padding:0; }
+        #map { position:absolute; top:0; bottom:0; width:100%; }
+    </style>
+</head>
+<body>
+
+<div id='map'></div>
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoiamVubmluZ3NhbmRlcnNvbiIsImEiOiIzMHZndnpvIn0.PS-j7fRK3HGU7IE8rbLT9A';
+
+var map = new mapboxgl.Map({
+    container: 'map',
+    zoom: 9,
+    center: [137.9150899566626, 36.25956997955441],
+    style: 'mapbox://styles/mapbox/dark-v9',
+    hash: true
+});
+
+map.once('load',function(){
+  // map.showTileBoundaries = true
+
+  map.addSource('drcog-buildings',{
+    "type": "vector",
+      "tiles": [
+        // "http://epic-analytics.cs.colorado.edu:7777/v2/tiles/{z}/{x}/{y}.pbf"
+        "http://0.0.0.0:7777/v2/tiles/{z}/{x}/{y}.pbf"
+      ]
+  })
+
+   map.addLayer({
+        'id': '3d-buildings',
+        'source': 'drcog-buildings',
+        'source-layer': 'osm',
+        // 'filter': ['==/', 'extrude', 'true'],
+        'type': 'fill-extrusion',
+        'minzoom': 11.5,
+        'paint': {
+            'fill-extrusion-color': 'lightblue',
+
+            // use an 'interpolate' expression to add a smooth transition effect to the
+            // buildings as the user zooms in
+            'fill-extrusion-height': ['get','height'],
+            'fill-extrusion-base': 1,
+            'fill-extrusion-opacity': .6
+        }
+    });
+  map.addLayer({
+    "id": "heatmap",
+    "type": "heatmap",
+    'source': 'drcog-buildings',
+    'source-layer':'osm',
+    'minzoom':4,
+    'maxzoom':12,
+    "paint": {
+        // Increase the heatmap weight based on frequency and property magnitude
+        "heatmap-weight": 1,
+        // Increase the heatmap color weight weight by zoom level
+        // heatmap-intensity is a multiplier on top of heatmap-weight
+        "heatmap-intensity": [
+            "interpolate",
+            ["linear"],
+            ["zoom"],
+            0, 1,
+            13, 2
+        ],
+        // Color ramp for heatmap.  Domain is 0 (low) to 1 (high).
+        // Begin color ramp at 0-stop with a 0-transparancy color
+        // to create a blur-like effect.
+        "heatmap-color": [
+            "interpolate",
+            ["linear"],
+            ["heatmap-density"],
+            0, "rgba(33,102,172,0)",
+            0.2, "rgb(103,169,207)",
+            0.4, "rgb(209,229,240)",
+            0.6, "rgb(253,219,199)",
+            0.8, "rgb(239,138,98)",
+            1, "rgb(178,24,43)"
+        ],
+        // Adjust the heatmap radius by zoom level
+        "heatmap-radius": [
+            "interpolate",
+            ["linear"],
+            ["zoom"],
+            0, 10,
+            13, 5
+        ],
+        // Transition from heatmap to circle layer by zoom level
+        "heatmap-opacity": [
+            "interpolate",
+            ["linear"],
+            ["zoom"],
+            7, 1,
+            13, 0.5
+        ],
+    },
+  });
+  
+
+  map.on('click', function (e) {
+    var features = map.queryRenderedFeatures(e.point);
+    console.log(JSON.stringify(features,null,2))
+});
+
+});
+</script>
+
+</body>
+</html>
