@@ -48,10 +48,10 @@ body { margin:0; padding:0; }
 
 <div id='map'></div>
 <div class='map-overlay' id='legend'>
-<label for='imagery'>DrCog Imagery</label>
+<!-- <label for='imagery'>DrCog Imagery</label>
 <input type="checkbox" id='imagery'>
-<hr>
-<p style="margin:0px 0px 10px 0px">Completed or Existing OSM Data?</p></div>
+<hr> -->
+<p style="margin:0px 0px 10px 0px">OSM Coverage</p></div>
 <script>
 
 var clicked_tile_ids = [];
@@ -94,22 +94,22 @@ map.on('load', function () {
         }
     },'small place'); //So damn smart, thanks Mapbox!
 
-  map.addLayer({
-        'id':'drcog-imagery',
-        'type': "raster",
-        'source':{
-          "type": "raster",
-          "tiles": [
-            "https://tiles.openaerialmap.org/user/5bc8ba7fa8a0140005ce649b/{z}/{x}/{y}@2x"
-          ],
-          "tileSize": 256
-        },
-        "minzoom": 10,
-        "maxzoom": 20,
-        "layout": {
-          'visibility':'none'
-        }
-  },'waterway')
+  // map.addLayer({
+  //       'id':'drcog-imagery',
+  //       'type': "raster",
+  //       'source':{
+  //         "type": "raster",
+  //         "tiles": [
+  //           "https://tiles.openaerialmap.org/user/5bc8ba7fa8a0140005ce649b/{z}/{x}/{y}@2x"
+  //         ],
+  //         "tileSize": 256
+  //       },
+  //       "minzoom": 10,
+  //       "maxzoom": 20,
+  //       "layout": {
+  //         'visibility':'none'
+  //       }
+  // },'waterway')
 
   map.addControl(new MapboxGeocoder({
     accessToken: mapboxgl.accessToken
@@ -148,7 +148,7 @@ map.on('load', function () {
   });
 
   colors = ['lightgreen','blue','salmon']
-  labels = ['Little','Some','Most']
+  labels = ['None or very few buildings in OSM','Some buildings in OSM','OSM mostly complete']
 
   for (i = 0; i < colors.length; i++) {
     var label = labels[i];
@@ -166,15 +166,13 @@ map.on('load', function () {
   }
 });
 
-document.getElementById('imagery').addEventListener('change',function(e){
-  if (this.checked){
-    map.setLayoutProperty('drcog-imagery','visibility','visible')
-  }else{
-    map.setLayoutProperty('drcog-imagery','visibility','none')
-  }
-
-
-})
+// document.getElementById('imagery').addEventListener('change',function(e){
+//   if (this.checked){
+//     map.setLayoutProperty('drcog-imagery','visibility','visible')
+//   }else{
+//     map.setLayoutProperty('drcog-imagery','visibility','none')
+//   }
+// })
 
 </script>
 

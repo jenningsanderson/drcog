@@ -6,13 +6,13 @@
   <title>OpenStreetMap Denver Buildings Import</title>
   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 
-  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.js'></script>
-  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.css' rel='stylesheet' />
+  <!-- <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.js'></script> -->
+  <!-- <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.css' rel='stylesheet' /> -->
 
   <link href="https://api.mapbox.com/mapbox-assembly/v0.23.0/assembly.min.css" rel="stylesheet">
   <script async defer src="https://api.mapbox.com/mapbox-assembly/v0.23.0/assembly.js"></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/@turf/turf@5/turf.min.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/@turf/turf@5/turf.min.js"></script> -->
 
   <link href="page.css" type="text/css" rel="stylesheet" />
 
@@ -63,7 +63,11 @@
             <a class="link txt-l" target="_blank" href="//openstreetmap.org/">OpenStreetMap</a> is an open map of the world that anyone can edit and freely use. In support of open data, The Denver Regional Council of Governments is making over 1M building footprints with 6cm accuracy available for importing to OpenStreetMap.
           </p>
 
-          <p class="txt-m py12 px12">Over the next few months, various import-a-thons across the Colorado Front-Range will make this region one of the best-mapped in OpenStreetMap!</p>
+          <p class="txt-m py12 px12">To participate, see the <a href="#resources">links below under <em>Resources + Instructions</em></a> and visit the <a class="link" href="https://meetup.com/OSM-Colorado">OSM-Colorado meetup page</a> to find the next in-person import-a-thon.</p>
+
+
+
+          <p class="txt-m py12 px12">Find us in the #colorado channel of the OpenStreetMap US slack workspace.</p>          
 
         </div>
 
@@ -88,36 +92,7 @@
   </section> -->
 
 
-  <section style="background-color:#006aaf;" class="flex-parent flex-parent--center-main color-white">
-    <div class="flex-child wrapper">
-
-      <div class="text-container flex-parent flex-parent--center-main flex-parent--wrap">
-
-        <div class="flex-child min-third">
-          <div class="my12">
-            <img src="img/buildings-short.png">
-          </div>
-        </div>
-
-
-        <div class="flex-child min-two-third">
-
-          <h4 class="txt-h4 px12 txt-em py12">What is an Import-a-thon?</h4>
-
-          <p class="txt-m px12">There are over 1M building footprints to be imported. These footprints, like the ones shown here, need to be reviewed by volunteers for accuracy, attributes, and ensuring we don't overwrite existing map data. To do this, we'll meet at one of the events below and work side-by-side, answering questions as we go.</p>
-
-          <a target="_blank" href="/data.html" class="mx12 my12 bg-orange-light link btn round color-white txt-l">See the data</a>
-
-        </div>
-
-
-      </div>
-
-
-
-    </div>
-  </section>
-
+  <!--
   <section style="background-color:#EEF0F0;" class="flex-parent flex-parent--center-main">
     <div class="flex-child wrapper color-blue-dark">
 
@@ -167,12 +142,13 @@
 
       </div>
     </div>
-  </section>
+  </section> 
+-->
 
   <section style="background-color:#006aaf;" class="flex-parent flex-parent--center-main color-white">
     <div class="flex-child wrapper">
 
-      <h4 id="resources" class="txt-h4 align-center txt-em py12">Import-a-thon Resources</h4>
+      <h4 id="resources" class="txt-h4 align-center txt-em py12">Resources + Instructions</h4>
       <ol class="txt-ol">
         <li class="py6 txt-li"><a class="txt-underline" target="_blank" href="https://github.com/geochasm/DRCOG_Buildings/blob/master/workflow.md">Read the workflow document</a> for step-by-step instructions on how to get started.<br>
         It is a good idea to keep this page open in your browser to consult as you go.</li>
@@ -180,16 +156,54 @@
         <li class="py6 txt-li">Ask questions on the #Colorado Slack Channel in the <a class="txt-underline" target="_blank" href="//https://osmus.slack.com/">OpenStreetMap US slack</a>.
           <br>Not a member of the OpenStreetMap US Slack workspace? <a class="txt-underline" target="_blank" href="//osmus-slack.herokuapp.com">Sign up here</a>.</li>
 
-        <li class="py6 txt-li">Contact <a href="//drcog.org" target="_blank" class="txt-underline">DRCOG</a> or <a href="https://www.meetup.com/OSM-Colorado/events/254808409/" target="_blank" class="txt-underline">OSM-Colorado</a>.</li>
+        <li class="py6 txt-li">You can also contact <a href="//drcog.org" target="_blank" class="txt-underline">DRCOG</a> or <a href="https://www.meetup.com/OSM-Colorado/events/254808409/" target="_blank" class="txt-underline">OSM-Colorado</a>.</li>
 
         <li class="py6">See the <a target="_blank" class="txt-underline" href="https://wiki.openstreetmap.org/wiki/Denver_Planimetrics_Import">Denver Planimetrics Import</a> page on the OpenStreetMap wiki for more details on this project.</li>
       </ol>
 
     </div>
+
   </section>
 
-  <section style="background-color:#EEF0F0;" class="flex-parent flex-parent--center-main pb12">
-    <div class="flex-child wrapper color-blue-dark align-center">
+  <section style="background-color:#006aaf;" class="flex-parent flex-parent--center-main color-white">
+
+    <a target="_blank" href="/data.html" class="fmx12 my12 bg-orange-light link btn round color-white txt-l">See the data</a>
+
+  </section>
+
+  <section style="background-color:#EEF0F0;" class="flex-parent flex-parent--center-main color-white">
+    
+    <div class="flex-child wrapper">
+
+      <div class="text-container flex-parent flex-parent--center-main flex-parent--wrap">
+
+        <div class="flex-child min-third">
+          <div class="my12">
+            <img src="img/buildings-short.png">
+          </div>
+        </div>
+
+
+        <div class="flex-child min-two-third color-blue-dark">
+
+          <h4 class="txt-h4 px12 txt-em py12">Import-a-thons</h4>
+
+          <p class="txt-m px12">
+          Throughout 2019, there will be organized import-a-thons where people can get together and work side-by-side (with food + drink provided!) See the <a class="link" href="https://www.meetup.com/OSM-Colorado/">OSM-Colorado meetup page for details on the next meetup!</a>
+          </p>
+
+        </div>
+
+
+      </div>
+
+
+
+    </div>
+  </section>
+
+  <section style="background-color:#006aaf;" class="flex-parent flex-parent--center-main pb12">
+    <div class="flex-child wrapper color-white align-center">
 
       <h4 class="txt-h4 align-center txt-em py12">Track our Progress</h4>
 
@@ -215,6 +229,8 @@
   </section>
 
 
+
+
   <footer style="background-color:#006aaf;" class="py12 flex-parent flex-parent--center-main">
     <div class='flex-child color-white'>
 
@@ -231,7 +247,7 @@
 
   </footer>
 
-  <script src="site.js"></script>
+  <!-- <script src="site.js"></script> -->
 
 </body>
 </html>
