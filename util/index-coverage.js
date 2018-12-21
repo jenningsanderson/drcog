@@ -48,6 +48,6 @@ tileReduce({
     squaresByRef[gridRef].properties.percentComplete = Math.round(squaresByRef[gridRef].properties.osm / squaresByRef[gridRef].properties.drcog * 100) || 0
     newFC.features.push(squaresByRef[gridRef])
   })
-  var outFile = fs.createWriteStream("../docs/drcog3.geojson")
+  var outFile = fs.createWriteStream("../docs/coverage.geojson")
   outFile.write(JSON.stringify(newFC,null,2));
 })
