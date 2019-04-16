@@ -13,7 +13,9 @@ What's in this Repo?
 
 `tm-projects` holds the geojson files that define some of the current tasks on [tasking-manager.mapsarecool.com](tasking-manager.mapsarecool.com)
 
-
-
 ##### Questions? 
 Open an issue or find me in the [OSMUS slack](osmus.slack.com) workspace (`jenningsanderson`)
+
+
+### Runing Coverage Statistics
+The `coverage` directory is designed to run a series of OSM data analysis tools to track the progress of the DRCOG import.  See the README in that document.
