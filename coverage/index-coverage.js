@@ -5,7 +5,7 @@ var path = require('path');
 var tileReduce = require('@mapbox/tile-reduce');
 var _ = require('lodash')
 
-const mapScript = "map/map-coverage.js";
+const mapScript = "map-coverage.js";
 
 var taskingManagerSquares = JSON.parse(fs.readFileSync("../docs/contains_buildings_grid.geojson"))
 
@@ -29,9 +29,9 @@ taskingManagerSquares.features.forEach(function(f){
 tileReduce({
     map: path.join(__dirname, mapScript),
     zoom: 15,
-    sources: [{name: 'osm', mbtiles: path.join("../osmZ15.mbtiles"), raw: false},
-              {name: 'drcog', mbtiles: path.join(__dirname, "../drcogZ15.mbtiles"), raw:false},
-              {name: 'tmSquares', mbtiles: path.join(__dirname, "../tmSquaresZ15.mbtiles"), raw:false}],
+    sources: [{name: 'osm', mbtiles: path.join(__dirname, "osm_buildings.mbtiles"), raw: false},
+              {name: 'drcog', mbtiles: path.join(__dirname, "../data/drcogZ15.mbtiles"), raw:false},
+              {name: 'tmSquares', mbtiles: path.join(__dirname, "../data/tmSquaresZ15.mbtiles"), raw:false}],
     // bbox: [-105.5598,39.2467,-104.2325,40.6206],
     maxWorkers: 8
 })
