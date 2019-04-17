@@ -115,6 +115,36 @@ map.on('load', function () {
     accessToken: mapboxgl.accessToken
   }));
 
+  map.addSource('grid_refs', { type: 'geojson', data: {'type':"FeatureCollection","features":[]} });
+
+  map.addLayer({
+      'id': 'clicked-tiles',
+      'type': 'fill',
+      'source': 'grid_refs',
+     'maxzoom':15.5,
+      'paint': {
+          'fill-color': 'pink',
+          'fill-opacity': 0.6
+      }
+  },'small place');
+
+  var CLICKED_TILES = []
+
+  map.on('contextmenu','coverage',function(e){
+    var feat = e.features[0]
+    // console.log(JSON.stringify(feat.properties))
+    // clicked_tile_ids.push(feat.properties.grid_ref)
+
+    if( CLICKED_TILES.map(function(t){return t.properties.grid_ref}).indexOf(feat.properties.grid_ref)>-1){
+      CLICKED_TILES = CLICKED_TILES.filter(function(t){return t.properties.grid_ref != feat.properties.grid_ref});
+    }else{
+      CLICKED_TILES.push(feat);
+    }
+    var geojson = {'type':"FeatureCollection","features":CLICKED_TILES}
+    map.getSource('grid_refs').setData(geojson);
+    console.log(JSON.stringify(geojson))
+  })
+
   map.on('click', 'coverage', function (e) {
       var feat = e.features[0]
       var coordinates = e.lngLat;
@@ -125,8 +155,7 @@ map.on('load', function () {
       // while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
       //     coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
       // }
-      clicked_tile_ids.push(feat.properties.grid_ref)
-
+      
       new mapboxgl.Popup()
           .setLngLat(coordinates)
           .setHTML(`<table><tr><td>% Complete: </td><td>${feat.properties.percentComplete}</td></tr>
