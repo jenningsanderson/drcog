@@ -1,6 +1,3 @@
-# using historical-qa-tiles as produced by osm-wayback
+# Various utilities for DRCOG
 
-(Link to OSM-Wayback)
-
-
-BBOX: -105.735,39.3183,-104.2986,40.771
+Handful of utilities for working with DRCOG data / preparing for imports.

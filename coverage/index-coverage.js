@@ -1,8 +1,8 @@
 'use strict';
 
+var tileReduce = require('@mapbox/tile-reduce');
 var fs = require('fs')
 var path = require('path');
-var tileReduce = require('@mapbox/tile-reduce');
 var _ = require('lodash')
 
 const mapScript = "map-coverage.js";

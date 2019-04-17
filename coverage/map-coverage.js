@@ -1,7 +1,7 @@
 var _     = require('lodash');
 var turf = require("@turf/turf");
 var turfClip = require('turf-clip')
-var tilebelt = require("tilebelt");
+var tilebelt = require("@mapbox/tilebelt");
 var fs = require("fs");
 
 // var taskingManagerSquares = JSON.parse(fs.readFileSync("../docs/contains_buildings_grid.geojson"))
@@ -9,7 +9,7 @@ var fs = require("fs");
 module.exports = function(data, tile, writeData, done) {
 
   var drcog     = data.drcog.polies_4326
-  var osm       = data.osm.osm
+  var osm       = data.osm.buildings
   var tmSquares = data.tmSquares.contains_buildings_grid
 
   //Get the center of the objects for counting points in polygons...
