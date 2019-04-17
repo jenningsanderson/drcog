@@ -23,4 +23,4 @@ Currently need to do each of these steps manually, and you'll need `tippecanoe` 
 
 3. Use tippecanoe to make Z15 vector tiles with the building geojsonseq files... (does all buildings by default, this is important for coverage)
 
-4. 
+4. Be sure to run the `Building Stats form GeoJSONSeq.ipynb` notebook in the `analysis` folder to generate the latest figures for the [osmcoloradoimport.info/stats](http://osmcoloradoimport.info/stats) webpage.
