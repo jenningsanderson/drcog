@@ -37,6 +37,16 @@ body { margin:0; padding:0; }
   margin-right: 5px;
 }
 
+#download_box{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  padding: 5px;
+  font-size:2em;
+  display:none;
+}
+
 
 </style>
 </head>
@@ -52,9 +62,16 @@ body { margin:0; padding:0; }
 <input type="checkbox" id='imagery'>
 <hr> -->
 <p style="margin:0px 0px 10px 0px">OSM Coverage</p></div>
+
+<div id="download_box">
+  <a href="#" id='dwn-btn'>Download GeoJSON for Tasking Manager</a>
+</div>
+
 <script>
 
-var clicked_tile_ids = [];
+// var clicked_tile_ids = [];
+
+var CLICKED_TILES = []
 
 mapboxgl.accessToken = 'pk.eyJ1IjoiamVubmluZ3NhbmRlcnNvbiIsImEiOiIzMHZndnpvIn0.PS-j7fRK3HGU7IE8rbLT9A';
 const map = new mapboxgl.Map({
@@ -128,12 +145,14 @@ map.on('load', function () {
       }
   },'small place');
 
-  var CLICKED_TILES = []
-
   map.on('contextmenu','coverage',function(e){
     var feat = e.features[0]
     // console.log(JSON.stringify(feat.properties))
     // clicked_tile_ids.push(feat.properties.grid_ref)
+
+    feat.layer = undefined;
+    feat.source = undefined;
+    feat.state = undefined;
 
     if( CLICKED_TILES.map(function(t){return t.properties.grid_ref}).indexOf(feat.properties.grid_ref)>-1){
       CLICKED_TILES = CLICKED_TILES.filter(function(t){return t.properties.grid_ref != feat.properties.grid_ref});
@@ -143,6 +162,13 @@ map.on('load', function () {
     var geojson = {'type':"FeatureCollection","features":CLICKED_TILES}
     map.getSource('grid_refs').setData(geojson);
     console.log(JSON.stringify(geojson))
+
+    if(CLICKED_TILES.length > 0){
+      document.getElementById('download_box').style.display = 'inline-block';
+    }else{
+      document.getElementById('download_box').style.display = 'none';
+    }
+
   })
 
   map.on('click', 'coverage', function (e) {
@@ -202,6 +228,27 @@ map.on('load', function () {
 //     map.setLayoutProperty('drcog-imagery','visibility','none')
 //   }
 // })
+
+
+function download(filename, text) {
+  var element = document.createElement('a');
+  element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+  element.setAttribute('download', filename);
+
+  element.style.display = 'none';
+  document.body.appendChild(element);
+
+  element.click();
+
+  document.body.removeChild(element);
+}
+
+// Start file download.
+document.getElementById("dwn-btn").addEventListener("click", function(){
+    var filename = "features.geojson";
+    download(filename, JSON.stringify({'type':"FeatureCollection","features":CLICKED_TILES}));
+}, false);
+
 
 </script>
 
