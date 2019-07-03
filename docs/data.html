@@ -188,7 +188,9 @@ map.on('load', function () {
             <tr><td>Buildings in OSM: </td><td>${feat.properties.osm}</td></tr>
             <tr><td>Buildings in DrCOG: </td><td>${feat.properties.drcog}</td></tr>
             <tr><td>Rooftops from original: </td><td>${feat.properties.rooftop_count}</td></tr>
-            <tr><td>grid_ref: </td><td>${feat.properties.grid_ref}</td></tr></table>`)
+            <tr><td>grid_ref: </td><td>${feat.properties.grid_ref}</td></tr></table>
+            <br>
+            <a href="http://imports.mapsarecool.com/api/tile/singlepart/${feat.properties.grid_ref}">DRCOG osm file download</a>`)
           .addTo(map);
   });
 
