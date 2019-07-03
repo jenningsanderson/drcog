@@ -190,7 +190,7 @@ map.on('load', function () {
             <tr><td>Rooftops from original: </td><td>${feat.properties.rooftop_count}</td></tr>
             <tr><td>grid_ref: </td><td>${feat.properties.grid_ref}</td></tr></table>
             <br>
-            <a href="http://imports.mapsarecool.com/api/tile/singlepart/${feat.properties.grid_ref}">DRCOG osm file download</a>`)
+            <p><strong>For QA purposes only:</strong><br><a href="http://imports.mapsarecool.com/api/tile/singlepart/${feat.properties.grid_ref}">DRCOG QA File</a><br>Any imports should be done <br>using <a href="http://tasking-manager.mapsarecool.com">Tasking Manager.</a></p>`)
           .addTo(map);
   });
 
