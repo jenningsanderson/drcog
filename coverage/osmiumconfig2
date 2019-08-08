@@ -11,10 +11,8 @@
     },
 
     "linear_tags":  ["highway", "barrier", "natural=coastline"],
-    
+
     "area_tags":    ["aeroway", "amenity", "building!=no", "landuse", "leisure", "man_made", "natural!=coastline"],
-    
-    "exclude_tags": [],
-    
-    "include_tags": ["building"]
+
+    "exclude_tags": []
 }

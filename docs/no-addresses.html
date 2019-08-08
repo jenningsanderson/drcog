@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8' />
+<title>Where the buildings have no addresses in Denver</title>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.css' rel='stylesheet' />
+<style>
+body { margin:0; padding:0; }
+#map { position:absolute; top:0; bottom:0; width:100%; }
+.map-overlay {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.8);
+  margin-right: 20px;
+  font-family: Arial, sans-serif;
+  overflow: auto;
+  border-radius: 3px;
+}
+
+#legend {
+  padding: 10px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  line-height: 18px;
+  height: 175px;
+  margin-bottom: 40px;
+  width: 120px;
+}
+
+.legend-key {
+  display: inline-block;
+  border-radius: 20%;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+
+#download_box{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  padding: 5px;
+  font-size:2em;
+  display:none;
+}
+
+
+</style>
+</head>
+<body>
+
+<script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.3.0/mapbox-gl-geocoder.min.js'></script>
+<link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.3.0/mapbox-gl-geocoder.css' type='text/css' />
+
+
+<div id='map'></div>
+<div class='map-overlay' id='legend'>
+<!-- <label for='imagery'>DrCog Imagery</label>
+<input type="checkbox" id='imagery'>
+<hr> -->
+<p style="margin:0px 0px 10px 0px">Address Coverage</p></div>
+
+<div id="download_box">
+  <a href="#" id='dwn-btn'>Download GeoJSON for Tasking Manager</a>
+</div>
+
+<script>
+
+// var clicked_tile_ids = [];
+
+var CLICKED_TILES = []
+
+mapboxgl.accessToken = 'pk.eyJ1IjoiamVubmluZ3NhbmRlcnNvbiIsImEiOiIzMHZndnpvIn0.PS-j7fRK3HGU7IE8rbLT9A';
+const map = new mapboxgl.Map({
+	attributionControl:false,
+	container: 'map',
+	// style: 'mapbox://styles/mapbox/streets-v10',
+  style: 'mapbox://styles/jenningsanderson/cjz2a1rjv7dx41cmdakzzu9zv',
+	center: [-104.924156, 39.771730],
+	zoom: 8.9,
+	minZoom:8,
+  maxZoom:20,
+	hash:true,
+	maxBounds: [-106.5, 39, -103, 41]
+})//.addControl(new mapboxgl.AttributionControl({
+  //      compact: true,
+  //      customAttribution: [`<a href="https://drcog.org/">Denver Regional Council of Governments</a>`,`Mapbox LabelMaker Style`]
+  //  }));
+
+map.on('load', function () {
+
+  map.addSource('addresses',
+    { 'type': 'geojson',
+      'data': "no_addresses.geojson" }
+  );
+
+  map.addLayer({
+      'id': 'outline',
+      'type': 'line',
+      'source': 'addresses',
+      'minzoom':11,
+      'paint': {
+          'line-color': 'orange',
+          'line-opacity': 0.6,
+          'line-width': {'stops':[
+            [11,0],[13,1],[15,2]
+          ]}
+      }
+  });
+
+
+  map.addLayer({
+        'id': 'addresses',
+        'type': 'fill',
+        'source': 'addresses',
+        'maxzoom':15.5,
+        'paint': {
+            'fill-color': {
+            	'property':'no_addresses',
+              'type':'exponential',
+              'colorSpace':'lab',
+            	'stops'   : [
+            		[0, 'white'],
+                [100, 'yellow'],
+            		[600,'red']
+            	]
+            },
+            'fill-opacity': 0.3
+        }
+    }); //So damn smart, thanks Mapbox!
+
+  // map.addLayer({
+  //       'id':'drcog-imagery',
+  //       'type': "raster",
+  //       'source':{
+  //         "type": "raster",
+  //         "tiles": [
+  //           "https://tiles.openaerialmap.org/user/5bc8ba7fa8a0140005ce649b/{z}/{x}/{y}@2x"
+  //         ],
+  //         "tileSize": 256
+  //       },
+  //       "minzoom": 10,
+  //       "maxzoom": 20,
+  //       "layout": {
+  //         'visibility':'none'
+  //       }
+  // },'waterway')
+
+  map.addControl(new MapboxGeocoder({
+    accessToken: mapboxgl.accessToken
+  }));
+
+  map.addSource('grid_refs', { type: 'geojson', data: {'type':"FeatureCollection","features":[]} });
+
+  map.addLayer({
+      'id': 'clicked-tiles',
+      'type': 'fill',
+      'source': 'grid_refs',
+      'maxzoom':15.5,
+      'paint': {
+          'fill-color': 'pink',
+          'fill-opacity': 0.6
+      }
+  });
+
+  map.on('contextmenu','addresses',function(e){
+    var feat = e.features[0]
+    // console.log(JSON.stringify(feat.properties))
+    // clicked_tile_ids.push(feat.properties.grid_ref)
+
+    feat.layer = undefined;
+    feat.source = undefined;
+    feat.state = undefined;
+
+    if( CLICKED_TILES.map(function(t){return t.properties.grid_ref}).indexOf(feat.properties.grid_ref)>-1){
+      CLICKED_TILES = CLICKED_TILES.filter(function(t){return t.properties.grid_ref != feat.properties.grid_ref});
+    }else{
+      CLICKED_TILES.push(feat);
+    }
+    var geojson = {'type':"FeatureCollection","features":CLICKED_TILES}
+    map.getSource('grid_refs').setData(geojson);
+    console.log(JSON.stringify(geojson))
+
+    if(CLICKED_TILES.length > 0){
+      document.getElementById('download_box').style.display = 'inline-block';
+    }else{
+      document.getElementById('download_box').style.display = 'none';
+    }
+
+  })
+
+  map.on('click', 'addresses', function (e) {
+      var feat = e.features[0]
+      var coordinates = e.lngLat;
+
+      new mapboxgl.Popup()
+          .setLngLat(coordinates)
+          .setHTML(`<table><tr><td>% Incomplete: </td><td>${feat.properties.percentage}</td></tr>
+            <tr><td>Without addr:housenumber in OSM: </td><td>${feat.properties.no_addresses}</td></tr>
+            <tr><td>Total buildings in OSM: </td><td>${feat.properties.buildings_in_osm}</td></tr>
+            </table>`)
+          .addTo(map);
+  });
+
+  // Change the cursor to a pointer when the mouse is over the places layer.
+  map.on('mouseenter', 'addresses', function () {
+      map.getCanvas().style.cursor = 'pointer';
+  });
+
+  // Change it back to a pointer when it leaves.
+  map.on('mouseleave', 'addresses', function () {
+      map.getCanvas().style.cursor = '';
+  });
+
+  colors = ['white','yellow','red']
+  labels = ['<100 missing housenumber','>100 missing housenumber','>500 missing housenumber']
+
+  for (i = 0; i < colors.length; i++) {
+    var label = labels[i];
+    var color = colors[i];
+    var item = document.createElement('div');
+    var key = document.createElement('span');
+    key.className = 'legend-key';
+    key.style.backgroundColor = color;
+
+    var value = document.createElement('span');
+    value.innerHTML = label;
+    item.appendChild(key);
+    item.appendChild(value);
+    legend.appendChild(item);
+  }
+});
+
+// document.getElementById('imagery').addEventListener('change',function(e){
+//   if (this.checked){
+//     map.setLayoutProperty('drcog-imagery','visibility','visible')
+//   }else{
+//     map.setLayoutProperty('drcog-imagery','visibility','none')
+//   }
+// })
+
+
+function download(filename, text) {
+  var element = document.createElement('a');
+  element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+  element.setAttribute('download', filename);
+
+  element.style.display = 'none';
+  document.body.appendChild(element);
+
+  element.click();
+
+  document.body.removeChild(element);
+}
+
+// Start file download.
+document.getElementById("dwn-btn").addEventListener("click", function(){
+    var filename = "features.geojson";
+    download(filename, JSON.stringify({'type':"FeatureCollection","features":CLICKED_TILES}));
+}, false);
+
+
+</script>
+
+</body>
+</html>
