@@ -17,8 +17,9 @@ taskingManagerSquares.features.forEach(function(f){
   squaresByRef[f.properties.grid_ref] = {
     type:"Feature",
     properties:{
-      buildings_in_osm: 0,
+      all_buildings_in_osm: 0,
       no_addresses: 0,
+      should_have_addresses: 0,
       grid_ref: f.properties.grid_ref,
       grid_id: f.properties.grid_id,
       city: f.properties.city
@@ -38,8 +39,10 @@ tileReduce({
 })
 .on('reduce', function(res){
     res[0].features.forEach(function(square){
-      squaresByRef[square.properties.grid_ref].properties.buildings_in_osm  += square.properties.buildings_in_osm
+      squaresByRef[square.properties.grid_ref].properties.all_buildings_in_osm  += square.properties.all_buildings_in_osm
       squaresByRef[square.properties.grid_ref].properties.no_addresses      += square.properties.no_addresses
+      squaresByRef[square.properties.grid_ref].properties.should_have_addresses += square.properties.should_have_addresses
+
 
       // console.warn(square.properties)
     })
@@ -48,7 +51,7 @@ tileReduce({
 .on('end', function(){
   var newFC = {type:"FeatureCollection",features:[]}
   Object.keys(squaresByRef).forEach(function(gridRef){
-    squaresByRef[gridRef].properties.percentage = Math.round(squaresByRef[gridRef].properties.no_addresses / squaresByRef[gridRef].properties.buildings_in_osm * 100)
+    squaresByRef[gridRef].properties.percentage = Math.round(squaresByRef[gridRef].properties.no_addresses / squaresByRef[gridRef].properties.should_have_addresses * 100)
     newFC.features.push(squaresByRef[gridRef])
   })
   var outFile = fs.createWriteStream("../docs/no_addresses.geojson")

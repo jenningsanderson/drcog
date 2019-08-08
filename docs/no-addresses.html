@@ -200,7 +200,8 @@ map.on('load', function () {
           .setLngLat(coordinates)
           .setHTML(`<table><tr><td>% Incomplete: </td><td>${feat.properties.percentage}</td></tr>
             <tr><td>Without addr:housenumber in OSM: </td><td>${feat.properties.no_addresses}</td></tr>
-            <tr><td>Total buildings in OSM: </td><td>${feat.properties.buildings_in_osm}</td></tr>
+            <tr><td>Buildings (not sheds, garages, carports) in OSM: </td><td>${feat.properties.should_have_addresses}</td></tr>
+            <tr><td>Total buildings in OSM: </td><td>${feat.properties.all_buildings_in_osm}</td></tr>
             </table>`)
           .addTo(map);
   });

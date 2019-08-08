@@ -11,31 +11,37 @@ module.exports = function(data, tile, writeData, done) {
   var buildings = data.osm.buildings
   var tmSquares = data.tmSquares.contains_buildings_grid
 
+  var buildingsThatShouldHaveAddresses = buildings.features.filter(function(f){
+    if ( (f.properties.building != 'garage') &&
+         (f.properties.building != 'shed')   &&
+         (f.properties.building != 'carport') &&
+         (f.properties.building != 'roof')
+       ){
+      return true
+    }else{
+      return false
+    }
+  });
+
 
   // Identify buildings with addresses
-  var buildingsWithoutAddresses = buildings.features.filter(function(f){
+  var buildingsWithoutAddresses = buildingsThatShouldHaveAddresses.filter(function(f){
     if (f.properties.hasOwnProperty('addr:housenumber')){
       // writeData(JSON.stringify(f)+"\n")
       return false
     }else{
-      // writeData(JSON.stringify(f)+"\n")
-      if ( (f.properties.building != 'garage') &&
-           (f.properties.building != 'shed')   &&
-           (f.properties.building != 'carport') &&
-           (f.properties.building != 'roof') 
-         ){
-        return true
-      }
-      return false
+      return true
     }
   })
 
   var buildingsWithoutAddressesPoints = {type: "FeatureCollection", features: buildingsWithoutAddresses.map((f)=>turf.center(f))}
   var osmBuildingPoints = {type: "FeatureCollection", features: buildings.features.map((f)=>turf.center(f))}
+  var buildingsThatShouldHaveAddressesPoints = {type: "FeatureCollection", features: buildingsThatShouldHaveAddresses.map((f)=>turf.center(f))}
 
   tmSquares.features.forEach(function(f){
     f.properties.no_addresses   = turf.pointsWithinPolygon(buildingsWithoutAddressesPoints, f).features.length || 0
-    f.properties.buildings_in_osm = turf.pointsWithinPolygon(osmBuildingPoints, f).features.length || 0
+    f.properties.should_have_addresses = turf.pointsWithinPolygon(buildingsThatShouldHaveAddressesPoints, f).features.length || 0
+    f.properties.all_buildings_in_osm = turf.pointsWithinPolygon(osmBuildingPoints, f).features.length || 0
   })
 
   done(null, [tmSquares, buildings.features.length])
