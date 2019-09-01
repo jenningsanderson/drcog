@@ -1,0 +1,157 @@
+
+body{
+  margin:0;padding:0;
+}
+#map { position:absolute; top:0; bottom:75px; width:100%; }
+
+div#timeline{
+  width:100%;
+  position:absolute;
+  bottom:0px;
+  height:75px;
+  text-align:center;
+  background-color: #444;
+}
+
+p#date{
+  position:absolute;
+  bottom:35px;
+  left: 0px;
+  z-index: 100;
+  font-size:0.8em;
+  color: #EEE;
+}
+
+.map-overlay {
+  position: absolute;
+  bottom: 75px;
+  right: 0;
+  background: rgba(255, 255, 255, 0.8);
+  margin-right: 20px;
+  font-family: Arial, sans-serif;
+  overflow: auto;
+  z-index:999;
+  border-radius: 3px;
+}
+
+#legend {
+  padding: 10px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  line-height: 18px;
+  height: 100px;
+  margin-bottom: 40px;
+  width: 120px;
+  font-size:0.6em;
+}
+
+.legend-key {
+  display: inline-block;
+  border-radius: 20%;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+
+#download_box{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  padding: 5px;
+  font-size:2em;
+  display:none;
+}
+
+p#date{
+  position:absolute;
+  bottom:35px;
+  left: 0px;
+  z-index: 100;
+  font-size:0.8em;
+  color: #EEE;
+}
+
+/* D3 Timeline */
+.axis {
+  font: 10px sans-serif;
+  color: #DEE;
+}
+
+.label {
+  font: 10px sans-serif;
+  color: #EEE;
+}
+
+.tick text{
+  color: #EEE;
+}
+
+.axis line{
+  stroke: #DEE;
+}
+
+.axis path{
+  stroke: #DEE;
+}
+
+.axis text{
+  fill: #DEE;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.bar{
+  fill: steelblue;
+}
+
+.area{
+  fill: steelblue;
+}
+
+.brush .extent {
+  stroke: #fff;
+  stroke-opacity: .6;
+  stroke-width: 2px;
+  fill-opacity: .1;
+  shape-rendering: crispEdges;
+}
+.ticks {
+  font: 10px sans-serif;
+  color: #EEE;
+}
+
+.track,
+.track-inset,
+.track-overlay {
+  stroke-linecap: round;
+}
+
+.track {
+  stroke: #000;
+  stroke-opacity: 0.3;
+  stroke-width: 10px;
+}
+
+.track-inset {
+  stroke: #ddd;
+  stroke-width: 8px;
+}
+
+.track-overlay {
+  pointer-events: stroke;
+  stroke-width: 50px;
+  stroke: transparent;
+  cursor: pointer;
+}
+
+.handle {
+  fill: #fff;
+  stroke: #000;
+  stroke-opacity: 0.5;
+  stroke-width: 1.25px;
+}

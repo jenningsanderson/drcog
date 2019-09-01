@@ -181,7 +181,7 @@ map.on('load', function () {
       // while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
       //     coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
       // }
-      
+
       new mapboxgl.Popup()
           .setLngLat(coordinates)
           .setHTML(`<table><tr><td>% Complete: </td><td>${feat.properties.percentComplete}</td></tr>

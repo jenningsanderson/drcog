@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8' />
+<title>DrCog Project Progress</title>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.css' rel='stylesheet' />
+
+<script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.3.0/mapbox-gl-geocoder.min.js'></script>
+<link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.3.0/mapbox-gl-geocoder.css' type='text/css' />
+
+<link href='css/progress.css'rel='stylesheet' />
+
+</head>
+<body>
+
+  <div class='map-overlay' id='legend'>
+    <p style="margin:0px 0px 10px 0px">OSM Coverage</p>
+  </div>
+
+  <div id='map'></div>
+
+  <p id="date">
+    Rendering data up to: <span id='currentTimeSlider'></span>
+  </p>
+
+  <div id='timeline'>
+    <svg id='timeline-svg' width=100% height="75"></svg>
+  </div>
+
+  <script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoiamVubmluZ3NhbmRlcnNvbiIsImEiOiIzMHZndnpvIn0.PS-j7fRK3HGU7IE8rbLT9A';
+    const map = new mapboxgl.Map({
+    	// attributionControl:false,
+    	container: 'map',
+    	style: 'mapbox://styles/mapbox/dark-v10',
+    	center: [-104.924156, 39.771730],
+    	zoom: 8.9,
+    	minZoom:8,
+      maxZoom:20,
+    	hash:true,
+    	maxBounds: [-106.5, 39, -103, 41]
+    });
+
+    // map.addControl(new mapboxgl.AttributionControl({
+    //   compact: true,
+    //   customAttribution: [`<a href="https://drcog.org/">Denver Regional Council of Governments</a>`]
+    // }));
+    // map.addControl(new MapboxGeocoder({
+    //   accessToken: mapboxgl.accessToken
+    // }));
+    map.addControl(new mapboxgl.NavigationControl());
+  </script>
+
+  <!-- Make it temporally filterable :)  -->
+  <script src="js/d3.v4.min.js"></script>
+  <script src="js/d3-timeline-1d.js"></script>
+  <script src="js/progress.js"></script>
+
+</body>
+</html>
