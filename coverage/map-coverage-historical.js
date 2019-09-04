@@ -12,6 +12,14 @@ module.exports = function(data, tile, writeData, done) {
   var osm       = data.osm.buildings
   // var tmSquares = data.tmSquares.contains_buildings_grid
 
+  var drcog_buildings_in_osm = osm.features.filter(function(b){
+    return (b.properties.hasOwnProperty('source') && (b.properties['source'].toLowerCase().indexOf('drcog') >= 0))
+  })
+
+  var non_drcog_buildings_in_osm = osm.features.filter(function(b){
+    return (!b.properties.hasOwnProperty('source') || (b.properties['source'].toLowerCase().indexOf('drcog') < 0))
+  })
+
   // Count buildings per day and only save if there is a change!
   var date = new Date(2018,8,1).getTime()/1000; //July 2018?
   var currentTime   = new Date().getTime()/1000;
@@ -20,7 +28,8 @@ module.exports = function(data, tile, writeData, done) {
 
   var thisPeriod = {
     'start':date,
-    'osm':osm.features.filter(function(b){
+    'osm'  :non_drcog_buildings_in_osm.length,
+    'drcog': drcog_buildings_in_osm.filter(function(b){
       return (b.properties['@timestamp'] < date)
     }).length
   }
@@ -30,18 +39,19 @@ module.exports = function(data, tile, writeData, done) {
   while(date <= currentTime){
 
     //get the current number of buildings for this day...
-    var numBuildingsThisPeriod = osm.features.filter(function(b){
+    var numBuildingsThisPeriod = drcog_buildings_in_osm.filter(function(b){
       return (b.properties['@timestamp'] < date)
     }).length
 
     //If this number is different than the last, then do things.
-    if (numBuildingsThisPeriod != thisPeriod['osm']){
+    if (numBuildingsThisPeriod != thisPeriod['drcog']){
       thisPeriod['end'] = date;
       thisTileStops.push(JSON.parse(JSON.stringify(thisPeriod))) //cheap deepcopy
 
       thisPeriod = {
         'start':date,
-        'osm' : numBuildingsThisPeriod
+        'drcog' : numBuildingsThisPeriod,
+        'osm'   : non_drcog_buildings_in_osm.length
       }
     }
 
@@ -60,13 +70,14 @@ module.exports = function(data, tile, writeData, done) {
       'geometry':tilebelt.tileToGeoJSON(tile)
     }
 
-    var p = thisTileStops[i].osm / drcog.features.length;
+    var p = (thisTileStops[i].osm + thisTileStops[i].drcog) / drcog.features.length;
     if (p>1){ p = 1}
 
     feature.properties = {
       'start': thisTileStops[i].start,
       'end'  : thisTileStops[i].end,
       'osm'  : thisTileStops[i].osm,
+      'done' : thisTileStops[i].drcog,
       'drcog': drcog.features.length,
       'p_c'  : p
     }
@@ -74,19 +85,19 @@ module.exports = function(data, tile, writeData, done) {
     feats.push(feature)
   }
 
-  /*
+   /*
 
   // Do this if needing to regenerate tiles
 
-  node index-coverage-historical.js | tippecanoe -Z14 -z16 -o denverBuildings_z14_z16.mbtiles
+  // node index-coverage-historical.js | tippecanoe -f -Z14 -z16 -o denverBuildings_z14_z16.mbtiles
 
-  osm.features.forEach(function(f){
+  drcog_buildings_in_osm.forEach(function(f){
     f.properties =
      {t: f.properties['@timestamp']
    }
    writeData(JSON.stringify(f)+"\n")
   })
-  */
+  //*/
 
   done(null, feats)
 };
