@@ -1993,13 +1993,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 0,
+        "osm": 1,
         "drcog": 21,
         "grid_ref": "63_60",
         "rooftop_count": 16,
         "grid_id": 9980,
         "city": "Arvada",
-        "percentComplete": 0
+        "percentComplete": 5
       },
       "geometry": {
         "type": "Polygon",
@@ -2774,7 +2774,7 @@
       "type": "Feature",
       "properties": {
         "osm": 0,
-        "drcog": 77,
+        "drcog": 11,
         "grid_ref": "64_56",
         "rooftop_count": 11,
         "grid_id": 10136,
@@ -3670,7 +3670,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 1,
+        "osm": 2,
         "drcog": 164,
         "grid_ref": "61_59",
         "rooftop_count": 99,
@@ -4021,13 +4021,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 0,
+        "osm": 1,
         "drcog": 4,
         "grid_ref": "96_115",
         "rooftop_count": 4,
         "grid_id": 15315,
         "city": "Aurora",
-        "percentComplete": 0
+        "percentComplete": 25
       },
       "geometry": {
         "type": "Polygon",
@@ -6946,13 +6946,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 0,
-        "drcog": 17,
+        "osm": 21,
+        "drcog": 30,
         "grid_ref": "105_104",
         "rooftop_count": 19,
         "grid_id": 16744,
         "city": "Aurora",
-        "percentComplete": 0
+        "percentComplete": 70
       },
       "geometry": {
         "type": "Polygon",
@@ -7688,7 +7688,7 @@
       "type": "Feature",
       "properties": {
         "osm": 0,
-        "drcog": 9,
+        "drcog": 12,
         "grid_ref": "97_116",
         "rooftop_count": 27,
         "grid_id": 15476,
@@ -8311,7 +8311,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 5,
+        "osm": 6,
         "drcog": 840,
         "grid_ref": "80_94",
         "rooftop_count": 775,
@@ -9676,13 +9676,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 0,
+        "osm": 7,
         "drcog": null,
         "grid_ref": "106_106",
         "rooftop_count": null,
         "grid_id": 16906,
         "city": "Aurora",
-        "percentComplete": 0
+        "percentComplete": null
       },
       "geometry": {
         "type": "Polygon",
@@ -12133,13 +12133,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 0,
+        "osm": 1,
         "drcog": 11,
         "grid_ref": "32_54",
         "rooftop_count": 11,
         "grid_id": 5014,
         "city": "Boulder",
-        "percentComplete": 0
+        "percentComplete": 9
       },
       "geometry": {
         "type": "Polygon",
@@ -12289,13 +12289,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 0,
-        "drcog": 26,
+        "osm": 41,
+        "drcog": 59,
         "grid_ref": "97_73",
         "rooftop_count": 46,
         "grid_id": 15433,
         "city": "Bow Mar",
-        "percentComplete": 0
+        "percentComplete": 69
       },
       "geometry": {
         "type": "Polygon",
@@ -12328,13 +12328,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 0,
-        "drcog": 296,
+        "osm": 4,
+        "drcog": 484,
         "grid_ref": "97_74",
         "rooftop_count": 400,
         "grid_id": 15434,
         "city": "Bow Mar",
-        "percentComplete": 0
+        "percentComplete": 1
       },
       "geometry": {
         "type": "Polygon",
@@ -12368,7 +12368,7 @@
       "type": "Feature",
       "properties": {
         "osm": 0,
-        "drcog": 205,
+        "drcog": 116,
         "grid_ref": "97_72",
         "rooftop_count": 205,
         "grid_id": 15432,
@@ -12407,7 +12407,7 @@
       "type": "Feature",
       "properties": {
         "osm": 0,
-        "drcog": 416,
+        "drcog": 270,
         "grid_ref": "98_72",
         "rooftop_count": 416,
         "grid_id": 15592,
@@ -12445,13 +12445,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 0,
-        "drcog": 129,
+        "osm": 123,
+        "drcog": 141,
         "grid_ref": "98_73",
         "rooftop_count": 129,
         "grid_id": 15593,
         "city": "Bow Mar",
-        "percentComplete": 0
+        "percentComplete": 87
       },
       "geometry": {
         "type": "Polygon",
@@ -13811,7 +13811,7 @@
       "type": "Feature",
       "properties": {
         "osm": 0,
-        "drcog": 3,
+        "drcog": 5,
         "grid_ref": "45_96",
         "rooftop_count": 3,
         "grid_id": 7136,
@@ -15331,7 +15331,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 0,
+        "osm": 2,
         "drcog": 487,
         "grid_ref": "55_100",
         "rooftop_count": 410,
@@ -17515,7 +17515,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 0,
+        "osm": 1,
         "drcog": 233,
         "grid_ref": "50_76",
         "rooftop_count": 195,
@@ -18919,13 +18919,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 0,
-        "drcog": 74,
+        "osm": 4,
+        "drcog": 417,
         "grid_ref": "134_100",
         "rooftop_count": 698,
         "grid_id": 21380,
         "city": "Castle Rock",
-        "percentComplete": 0
+        "percentComplete": 1
       },
       "geometry": {
         "type": "Polygon",
@@ -19076,7 +19076,7 @@
       "type": "Feature",
       "properties": {
         "osm": 0,
-        "drcog": 81,
+        "drcog": 296,
         "grid_ref": "134_99",
         "rooftop_count": 254,
         "grid_id": 21379,
@@ -19388,7 +19388,7 @@
       "type": "Feature",
       "properties": {
         "osm": 0,
-        "drcog": 116,
+        "drcog": 321,
         "grid_ref": "131_98",
         "rooftop_count": 224,
         "grid_id": 20898,
@@ -19426,13 +19426,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 0,
-        "drcog": 50,
+        "osm": 3,
+        "drcog": 113,
         "grid_ref": "131_99",
         "rooftop_count": 9,
         "grid_id": 20899,
         "city": "Castle Rock",
-        "percentComplete": 0
+        "percentComplete": 3
       },
       "geometry": {
         "type": "Polygon",
@@ -19973,7 +19973,7 @@
       "type": "Feature",
       "properties": {
         "osm": 0,
-        "drcog": 314,
+        "drcog": 94,
         "grid_ref": "135_100",
         "rooftop_count": 314,
         "grid_id": 21540,
@@ -20207,7 +20207,7 @@
       "type": "Feature",
       "properties": {
         "osm": 0,
-        "drcog": 3,
+        "drcog": 6,
         "grid_ref": "129_100",
         "rooftop_count": 4,
         "grid_id": 20580,
@@ -20324,7 +20324,7 @@
       "type": "Feature",
       "properties": {
         "osm": 0,
-        "drcog": 2,
+        "drcog": 6,
         "grid_ref": "130_100",
         "rooftop_count": 5,
         "grid_id": 20740,
@@ -20479,13 +20479,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 0,
-        "drcog": 200,
+        "osm": 87,
+        "drcog": 215,
         "grid_ref": "130_98",
         "rooftop_count": 200,
         "grid_id": 20738,
         "city": "Castle Rock",
-        "percentComplete": 0
+        "percentComplete": 40
       },
       "geometry": {
         "type": "Polygon",
@@ -20518,13 +20518,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 0,
-        "drcog": 82,
+        "osm": 12,
+        "drcog": 95,
         "grid_ref": "130_99",
         "rooftop_count": 82,
         "grid_id": 20739,
         "city": "Castle Rock",
-        "percentComplete": 0
+        "percentComplete": 13
       },
       "geometry": {
         "type": "Polygon",
@@ -20635,13 +20635,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 0,
-        "drcog": 40,
+        "osm": 40,
+        "drcog": 38,
         "grid_ref": "129_98",
         "rooftop_count": 40,
         "grid_id": 20578,
         "city": "Castle Rock",
-        "percentComplete": 0
+        "percentComplete": 105
       },
       "geometry": {
         "type": "Polygon",
@@ -21844,13 +21844,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 42,
+        "osm": 525,
         "drcog": 649,
         "grid_ref": "99_80",
         "rooftop_count": 569,
         "grid_id": 15760,
         "city": "Centennial",
-        "percentComplete": 6
+        "percentComplete": 81
       },
       "geometry": {
         "type": "Polygon",
@@ -22351,13 +22351,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 0,
+        "osm": 5,
         "drcog": 572,
         "grid_ref": "99_81",
         "rooftop_count": 513,
         "grid_id": 15761,
         "city": "Centennial",
-        "percentComplete": 0
+        "percentComplete": 1
       },
       "geometry": {
         "type": "Polygon",
@@ -23717,7 +23717,7 @@
       "type": "Feature",
       "properties": {
         "osm": 0,
-        "drcog": 103,
+        "drcog": 331,
         "grid_ref": "99_74",
         "rooftop_count": 271,
         "grid_id": 15754,
@@ -23755,13 +23755,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 0,
-        "drcog": 13,
+        "osm": 13,
+        "drcog": 15,
         "grid_ref": "102_75",
         "rooftop_count": 13,
         "grid_id": 16235,
         "city": "Columbine Valley",
-        "percentComplete": 0
+        "percentComplete": 87
       },
       "geometry": {
         "type": "Polygon",
@@ -23794,13 +23794,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 1,
+        "osm": 98,
         "drcog": 104,
         "grid_ref": "100_75",
         "rooftop_count": 102,
         "grid_id": 15915,
         "city": "Columbine Valley",
-        "percentComplete": 1
+        "percentComplete": 94
       },
       "geometry": {
         "type": "Polygon",
@@ -23833,13 +23833,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 5,
+        "osm": 81,
         "drcog": 92,
         "grid_ref": "100_76",
         "rooftop_count": 80,
         "grid_id": 15916,
         "city": "Columbine Valley",
-        "percentComplete": 5
+        "percentComplete": 88
       },
       "geometry": {
         "type": "Polygon",
@@ -23872,13 +23872,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 4,
+        "osm": 220,
         "drcog": 225,
         "grid_ref": "101_76",
         "rooftop_count": 199,
         "grid_id": 16076,
         "city": "Columbine Valley",
-        "percentComplete": 2
+        "percentComplete": 98
       },
       "geometry": {
         "type": "Polygon",
@@ -23912,7 +23912,7 @@
       "type": "Feature",
       "properties": {
         "osm": 0,
-        "drcog": 30,
+        "drcog": 63,
         "grid_ref": "101_74",
         "rooftop_count": 201,
         "grid_id": 16074,
@@ -23950,13 +23950,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 0,
-        "drcog": 18,
+        "osm": 55,
+        "drcog": 71,
         "grid_ref": "101_75",
         "rooftop_count": 53,
         "grid_id": 16075,
         "city": "Columbine Valley",
-        "percentComplete": 0
+        "percentComplete": 77
       },
       "geometry": {
         "type": "Polygon",
@@ -23990,7 +23990,7 @@
       "type": "Feature",
       "properties": {
         "osm": 0,
-        "drcog": 80,
+        "drcog": 53,
         "grid_ref": "102_74",
         "rooftop_count": 80,
         "grid_id": 16234,
@@ -26173,13 +26173,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 0,
-        "drcog": 28,
+        "osm": 2,
+        "drcog": 34,
         "grid_ref": "65_103",
         "rooftop_count": 28,
         "grid_id": 10343,
         "city": "Commerce City",
-        "percentComplete": 0
+        "percentComplete": 6
       },
       "geometry": {
         "type": "Polygon",
@@ -28201,7 +28201,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 560,
+        "osm": 561,
         "drcog": 822,
         "grid_ref": "84_73",
         "rooftop_count": 721,
@@ -31399,13 +31399,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 0,
+        "osm": 1,
         "drcog": 5,
         "grid_ref": "71_93",
         "rooftop_count": 1,
         "grid_id": 11293,
         "city": "Denver",
-        "percentComplete": 0
+        "percentComplete": 20
       },
       "geometry": {
         "type": "Polygon",
@@ -33349,13 +33349,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 0,
-        "drcog": 1,
+        "osm": 4,
+        "drcog": 2,
         "grid_ref": "34_76",
         "rooftop_count": 1,
         "grid_id": 5356,
         "city": "Erie",
-        "percentComplete": 0
+        "percentComplete": 200
       },
       "geometry": {
         "type": "Polygon",
@@ -33428,7 +33428,7 @@
       "type": "Feature",
       "properties": {
         "osm": 0,
-        "drcog": 9,
+        "drcog": 14,
         "grid_ref": "38_68",
         "rooftop_count": 6,
         "grid_id": 5988,
@@ -33856,13 +33856,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 0,
-        "drcog": 20,
+        "osm": 34,
+        "drcog": 97,
         "grid_ref": "39_67",
         "rooftop_count": 76,
         "grid_id": 6147,
         "city": "Erie",
-        "percentComplete": 0
+        "percentComplete": 35
       },
       "geometry": {
         "type": "Polygon",
@@ -34364,7 +34364,7 @@
       "type": "Feature",
       "properties": {
         "osm": 0,
-        "drcog": 132,
+        "drcog": 2,
         "grid_ref": "22_85",
         "rooftop_count": 132,
         "grid_id": 3445,
@@ -34403,7 +34403,7 @@
       "type": "Feature",
       "properties": {
         "osm": 0,
-        "drcog": 9,
+        "drcog": 6,
         "grid_ref": "22_86",
         "rooftop_count": 9,
         "grid_id": 3446,
@@ -37679,7 +37679,7 @@
       "type": "Feature",
       "properties": {
         "osm": 0,
-        "drcog": 69,
+        "drcog": 87,
         "grid_ref": "77_52",
         "rooftop_count": 76,
         "grid_id": 12212,
@@ -37756,13 +37756,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 18,
-        "drcog": 84,
+        "osm": 60,
+        "drcog": 153,
         "grid_ref": "76_52",
         "rooftop_count": 122,
         "grid_id": 12052,
         "city": "Golden",
-        "percentComplete": 21
+        "percentComplete": 39
       },
       "geometry": {
         "type": "Polygon",
@@ -38069,7 +38069,7 @@
       "type": "Feature",
       "properties": {
         "osm": 0,
-        "drcog": 3,
+        "drcog": 20,
         "grid_ref": "75_52",
         "rooftop_count": 38,
         "grid_id": 11892,
@@ -39317,7 +39317,7 @@
       "type": "Feature",
       "properties": {
         "osm": 0,
-        "drcog": 19,
+        "drcog": 20,
         "grid_ref": "38_67",
         "rooftop_count": 20,
         "grid_id": 5987,
@@ -39668,7 +39668,7 @@
       "type": "Feature",
       "properties": {
         "osm": 0,
-        "drcog": 7,
+        "drcog": 33,
         "grid_ref": "39_66",
         "rooftop_count": 51,
         "grid_id": 6146,
@@ -39785,7 +39785,7 @@
       "type": "Feature",
       "properties": {
         "osm": 0,
-        "drcog": 782,
+        "drcog": 858,
         "grid_ref": "79_69",
         "rooftop_count": 719,
         "grid_id": 12549,
@@ -39901,8 +39901,8 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 0,
-        "drcog": 497,
+        "osm": 3,
+        "drcog": 637,
         "grid_ref": "78_68",
         "rooftop_count": 603,
         "grid_id": 12388,
@@ -40681,13 +40681,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 0,
-        "drcog": 659,
+        "osm": 191,
+        "drcog": 661,
         "grid_ref": "95_64",
         "rooftop_count": 659,
         "grid_id": 15104,
         "city": "Lakewood",
-        "percentComplete": 0
+        "percentComplete": 29
       },
       "geometry": {
         "type": "Polygon",
@@ -41032,8 +41032,8 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 0,
-        "drcog": 31,
+        "osm": 1,
+        "drcog": 525,
         "grid_ref": "78_69",
         "rooftop_count": 495,
         "grid_id": 12389,
@@ -41539,13 +41539,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 4,
+        "osm": 615,
         "drcog": 690,
         "grid_ref": "100_79",
         "rooftop_count": 628,
         "grid_id": 15919,
         "city": "Littleton",
-        "percentComplete": 1
+        "percentComplete": 89
       },
       "geometry": {
         "type": "Polygon",
@@ -41578,13 +41578,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 0,
-        "drcog": 27,
+        "osm": 5,
+        "drcog": 309,
         "grid_ref": "99_73",
         "rooftop_count": 301,
         "grid_id": 15753,
         "city": "Littleton",
-        "percentComplete": 0
+        "percentComplete": 2
       },
       "geometry": {
         "type": "Polygon",
@@ -41695,13 +41695,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 131,
+        "osm": 473,
         "drcog": 557,
         "grid_ref": "101_78",
         "rooftop_count": 469,
         "grid_id": 16078,
         "city": "Littleton",
-        "percentComplete": 24
+        "percentComplete": 85
       },
       "geometry": {
         "type": "Polygon",
@@ -41734,13 +41734,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 0,
-        "drcog": 28,
+        "osm": 30,
+        "drcog": 45,
         "grid_ref": "104_75",
         "rooftop_count": 30,
         "grid_id": 16555,
         "city": "Littleton",
-        "percentComplete": 0
+        "percentComplete": 67
       },
       "geometry": {
         "type": "Polygon",
@@ -41773,13 +41773,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 0,
-        "drcog": 19,
+        "osm": 118,
+        "drcog": 144,
         "grid_ref": "104_76",
         "rooftop_count": 124,
         "grid_id": 16556,
         "city": "Littleton",
-        "percentComplete": 0
+        "percentComplete": 82
       },
       "geometry": {
         "type": "Polygon",
@@ -41812,13 +41812,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 4,
-        "drcog": 348,
+        "osm": 440,
+        "drcog": 531,
         "grid_ref": "102_77",
         "rooftop_count": 440,
         "grid_id": 16237,
         "city": "Littleton",
-        "percentComplete": 1
+        "percentComplete": 83
       },
       "geometry": {
         "type": "Polygon",
@@ -41851,13 +41851,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 7,
+        "osm": 268,
         "drcog": 295,
         "grid_ref": "104_78",
         "rooftop_count": 271,
         "grid_id": 16558,
         "city": "Littleton",
-        "percentComplete": 2
+        "percentComplete": 91
       },
       "geometry": {
         "type": "Polygon",
@@ -41891,7 +41891,7 @@
       "type": "Feature",
       "properties": {
         "osm": 0,
-        "drcog": 155,
+        "drcog": 215,
         "grid_ref": "105_72",
         "rooftop_count": 181,
         "grid_id": 16712,
@@ -41929,13 +41929,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 2,
+        "osm": 4,
         "drcog": 73,
         "grid_ref": "105_78",
         "rooftop_count": 61,
         "grid_id": 16718,
         "city": "Littleton",
-        "percentComplete": 3
+        "percentComplete": 5
       },
       "geometry": {
         "type": "Polygon",
@@ -42046,13 +42046,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 1,
-        "drcog": 255,
+        "osm": 288,
+        "drcog": 340,
         "grid_ref": "102_78",
         "rooftop_count": 295,
         "grid_id": 16238,
         "city": "Littleton",
-        "percentComplete": 0
+        "percentComplete": 85
       },
       "geometry": {
         "type": "Polygon",
@@ -42086,12 +42086,12 @@
       "type": "Feature",
       "properties": {
         "osm": 3,
-        "drcog": 170,
+        "drcog": 230,
         "grid_ref": "103_73",
         "rooftop_count": 339,
         "grid_id": 16393,
         "city": "Littleton",
-        "percentComplete": 2
+        "percentComplete": 1
       },
       "geometry": {
         "type": "Polygon",
@@ -42124,13 +42124,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 0,
-        "drcog": 107,
+        "osm": 144,
+        "drcog": 172,
         "grid_ref": "103_74",
         "rooftop_count": 145,
         "grid_id": 16394,
         "city": "Littleton",
-        "percentComplete": 0
+        "percentComplete": 84
       },
       "geometry": {
         "type": "Polygon",
@@ -42163,13 +42163,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 0,
-        "drcog": 155,
+        "osm": 227,
+        "drcog": 266,
         "grid_ref": "103_77",
         "rooftop_count": 232,
         "grid_id": 16397,
         "city": "Littleton",
-        "percentComplete": 0
+        "percentComplete": 85
       },
       "geometry": {
         "type": "Polygon",
@@ -42202,13 +42202,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 0,
-        "drcog": 465,
+        "osm": 457,
+        "drcog": 536,
         "grid_ref": "103_78",
         "rooftop_count": 470,
         "grid_id": 16398,
         "city": "Littleton",
-        "percentComplete": 0
+        "percentComplete": 85
       },
       "geometry": {
         "type": "Polygon",
@@ -42242,7 +42242,7 @@
       "type": "Feature",
       "properties": {
         "osm": 0,
-        "drcog": 464,
+        "drcog": 122,
         "grid_ref": "102_73",
         "rooftop_count": 464,
         "grid_id": 16233,
@@ -42280,13 +42280,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 0,
-        "drcog": 92,
+        "osm": 73,
+        "drcog": 93,
         "grid_ref": "104_73",
         "rooftop_count": 79,
         "grid_id": 16553,
         "city": "Littleton",
-        "percentComplete": 0
+        "percentComplete": 78
       },
       "geometry": {
         "type": "Polygon",
@@ -42358,13 +42358,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 0,
-        "drcog": 1,
+        "osm": 2,
+        "drcog": 2,
         "grid_ref": "104_74",
         "rooftop_count": 1,
         "grid_id": 16554,
         "city": "Littleton",
-        "percentComplete": 0
+        "percentComplete": 100
       },
       "geometry": {
         "type": "Polygon",
@@ -42397,13 +42397,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 0,
-        "drcog": 268,
+        "osm": 339,
+        "drcog": 372,
         "grid_ref": "104_77",
         "rooftop_count": 328,
         "grid_id": 16557,
         "city": "Littleton",
-        "percentComplete": 0
+        "percentComplete": 91
       },
       "geometry": {
         "type": "Polygon",
@@ -47428,13 +47428,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 25,
+        "osm": 29,
         "drcog": 329,
         "grid_ref": "57_78",
         "rooftop_count": 286,
         "grid_id": 9038,
         "city": "Northglenn",
-        "percentComplete": 8
+        "percentComplete": 9
       },
       "geometry": {
         "type": "Polygon",
@@ -47896,13 +47896,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 94,
+        "osm": 102,
         "drcog": 295,
         "grid_ref": "107_102",
         "rooftop_count": 245,
         "grid_id": 17062,
         "city": "Parker",
-        "percentComplete": 32
+        "percentComplete": 35
       },
       "geometry": {
         "type": "Polygon",
@@ -48130,13 +48130,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 26,
+        "osm": 54,
         "drcog": 408,
         "grid_ref": "106_102",
         "rooftop_count": 392,
         "grid_id": 16902,
         "city": "Parker",
-        "percentComplete": 6
+        "percentComplete": 13
       },
       "geometry": {
         "type": "Polygon",
@@ -48325,13 +48325,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 10,
+        "osm": 15,
         "drcog": 48,
         "grid_ref": "114_103",
         "rooftop_count": 40,
         "grid_id": 18183,
         "city": "Parker",
-        "percentComplete": 21
+        "percentComplete": 31
       },
       "geometry": {
         "type": "Polygon",
@@ -48520,13 +48520,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 18,
+        "osm": 15,
         "drcog": 13,
         "grid_ref": "117_110",
         "rooftop_count": 26,
         "grid_id": 18670,
         "city": "Parker",
-        "percentComplete": 138
+        "percentComplete": 115
       },
       "geometry": {
         "type": "Polygon",
@@ -49339,13 +49339,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 0,
+        "osm": 2,
         "drcog": 10,
         "grid_ref": "54_60",
         "rooftop_count": 7,
         "grid_id": 8540,
         "city": "Superior",
-        "percentComplete": 0
+        "percentComplete": 20
       },
       "geometry": {
         "type": "Polygon",
@@ -51445,13 +51445,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 30,
+        "osm": 40,
         "drcog": 46,
         "grid_ref": "51_89",
         "rooftop_count": 20,
         "grid_id": 8089,
         "city": "Thornton",
-        "percentComplete": 65
+        "percentComplete": 87
       },
       "geometry": {
         "type": "Polygon",
@@ -53239,13 +53239,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 57,
+        "osm": 73,
         "drcog": 420,
         "grid_ref": "51_88",
         "rooftop_count": 391,
         "grid_id": 8088,
         "city": "Thornton",
-        "percentComplete": 14
+        "percentComplete": 17
       },
       "geometry": {
         "type": "Polygon",
@@ -54292,13 +54292,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 4,
+        "osm": 5,
         "drcog": 42,
         "grid_ref": "49_79",
         "rooftop_count": 144,
         "grid_id": 7759,
         "city": "Westminster",
-        "percentComplete": 10
+        "percentComplete": 12
       },
       "geometry": {
         "type": "Polygon",
@@ -55930,13 +55930,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 1,
-        "drcog": 180,
+        "osm": 0,
+        "drcog": 9,
         "grid_ref": "64_57",
         "rooftop_count": 175,
         "grid_id": 10137,
         "city": "Arvada",
-        "percentComplete": 1
+        "percentComplete": 0
       },
       "geometry": {
         "type": "Polygon",
@@ -57022,7 +57022,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 2,
+        "osm": 3,
         "drcog": 684,
         "grid_ref": "66_72",
         "rooftop_count": 928,
@@ -57061,7 +57061,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 2,
+        "osm": 4,
         "drcog": 364,
         "grid_ref": "66_73",
         "rooftop_count": 542,
@@ -57178,13 +57178,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 2,
+        "osm": 3,
         "drcog": 27,
         "grid_ref": "62_60",
         "rooftop_count": 8,
         "grid_id": 9820,
         "city": "Arvada",
-        "percentComplete": 7
+        "percentComplete": 11
       },
       "geometry": {
         "type": "Polygon",
@@ -57451,13 +57451,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 10,
+        "osm": 12,
         "drcog": 299,
         "grid_ref": "63_72",
         "rooftop_count": 277,
         "grid_id": 9992,
         "city": "Arvada",
-        "percentComplete": 3
+        "percentComplete": 4
       },
       "geometry": {
         "type": "Polygon",
@@ -58933,13 +58933,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 205,
+        "osm": 208,
         "drcog": 509,
         "grid_ref": "71_67",
         "rooftop_count": 447,
         "grid_id": 11267,
         "city": "Arvada",
-        "percentComplete": 40
+        "percentComplete": 41
       },
       "geometry": {
         "type": "Polygon",
@@ -59011,13 +59011,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 255,
+        "osm": 266,
         "drcog": 592,
         "grid_ref": "71_70",
         "rooftop_count": 539,
         "grid_id": 11270,
         "city": "Arvada",
-        "percentComplete": 43
+        "percentComplete": 45
       },
       "geometry": {
         "type": "Polygon",
@@ -59128,7 +59128,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 0,
+        "osm": 1,
         "drcog": 388,
         "grid_ref": "72_64",
         "rooftop_count": 360,
@@ -59206,13 +59206,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 2,
+        "osm": 5,
         "drcog": 265,
         "grid_ref": "73_64",
         "rooftop_count": 228,
         "grid_id": 11584,
         "city": "Arvada",
-        "percentComplete": 1
+        "percentComplete": 2
       },
       "geometry": {
         "type": "Polygon",
@@ -59947,13 +59947,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 18,
+        "osm": 21,
         "drcog": 415,
         "grid_ref": "65_70",
         "rooftop_count": 377,
         "grid_id": 10310,
         "city": "Arvada",
-        "percentComplete": 4
+        "percentComplete": 5
       },
       "geometry": {
         "type": "Polygon",
@@ -62989,7 +62989,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 23,
+        "osm": 24,
         "drcog": 494,
         "grid_ref": "86_97",
         "rooftop_count": 464,
@@ -63067,13 +63067,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 6,
+        "osm": 10,
         "drcog": 541,
         "grid_ref": "92_105",
         "rooftop_count": 634,
         "grid_id": 14665,
         "city": "Aurora",
-        "percentComplete": 1
+        "percentComplete": 2
       },
       "geometry": {
         "type": "Polygon",
@@ -63262,7 +63262,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 1,
+        "osm": 2,
         "drcog": 834,
         "grid_ref": "81_94",
         "rooftop_count": 1000,
@@ -63301,13 +63301,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 4,
+        "osm": 9,
         "drcog": 841,
         "grid_ref": "81_95",
         "rooftop_count": 1156,
         "grid_id": 12895,
         "city": "Aurora",
-        "percentComplete": 0
+        "percentComplete": 1
       },
       "geometry": {
         "type": "Polygon",
@@ -65992,13 +65992,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 2,
+        "osm": 12,
         "drcog": 850,
         "grid_ref": "77_98",
         "rooftop_count": 678,
         "grid_id": 12258,
         "city": "Aurora",
-        "percentComplete": 0
+        "percentComplete": 1
       },
       "geometry": {
         "type": "Polygon",
@@ -67123,7 +67123,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 212,
+        "osm": 213,
         "drcog": 516,
         "grid_ref": "91_95",
         "rooftop_count": 433,
@@ -67396,13 +67396,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 2,
+        "osm": 20,
         "drcog": 35,
         "grid_ref": "105_103",
         "rooftop_count": 27,
         "grid_id": 16743,
         "city": "Aurora",
-        "percentComplete": 6
+        "percentComplete": 57
       },
       "geometry": {
         "type": "Polygon",
@@ -67903,13 +67903,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 17,
+        "osm": 19,
         "drcog": 284,
         "grid_ref": "101_110",
         "rooftop_count": 232,
         "grid_id": 16110,
         "city": "Aurora",
-        "percentComplete": 6
+        "percentComplete": 7
       },
       "geometry": {
         "type": "Polygon",
@@ -68020,13 +68020,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 39,
+        "osm": 38,
         "drcog": 34,
         "grid_ref": "92_96",
         "rooftop_count": 24,
         "grid_id": 14656,
         "city": "Aurora",
-        "percentComplete": 115
+        "percentComplete": 112
       },
       "geometry": {
         "type": "Polygon",
@@ -69463,13 +69463,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 193,
+        "osm": 206,
         "drcog": 707,
         "grid_ref": "91_96",
         "rooftop_count": 593,
         "grid_id": 14496,
         "city": "Aurora",
-        "percentComplete": 27
+        "percentComplete": 29
       },
       "geometry": {
         "type": "Polygon",
@@ -69619,13 +69619,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 26,
+        "osm": 27,
         "drcog": 283,
         "grid_ref": "92_104",
         "rooftop_count": 234,
         "grid_id": 14664,
         "city": "Aurora",
-        "percentComplete": 9
+        "percentComplete": 10
       },
       "geometry": {
         "type": "Polygon",
@@ -69931,13 +69931,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 153,
+        "osm": 155,
         "drcog": 197,
         "grid_ref": "90_98",
         "rooftop_count": 136,
         "grid_id": 14338,
         "city": "Aurora",
-        "percentComplete": 78
+        "percentComplete": 79
       },
       "geometry": {
         "type": "Polygon",
@@ -72661,13 +72661,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 2,
+        "osm": 3,
         "drcog": 16,
         "grid_ref": "69_106",
         "rooftop_count": 9,
         "grid_id": 10986,
         "city": "Aurora",
-        "percentComplete": 13
+        "percentComplete": 19
       },
       "geometry": {
         "type": "Polygon",
@@ -73129,7 +73129,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 12,
+        "osm": 13,
         "drcog": 393,
         "grid_ref": "77_99",
         "rooftop_count": 294,
@@ -73519,13 +73519,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 20,
+        "osm": 26,
         "drcog": 72,
         "grid_ref": "83_103",
         "rooftop_count": 67,
         "grid_id": 13223,
         "city": "Aurora",
-        "percentComplete": 28
+        "percentComplete": 36
       },
       "geometry": {
         "type": "Polygon",
@@ -73558,13 +73558,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 30,
+        "osm": 31,
         "drcog": 93,
         "grid_ref": "83_104",
         "rooftop_count": 68,
         "grid_id": 13224,
         "city": "Aurora",
-        "percentComplete": 32
+        "percentComplete": 33
       },
       "geometry": {
         "type": "Polygon",
@@ -74845,13 +74845,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 25,
-        "drcog": 25,
+        "osm": 33,
+        "drcog": 37,
         "grid_ref": "106_105",
         "rooftop_count": 39,
         "grid_id": 16905,
         "city": "Aurora",
-        "percentComplete": 100
+        "percentComplete": 89
       },
       "geometry": {
         "type": "Polygon",
@@ -74923,13 +74923,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 1,
+        "osm": 3,
         "drcog": 224,
         "grid_ref": "95_103",
         "rooftop_count": 183,
         "grid_id": 15143,
         "city": "Aurora",
-        "percentComplete": 0
+        "percentComplete": 1
       },
       "geometry": {
         "type": "Polygon",
@@ -75118,13 +75118,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 45,
+        "osm": 41,
         "drcog": 453,
         "grid_ref": "78_142",
         "rooftop_count": 407,
         "grid_id": 12462,
         "city": "Bennett",
-        "percentComplete": 10
+        "percentComplete": 9
       },
       "geometry": {
         "type": "Polygon",
@@ -75235,13 +75235,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 4,
+        "osm": 70,
         "drcog": 502,
         "grid_ref": "77_142",
         "rooftop_count": 475,
         "grid_id": 12302,
         "city": "Bennett",
-        "percentComplete": 1
+        "percentComplete": 14
       },
       "geometry": {
         "type": "Polygon",
@@ -75274,13 +75274,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 27,
+        "osm": 31,
         "drcog": 260,
         "grid_ref": "77_143",
         "rooftop_count": 227,
         "grid_id": 12303,
         "city": "Bennett",
-        "percentComplete": 10
+        "percentComplete": 12
       },
       "geometry": {
         "type": "Polygon",
@@ -76366,13 +76366,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 290,
+        "osm": 292,
         "drcog": 371,
         "grid_ref": "40_48",
         "rooftop_count": 359,
         "grid_id": 6288,
         "city": "Boulder",
-        "percentComplete": 78
+        "percentComplete": 79
       },
       "geometry": {
         "type": "Polygon",
@@ -76561,13 +76561,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 108,
+        "osm": 107,
         "drcog": 140,
         "grid_ref": "42_50",
         "rooftop_count": 117,
         "grid_id": 6610,
         "city": "Boulder",
-        "percentComplete": 77
+        "percentComplete": 76
       },
       "geometry": {
         "type": "Polygon",
@@ -76757,12 +76757,12 @@
       "type": "Feature",
       "properties": {
         "osm": 3,
-        "drcog": 17,
+        "drcog": 24,
         "grid_ref": "32_55",
         "rooftop_count": 17,
         "grid_id": 5015,
         "city": "Boulder",
-        "percentComplete": 18
+        "percentComplete": 13
       },
       "geometry": {
         "type": "Polygon",
@@ -76951,7 +76951,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 225,
+        "osm": 223,
         "drcog": 930,
         "grid_ref": "38_47",
         "rooftop_count": 850,
@@ -77185,7 +77185,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 391,
+        "osm": 392,
         "drcog": 720,
         "grid_ref": "42_51",
         "rooftop_count": 585,
@@ -77575,13 +77575,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 80,
+        "osm": 79,
         "drcog": 207,
         "grid_ref": "40_54",
         "rooftop_count": 187,
         "grid_id": 6294,
         "city": "Boulder",
-        "percentComplete": 39
+        "percentComplete": 38
       },
       "geometry": {
         "type": "Polygon",
@@ -77692,7 +77692,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 179,
+        "osm": 180,
         "drcog": 252,
         "grid_ref": "41_52",
         "rooftop_count": 200,
@@ -78277,13 +78277,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 10,
+        "osm": 11,
         "drcog": 291,
         "grid_ref": "41_55",
         "rooftop_count": 259,
         "grid_id": 6455,
         "city": "Boulder",
-        "percentComplete": 3
+        "percentComplete": 4
       },
       "geometry": {
         "type": "Polygon",
@@ -78394,7 +78394,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 478,
+        "osm": 479,
         "drcog": 717,
         "grid_ref": "43_50",
         "rooftop_count": 588,
@@ -78433,7 +78433,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 364,
+        "osm": 365,
         "drcog": 575,
         "grid_ref": "43_51",
         "rooftop_count": 464,
@@ -78706,7 +78706,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 452,
+        "osm": 449,
         "drcog": 591,
         "grid_ref": "45_52",
         "rooftop_count": 554,
@@ -79369,13 +79369,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 301,
+        "osm": 304,
         "drcog": 805,
         "grid_ref": "38_49",
         "rooftop_count": 696,
         "grid_id": 5969,
         "city": "Boulder",
-        "percentComplete": 37
+        "percentComplete": 38
       },
       "geometry": {
         "type": "Polygon",
@@ -79993,7 +79993,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 131,
+        "osm": 132,
         "drcog": 209,
         "grid_ref": "40_50",
         "rooftop_count": 175,
@@ -80501,12 +80501,12 @@
       "type": "Feature",
       "properties": {
         "osm": 1,
-        "drcog": 158,
+        "drcog": 211,
         "grid_ref": "96_73",
         "rooftop_count": 167,
         "grid_id": 15273,
         "city": "Bow Mar",
-        "percentComplete": 1
+        "percentComplete": 0
       },
       "geometry": {
         "type": "Polygon",
@@ -80578,13 +80578,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 1,
-        "drcog": 34,
+        "osm": 2,
+        "drcog": 221,
         "grid_ref": "98_74",
         "rooftop_count": 188,
         "grid_id": 15594,
         "city": "Bow Mar",
-        "percentComplete": 3
+        "percentComplete": 1
       },
       "geometry": {
         "type": "Polygon",
@@ -81826,13 +81826,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 15,
+        "osm": 19,
         "drcog": 156,
         "grid_ref": "44_98",
         "rooftop_count": 149,
         "grid_id": 6978,
         "city": "Brighton",
-        "percentComplete": 10
+        "percentComplete": 12
       },
       "geometry": {
         "type": "Polygon",
@@ -81982,13 +81982,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 35,
+        "osm": 36,
         "drcog": 788,
         "grid_ref": "45_98",
         "rooftop_count": 748,
         "grid_id": 7138,
         "city": "Brighton",
-        "percentComplete": 4
+        "percentComplete": 5
       },
       "geometry": {
         "type": "Polygon",
@@ -82021,7 +82021,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 14,
+        "osm": 15,
         "drcog": 912,
         "grid_ref": "45_99",
         "rooftop_count": 808,
@@ -82684,13 +82684,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 0,
+        "osm": 1,
         "drcog": 189,
         "grid_ref": "44_104",
         "rooftop_count": 142,
         "grid_id": 6984,
         "city": "Brighton",
-        "percentComplete": 0
+        "percentComplete": 1
       },
       "geometry": {
         "type": "Polygon",
@@ -83152,13 +83152,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 4,
+        "osm": 5,
         "drcog": 13,
         "grid_ref": "48_104",
         "rooftop_count": 11,
         "grid_id": 7624,
         "city": "Brighton",
-        "percentComplete": 31
+        "percentComplete": 38
       },
       "geometry": {
         "type": "Polygon",
@@ -84049,13 +84049,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 43,
+        "osm": 41,
         "drcog": 125,
         "grid_ref": "50_77",
         "rooftop_count": 106,
         "grid_id": 7917,
         "city": "Broomfield",
-        "percentComplete": 34
+        "percentComplete": 33
       },
       "geometry": {
         "type": "Polygon",
@@ -85024,13 +85024,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 3,
+        "osm": 2,
         "drcog": 1,
         "grid_ref": "51_67",
         "rooftop_count": 1,
         "grid_id": 8067,
         "city": "Broomfield",
-        "percentComplete": 300
+        "percentComplete": 200
       },
       "geometry": {
         "type": "Polygon",
@@ -85219,13 +85219,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 17,
+        "osm": 18,
         "drcog": 79,
         "grid_ref": "53_63",
         "rooftop_count": 76,
         "grid_id": 8383,
         "city": "Broomfield",
-        "percentComplete": 22
+        "percentComplete": 23
       },
       "geometry": {
         "type": "Polygon",
@@ -87442,13 +87442,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 3,
+        "osm": 4,
         "drcog": 18,
         "grid_ref": "55_68",
         "rooftop_count": 14,
         "grid_id": 8708,
         "city": "Broomfield",
-        "percentComplete": 17
+        "percentComplete": 22
       },
       "geometry": {
         "type": "Polygon",
@@ -87520,13 +87520,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 79,
+        "osm": 83,
         "drcog": 337,
         "grid_ref": "55_70",
         "rooftop_count": 327,
         "grid_id": 8710,
         "city": "Broomfield",
-        "percentComplete": 23
+        "percentComplete": 25
       },
       "geometry": {
         "type": "Polygon",
@@ -87637,7 +87637,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 45,
+        "osm": 46,
         "drcog": 176,
         "grid_ref": "55_75",
         "rooftop_count": 134,
@@ -88534,13 +88534,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 70,
+        "osm": 82,
         "drcog": 429,
         "grid_ref": "55_74",
         "rooftop_count": 345,
         "grid_id": 8714,
         "city": "Broomfield",
-        "percentComplete": 16
+        "percentComplete": 19
       },
       "geometry": {
         "type": "Polygon",
@@ -89470,13 +89470,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 4,
+        "osm": 5,
         "drcog": 71,
         "grid_ref": "132_98",
         "rooftop_count": 56,
         "grid_id": 21058,
         "city": "Castle Rock",
-        "percentComplete": 6
+        "percentComplete": 7
       },
       "geometry": {
         "type": "Polygon",
@@ -89782,13 +89782,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 7,
+        "osm": 8,
         "drcog": 108,
         "grid_ref": "133_100",
         "rooftop_count": 451,
         "grid_id": 21220,
         "city": "Castle Rock",
-        "percentComplete": 6
+        "percentComplete": 7
       },
       "geometry": {
         "type": "Polygon",
@@ -89977,13 +89977,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 136,
+        "osm": 131,
         "drcog": 141,
         "grid_ref": "133_94",
         "rooftop_count": 138,
         "grid_id": 21214,
         "city": "Castle Rock",
-        "percentComplete": 96
+        "percentComplete": 93
       },
       "geometry": {
         "type": "Polygon",
@@ -90446,12 +90446,12 @@
       "type": "Feature",
       "properties": {
         "osm": 2,
-        "drcog": 3,
+        "drcog": 26,
         "grid_ref": "135_99",
         "rooftop_count": 28,
         "grid_id": 21539,
         "city": "Castle Rock",
-        "percentComplete": 67
+        "percentComplete": 8
       },
       "geometry": {
         "type": "Polygon",
@@ -90991,13 +90991,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 31,
+        "osm": 33,
         "drcog": 75,
         "grid_ref": "128_94",
         "rooftop_count": 71,
         "grid_id": 20414,
         "city": "Castle Rock",
-        "percentComplete": 41
+        "percentComplete": 44
       },
       "geometry": {
         "type": "Polygon",
@@ -91264,13 +91264,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 60,
+        "osm": 59,
         "drcog": 30,
         "grid_ref": "128_93",
         "rooftop_count": 26,
         "grid_id": 20413,
         "city": "Castle Rock",
-        "percentComplete": 200
+        "percentComplete": 197
       },
       "geometry": {
         "type": "Polygon",
@@ -91498,13 +91498,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 68,
+        "osm": 69,
         "drcog": 73,
         "grid_ref": "126_92",
         "rooftop_count": 60,
         "grid_id": 20092,
         "city": "Castle Rock",
-        "percentComplete": 93
+        "percentComplete": 95
       },
       "geometry": {
         "type": "Polygon",
@@ -91732,13 +91732,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 25,
+        "osm": 26,
         "drcog": 64,
         "grid_ref": "127_93",
         "rooftop_count": 51,
         "grid_id": 20253,
         "city": "Castle Rock",
-        "percentComplete": 39
+        "percentComplete": 41
       },
       "geometry": {
         "type": "Polygon",
@@ -91849,7 +91849,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 3,
+        "osm": 4,
         "drcog": 334,
         "grid_ref": "100_107",
         "rooftop_count": 331,
@@ -91888,13 +91888,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 4,
+        "osm": 18,
         "drcog": 613,
         "grid_ref": "100_80",
         "rooftop_count": 542,
         "grid_id": 15920,
         "city": "Centennial",
-        "percentComplete": 1
+        "percentComplete": 3
       },
       "geometry": {
         "type": "Polygon",
@@ -91966,13 +91966,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 16,
+        "osm": 23,
         "drcog": 376,
         "grid_ref": "100_83",
         "rooftop_count": 331,
         "grid_id": 15923,
         "city": "Centennial",
-        "percentComplete": 4
+        "percentComplete": 6
       },
       "geometry": {
         "type": "Polygon",
@@ -92005,13 +92005,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 153,
+        "osm": 168,
         "drcog": 498,
         "grid_ref": "100_87",
         "rooftop_count": 442,
         "grid_id": 15927,
         "city": "Centennial",
-        "percentComplete": 31
+        "percentComplete": 34
       },
       "geometry": {
         "type": "Polygon",
@@ -92902,7 +92902,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 34,
+        "osm": 35,
         "drcog": 439,
         "grid_ref": "98_106",
         "rooftop_count": 408,
@@ -93292,13 +93292,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 66,
+        "osm": 69,
         "drcog": 127,
         "grid_ref": "100_90",
         "rooftop_count": 125,
         "grid_id": 15930,
         "city": "Centennial",
-        "percentComplete": 52
+        "percentComplete": 54
       },
       "geometry": {
         "type": "Polygon",
@@ -93409,7 +93409,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 242,
+        "osm": 243,
         "drcog": 369,
         "grid_ref": "101_91",
         "rooftop_count": 333,
@@ -93604,13 +93604,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 14,
+        "osm": 11,
         "drcog": 130,
         "grid_ref": "101_98",
         "rooftop_count": 100,
         "grid_id": 16098,
         "city": "Centennial",
-        "percentComplete": 11
+        "percentComplete": 8
       },
       "geometry": {
         "type": "Polygon",
@@ -93721,13 +93721,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 17,
+        "osm": 18,
         "drcog": 111,
         "grid_ref": "103_93",
         "rooftop_count": 90,
         "grid_id": 16413,
         "city": "Centennial",
-        "percentComplete": 15
+        "percentComplete": 16
       },
       "geometry": {
         "type": "Polygon",
@@ -94072,13 +94072,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 19,
+        "osm": 31,
         "drcog": 423,
         "grid_ref": "101_87",
         "rooftop_count": 342,
         "grid_id": 16087,
         "city": "Centennial",
-        "percentComplete": 4
+        "percentComplete": 7
       },
       "geometry": {
         "type": "Polygon",
@@ -94813,13 +94813,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 42,
+        "osm": 401,
         "drcog": 498,
         "grid_ref": "101_80",
         "rooftop_count": 424,
         "grid_id": 16080,
         "city": "Centennial",
-        "percentComplete": 8
+        "percentComplete": 81
       },
       "geometry": {
         "type": "Polygon",
@@ -94852,7 +94852,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 11,
+        "osm": 16,
         "drcog": 682,
         "grid_ref": "102_81",
         "rooftop_count": 612,
@@ -95671,13 +95671,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 9,
+        "osm": 579,
         "drcog": 679,
         "grid_ref": "102_80",
         "rooftop_count": 582,
         "grid_id": 16240,
         "city": "Centennial",
-        "percentComplete": 1
+        "percentComplete": 85
       },
       "geometry": {
         "type": "Polygon",
@@ -96412,13 +96412,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 43,
+        "osm": 52,
         "drcog": 71,
         "grid_ref": "104_92",
         "rooftop_count": 66,
         "grid_id": 16572,
         "city": "Centennial",
-        "percentComplete": 61
+        "percentComplete": 73
       },
       "geometry": {
         "type": "Polygon",
@@ -97153,7 +97153,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 2,
+        "osm": 3,
         "drcog": 300,
         "grid_ref": "94_88",
         "rooftop_count": 244,
@@ -97933,13 +97933,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 0,
+        "osm": 2,
         "drcog": 20,
         "grid_ref": "62_91",
         "rooftop_count": 16,
         "grid_id": 9851,
         "city": "Commerce City",
-        "percentComplete": 0
+        "percentComplete": 10
       },
       "geometry": {
         "type": "Polygon",
@@ -98986,13 +98986,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 18,
+        "osm": 20,
         "drcog": 68,
         "grid_ref": "61_92",
         "rooftop_count": 56,
         "grid_id": 9692,
         "city": "Commerce City",
-        "percentComplete": 26
+        "percentComplete": 29
       },
       "geometry": {
         "type": "Polygon",
@@ -100039,13 +100039,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 18,
+        "osm": 16,
         "drcog": 144,
         "grid_ref": "70_83",
         "rooftop_count": 135,
         "grid_id": 11123,
         "city": "Commerce City",
-        "percentComplete": 13
+        "percentComplete": 11
       },
       "geometry": {
         "type": "Polygon",
@@ -101404,13 +101404,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 39,
+        "osm": 34,
         "drcog": 100,
         "grid_ref": "73_82",
         "rooftop_count": 104,
         "grid_id": 11602,
         "city": "Commerce City",
-        "percentComplete": 39
+        "percentComplete": 34
       },
       "geometry": {
         "type": "Polygon",
@@ -101443,13 +101443,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 1,
+        "osm": 2,
         "drcog": 276,
         "grid_ref": "55_101",
         "rooftop_count": 195,
         "grid_id": 8741,
         "city": "Commerce City",
-        "percentComplete": 0
+        "percentComplete": 1
       },
       "geometry": {
         "type": "Polygon",
@@ -101482,13 +101482,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 4,
+        "osm": 5,
         "drcog": 46,
         "grid_ref": "55_102",
         "rooftop_count": 39,
         "grid_id": 8742,
         "city": "Commerce City",
-        "percentComplete": 9
+        "percentComplete": 11
       },
       "geometry": {
         "type": "Polygon",
@@ -101678,12 +101678,12 @@
       "type": "Feature",
       "properties": {
         "osm": 2,
-        "drcog": 5,
+        "drcog": 6,
         "grid_ref": "65_104",
         "rooftop_count": 6,
         "grid_id": 10344,
         "city": "Commerce City",
-        "percentComplete": 40
+        "percentComplete": 33
       },
       "geometry": {
         "type": "Polygon",
@@ -101872,13 +101872,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 16,
+        "osm": 18,
         "drcog": 514,
         "grid_ref": "67_88",
         "rooftop_count": 612,
         "grid_id": 10648,
         "city": "Commerce City",
-        "percentComplete": 3
+        "percentComplete": 4
       },
       "geometry": {
         "type": "Polygon",
@@ -102808,13 +102808,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 41,
+        "osm": 43,
         "drcog": 56,
         "grid_ref": "68_104",
         "rooftop_count": 47,
         "grid_id": 10824,
         "city": "Denver",
-        "percentComplete": 73
+        "percentComplete": 77
       },
       "geometry": {
         "type": "Polygon",
@@ -103588,13 +103588,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 155,
+        "osm": 163,
         "drcog": 265,
         "grid_ref": "92_90",
         "rooftop_count": 231,
         "grid_id": 14650,
         "city": "Denver",
-        "percentComplete": 58
+        "percentComplete": 62
       },
       "geometry": {
         "type": "Polygon",
@@ -103666,7 +103666,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 148,
+        "osm": 149,
         "drcog": 490,
         "grid_ref": "93_91",
         "rooftop_count": 410,
@@ -104056,7 +104056,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 1068,
+        "osm": 1067,
         "drcog": 1060,
         "grid_ref": "73_75",
         "rooftop_count": 1076,
@@ -104134,13 +104134,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 46,
+        "osm": 52,
         "drcog": 89,
         "grid_ref": "73_79",
         "rooftop_count": 84,
         "grid_id": 11599,
         "city": "Denver",
-        "percentComplete": 52
+        "percentComplete": 58
       },
       "geometry": {
         "type": "Polygon",
@@ -104173,13 +104173,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 285,
+        "osm": 290,
         "drcog": 416,
         "grid_ref": "73_80",
         "rooftop_count": 341,
         "grid_id": 11600,
         "city": "Denver",
-        "percentComplete": 69
+        "percentComplete": 70
       },
       "geometry": {
         "type": "Polygon",
@@ -104212,13 +104212,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 410,
+        "osm": 417,
         "drcog": 482,
         "grid_ref": "73_81",
         "rooftop_count": 452,
         "grid_id": 11601,
         "city": "Denver",
-        "percentComplete": 85
+        "percentComplete": 87
       },
       "geometry": {
         "type": "Polygon",
@@ -104368,13 +104368,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 1230,
+        "osm": 1269,
         "drcog": 1371,
         "grid_ref": "74_77",
         "rooftop_count": 1236,
         "grid_id": 11757,
         "city": "Denver",
-        "percentComplete": 90
+        "percentComplete": 93
       },
       "geometry": {
         "type": "Polygon",
@@ -104407,13 +104407,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 621,
+        "osm": 636,
         "drcog": 663,
         "grid_ref": "74_78",
         "rooftop_count": 612,
         "grid_id": 11758,
         "city": "Denver",
-        "percentComplete": 94
+        "percentComplete": 96
       },
       "geometry": {
         "type": "Polygon",
@@ -104446,13 +104446,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 188,
+        "osm": 202,
         "drcog": 155,
         "grid_ref": "74_79",
         "rooftop_count": 148,
         "grid_id": 11759,
         "city": "Denver",
-        "percentComplete": 121
+        "percentComplete": 130
       },
       "geometry": {
         "type": "Polygon",
@@ -104485,13 +104485,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 755,
+        "osm": 791,
         "drcog": 884,
         "grid_ref": "74_81",
         "rooftop_count": 803,
         "grid_id": 11761,
         "city": "Denver",
-        "percentComplete": 85
+        "percentComplete": 89
       },
       "geometry": {
         "type": "Polygon",
@@ -104524,13 +104524,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 48,
+        "osm": 50,
         "drcog": 115,
         "grid_ref": "74_82",
         "rooftop_count": 104,
         "grid_id": 11762,
         "city": "Denver",
-        "percentComplete": 42
+        "percentComplete": 43
       },
       "geometry": {
         "type": "Polygon",
@@ -104602,13 +104602,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 1399,
+        "osm": 1441,
         "drcog": 1615,
         "grid_ref": "75_77",
         "rooftop_count": 1365,
         "grid_id": 11917,
         "city": "Denver",
-        "percentComplete": 87
+        "percentComplete": 89
       },
       "geometry": {
         "type": "Polygon",
@@ -104641,13 +104641,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 1335,
+        "osm": 1359,
         "drcog": 1331,
         "grid_ref": "75_78",
         "rooftop_count": 1129,
         "grid_id": 11918,
         "city": "Denver",
-        "percentComplete": 100
+        "percentComplete": 102
       },
       "geometry": {
         "type": "Polygon",
@@ -104680,13 +104680,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 85,
+        "osm": 104,
         "drcog": 149,
         "grid_ref": "75_82",
         "rooftop_count": 132,
         "grid_id": 11922,
         "city": "Denver",
-        "percentComplete": 57
+        "percentComplete": 70
       },
       "geometry": {
         "type": "Polygon",
@@ -104875,7 +104875,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 515,
+        "osm": 518,
         "drcog": 517,
         "grid_ref": "76_79",
         "rooftop_count": 452,
@@ -104914,13 +104914,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 37,
+        "osm": 40,
         "drcog": 130,
         "grid_ref": "76_80",
         "rooftop_count": 102,
         "grid_id": 12080,
         "city": "Denver",
-        "percentComplete": 28
+        "percentComplete": 31
       },
       "geometry": {
         "type": "Polygon",
@@ -104953,13 +104953,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 192,
+        "osm": 201,
         "drcog": 258,
         "grid_ref": "76_81",
         "rooftop_count": 241,
         "grid_id": 12081,
         "city": "Denver",
-        "percentComplete": 74
+        "percentComplete": 78
       },
       "geometry": {
         "type": "Polygon",
@@ -104992,13 +104992,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 998,
+        "osm": 1053,
         "drcog": 1005,
         "grid_ref": "76_82",
         "rooftop_count": 842,
         "grid_id": 12082,
         "city": "Denver",
-        "percentComplete": 99
+        "percentComplete": 105
       },
       "geometry": {
         "type": "Polygon",
@@ -105109,7 +105109,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 807,
+        "osm": 808,
         "drcog": 931,
         "grid_ref": "77_76",
         "rooftop_count": 766,
@@ -105148,13 +105148,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 488,
+        "osm": 496,
         "drcog": 411,
         "grid_ref": "77_78",
         "rooftop_count": 332,
         "grid_id": 12238,
         "city": "Denver",
-        "percentComplete": 119
+        "percentComplete": 121
       },
       "geometry": {
         "type": "Polygon",
@@ -105187,13 +105187,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 816,
+        "osm": 882,
         "drcog": 829,
         "grid_ref": "77_81",
         "rooftop_count": 736,
         "grid_id": 12241,
         "city": "Denver",
-        "percentComplete": 98
+        "percentComplete": 106
       },
       "geometry": {
         "type": "Polygon",
@@ -105304,13 +105304,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 1170,
+        "osm": 1175,
         "drcog": 957,
         "grid_ref": "78_76",
         "rooftop_count": 845,
         "grid_id": 12396,
         "city": "Denver",
-        "percentComplete": 122
+        "percentComplete": 123
       },
       "geometry": {
         "type": "Polygon",
@@ -105343,13 +105343,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 359,
+        "osm": 365,
         "drcog": 288,
         "grid_ref": "78_77",
         "rooftop_count": 264,
         "grid_id": 12397,
         "city": "Denver",
-        "percentComplete": 125
+        "percentComplete": 127
       },
       "geometry": {
         "type": "Polygon",
@@ -105382,13 +105382,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 273,
+        "osm": 299,
         "drcog": 388,
         "grid_ref": "78_79",
         "rooftop_count": 338,
         "grid_id": 12399,
         "city": "Denver",
-        "percentComplete": 70
+        "percentComplete": 77
       },
       "geometry": {
         "type": "Polygon",
@@ -105499,13 +105499,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 902,
+        "osm": 905,
         "drcog": 714,
         "grid_ref": "79_76",
         "rooftop_count": 544,
         "grid_id": 12556,
         "city": "Denver",
-        "percentComplete": 126
+        "percentComplete": 127
       },
       "geometry": {
         "type": "Polygon",
@@ -105538,50 +105538,11 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 76,
+        "osm": 79,
         "drcog": 211,
         "grid_ref": "79_78",
         "rooftop_count": 174,
         "grid_id": 12558,
-        "city": "Denver",
-        "percentComplete": 36
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -105.01202365,
-              39.749902
-            ],
-            [
-              -105.0030405,
-              39.749902
-            ],
-            [
-              -105.0030405,
-              39.74299502
-            ],
-            [
-              -105.01202365,
-              39.74299502
-            ],
-            [
-              -105.01202365,
-              39.749902
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "osm": 153,
-        "drcog": 419,
-        "grid_ref": "79_80",
-        "rooftop_count": 343,
-        "grid_id": 12560,
         "city": "Denver",
         "percentComplete": 37
       },
@@ -105590,6 +105551,45 @@
         "coordinates": [
           [
             [
+              -105.01202365,
+              39.749902
+            ],
+            [
+              -105.0030405,
+              39.749902
+            ],
+            [
+              -105.0030405,
+              39.74299502
+            ],
+            [
+              -105.01202365,
+              39.74299502
+            ],
+            [
+              -105.01202365,
+              39.749902
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm": 158,
+        "drcog": 419,
+        "grid_ref": "79_80",
+        "rooftop_count": 343,
+        "grid_id": 12560,
+        "city": "Denver",
+        "percentComplete": 38
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               -104.99405735,
               39.749902
             ],
@@ -105616,13 +105616,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 401,
+        "osm": 424,
         "drcog": 411,
         "grid_ref": "79_81",
         "rooftop_count": 404,
         "grid_id": 12561,
         "city": "Denver",
-        "percentComplete": 98
+        "percentComplete": 103
       },
       "geometry": {
         "type": "Polygon",
@@ -105655,13 +105655,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 591,
+        "osm": 629,
         "drcog": 636,
         "grid_ref": "79_82",
         "rooftop_count": 538,
         "grid_id": 12562,
         "city": "Denver",
-        "percentComplete": 93
+        "percentComplete": 99
       },
       "geometry": {
         "type": "Polygon",
@@ -105733,7 +105733,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 402,
+        "osm": 405,
         "drcog": 439,
         "grid_ref": "80_79",
         "rooftop_count": 416,
@@ -105772,13 +105772,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 129,
+        "osm": 150,
         "drcog": 336,
         "grid_ref": "80_80",
         "rooftop_count": 276,
         "grid_id": 12720,
         "city": "Denver",
-        "percentComplete": 38
+        "percentComplete": 45
       },
       "geometry": {
         "type": "Polygon",
@@ -105811,13 +105811,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 377,
+        "osm": 399,
         "drcog": 476,
         "grid_ref": "80_81",
         "rooftop_count": 445,
         "grid_id": 12721,
         "city": "Denver",
-        "percentComplete": 79
+        "percentComplete": 84
       },
       "geometry": {
         "type": "Polygon",
@@ -105850,13 +105850,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 723,
+        "osm": 742,
         "drcog": 759,
         "grid_ref": "80_82",
         "rooftop_count": 660,
         "grid_id": 12722,
         "city": "Denver",
-        "percentComplete": 95
+        "percentComplete": 98
       },
       "geometry": {
         "type": "Polygon",
@@ -106006,13 +106006,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 150,
+        "osm": 154,
         "drcog": 273,
         "grid_ref": "81_78",
         "rooftop_count": 250,
         "grid_id": 12878,
         "city": "Denver",
-        "percentComplete": 55
+        "percentComplete": 56
       },
       "geometry": {
         "type": "Polygon",
@@ -106045,7 +106045,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 937,
+        "osm": 934,
         "drcog": 997,
         "grid_ref": "81_79",
         "rooftop_count": 933,
@@ -106084,13 +106084,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 828,
+        "osm": 841,
         "drcog": 868,
         "grid_ref": "81_82",
         "rooftop_count": 745,
         "grid_id": 12882,
         "city": "Denver",
-        "percentComplete": 95
+        "percentComplete": 97
       },
       "geometry": {
         "type": "Polygon",
@@ -106123,13 +106123,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 412,
+        "osm": 411,
         "drcog": 450,
         "grid_ref": "81_83",
         "rooftop_count": 410,
         "grid_id": 12883,
         "city": "Denver",
-        "percentComplete": 92
+        "percentComplete": 91
       },
       "geometry": {
         "type": "Polygon",
@@ -106201,13 +106201,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 686,
+        "osm": 701,
         "drcog": 1523,
         "grid_ref": "82_74",
         "rooftop_count": 1347,
         "grid_id": 13034,
         "city": "Denver",
-        "percentComplete": 45
+        "percentComplete": 46
       },
       "geometry": {
         "type": "Polygon",
@@ -106279,7 +106279,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 197,
+        "osm": 199,
         "drcog": 396,
         "grid_ref": "82_76",
         "rooftop_count": 332,
@@ -106318,13 +106318,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 76,
+        "osm": 79,
         "drcog": 127,
         "grid_ref": "82_77",
         "rooftop_count": 115,
         "grid_id": 13037,
         "city": "Denver",
-        "percentComplete": 60
+        "percentComplete": 62
       },
       "geometry": {
         "type": "Polygon",
@@ -106396,7 +106396,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 533,
+        "osm": 534,
         "drcog": 994,
         "grid_ref": "82_79",
         "rooftop_count": 848,
@@ -106513,13 +106513,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 29,
+        "osm": 62,
         "drcog": 98,
         "grid_ref": "83_78",
         "rooftop_count": 95,
         "grid_id": 13198,
         "city": "Denver",
-        "percentComplete": 30
+        "percentComplete": 63
       },
       "geometry": {
         "type": "Polygon",
@@ -106552,13 +106552,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 77,
+        "osm": 1085,
         "drcog": 1264,
         "grid_ref": "83_80",
         "rooftop_count": 1102,
         "grid_id": 13200,
         "city": "Denver",
-        "percentComplete": 6
+        "percentComplete": 86
       },
       "geometry": {
         "type": "Polygon",
@@ -106669,7 +106669,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 232,
+        "osm": 229,
         "drcog": 372,
         "grid_ref": "83_84",
         "rooftop_count": 320,
@@ -106708,13 +106708,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 23,
+        "osm": 773,
         "drcog": 872,
         "grid_ref": "84_77",
         "rooftop_count": 785,
         "grid_id": 13357,
         "city": "Denver",
-        "percentComplete": 3
+        "percentComplete": 89
       },
       "geometry": {
         "type": "Polygon",
@@ -106747,13 +106747,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 85,
+        "osm": 661,
         "drcog": 774,
         "grid_ref": "84_78",
         "rooftop_count": 705,
         "grid_id": 13358,
         "city": "Denver",
-        "percentComplete": 11
+        "percentComplete": 85
       },
       "geometry": {
         "type": "Polygon",
@@ -106786,13 +106786,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 66,
+        "osm": 158,
         "drcog": 198,
         "grid_ref": "84_79",
         "rooftop_count": 167,
         "grid_id": 13359,
         "city": "Denver",
-        "percentComplete": 33
+        "percentComplete": 80
       },
       "geometry": {
         "type": "Polygon",
@@ -106825,13 +106825,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 56,
+        "osm": 790,
         "drcog": 855,
         "grid_ref": "84_80",
         "rooftop_count": 795,
         "grid_id": 13360,
         "city": "Denver",
-        "percentComplete": 7
+        "percentComplete": 92
       },
       "geometry": {
         "type": "Polygon",
@@ -106864,13 +106864,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 35,
+        "osm": 1360,
         "drcog": 1405,
         "grid_ref": "84_81",
         "rooftop_count": 1424,
         "grid_id": 13361,
         "city": "Denver",
-        "percentComplete": 2
+        "percentComplete": 97
       },
       "geometry": {
         "type": "Polygon",
@@ -106903,13 +106903,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 568,
+        "osm": 570,
         "drcog": 622,
         "grid_ref": "84_83",
         "rooftop_count": 579,
         "grid_id": 13363,
         "city": "Denver",
-        "percentComplete": 91
+        "percentComplete": 92
       },
       "geometry": {
         "type": "Polygon",
@@ -107020,13 +107020,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 54,
+        "osm": 59,
         "drcog": 248,
         "grid_ref": "85_79",
         "rooftop_count": 218,
         "grid_id": 13519,
         "city": "Denver",
-        "percentComplete": 22
+        "percentComplete": 24
       },
       "geometry": {
         "type": "Polygon",
@@ -107059,13 +107059,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 304,
+        "osm": 339,
         "drcog": 767,
         "grid_ref": "85_82",
         "rooftop_count": 657,
         "grid_id": 13522,
         "city": "Denver",
-        "percentComplete": 40
+        "percentComplete": 44
       },
       "geometry": {
         "type": "Polygon",
@@ -107254,13 +107254,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 12,
-        "drcog": 785,
+        "osm": 936,
+        "drcog": 1042,
         "grid_ref": "86_77",
         "rooftop_count": 963,
         "grid_id": 13677,
         "city": "Denver",
-        "percentComplete": 2
+        "percentComplete": 90
       },
       "geometry": {
         "type": "Polygon",
@@ -107284,6 +107284,84 @@
             ],
             [
               -105.0210068,
+              39.7015386
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm": 956,
+        "drcog": 1147,
+        "grid_ref": "86_78",
+        "rooftop_count": 955,
+        "grid_id": 13678,
+        "city": "Denver",
+        "percentComplete": 83
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -105.01202365,
+              39.7015386
+            ],
+            [
+              -105.0030405,
+              39.7015386
+            ],
+            [
+              -105.0030405,
+              39.69462677
+            ],
+            [
+              -105.01202365,
+              39.69462677
+            ],
+            [
+              -105.01202365,
+              39.7015386
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm": 56,
+        "drcog": 511,
+        "grid_ref": "86_79",
+        "rooftop_count": 450,
+        "grid_id": 13679,
+        "city": "Denver",
+        "percentComplete": 11
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -105.0030405,
+              39.7015386
+            ],
+            [
+              -104.99405735,
+              39.7015386
+            ],
+            [
+              -104.99405735,
+              39.69462677
+            ],
+            [
+              -105.0030405,
+              39.69462677
+            ],
+            [
+              -105.0030405,
               39.7015386
             ]
           ]
@@ -107294,49 +107372,10 @@
       "type": "Feature",
       "properties": {
         "osm": 19,
-        "drcog": 838,
-        "grid_ref": "86_78",
-        "rooftop_count": 955,
-        "grid_id": 13678,
-        "city": "Denver",
-        "percentComplete": 2
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -105.01202365,
-              39.7015386
-            ],
-            [
-              -105.0030405,
-              39.7015386
-            ],
-            [
-              -105.0030405,
-              39.69462677
-            ],
-            [
-              -105.01202365,
-              39.69462677
-            ],
-            [
-              -105.01202365,
-              39.7015386
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "osm": 46,
-        "drcog": 511,
-        "grid_ref": "86_79",
-        "rooftop_count": 450,
-        "grid_id": 13679,
+        "drcog": 202,
+        "grid_ref": "86_80",
+        "rooftop_count": 157,
+        "grid_id": 13680,
         "city": "Denver",
         "percentComplete": 9
       },
@@ -107345,45 +107384,6 @@
         "coordinates": [
           [
             [
-              -105.0030405,
-              39.7015386
-            ],
-            [
-              -104.99405735,
-              39.7015386
-            ],
-            [
-              -104.99405735,
-              39.69462677
-            ],
-            [
-              -105.0030405,
-              39.69462677
-            ],
-            [
-              -105.0030405,
-              39.7015386
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "osm": 31,
-        "drcog": 202,
-        "grid_ref": "86_80",
-        "rooftop_count": 157,
-        "grid_id": 13680,
-        "city": "Denver",
-        "percentComplete": 15
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
               -104.99405735,
               39.7015386
             ],
@@ -107410,13 +107410,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 96,
+        "osm": 1146,
         "drcog": 1267,
         "grid_ref": "86_81",
         "rooftop_count": 1203,
         "grid_id": 13681,
         "city": "Denver",
-        "percentComplete": 8
+        "percentComplete": 90
       },
       "geometry": {
         "type": "Polygon",
@@ -107527,13 +107527,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 21,
+        "osm": 791,
         "drcog": 938,
         "grid_ref": "87_76",
         "rooftop_count": 802,
         "grid_id": 13836,
         "city": "Denver",
-        "percentComplete": 2
+        "percentComplete": 84
       },
       "geometry": {
         "type": "Polygon",
@@ -107566,13 +107566,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 0,
+        "osm": 898,
         "drcog": 1056,
         "grid_ref": "87_78",
         "rooftop_count": 896,
         "grid_id": 13838,
         "city": "Denver",
-        "percentComplete": 0
+        "percentComplete": 85
       },
       "geometry": {
         "type": "Polygon",
@@ -107605,13 +107605,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 36,
+        "osm": 45,
         "drcog": 212,
         "grid_ref": "87_79",
         "rooftop_count": 193,
         "grid_id": 13839,
         "city": "Denver",
-        "percentComplete": 17
+        "percentComplete": 21
       },
       "geometry": {
         "type": "Polygon",
@@ -107644,13 +107644,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 95,
+        "osm": 108,
         "drcog": 719,
         "grid_ref": "87_80",
         "rooftop_count": 601,
         "grid_id": 13840,
         "city": "Denver",
-        "percentComplete": 13
+        "percentComplete": 15
       },
       "geometry": {
         "type": "Polygon",
@@ -107761,13 +107761,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 1,
+        "osm": 7,
         "drcog": 1304,
         "grid_ref": "88_77",
         "rooftop_count": 1164,
         "grid_id": 13997,
         "city": "Denver",
-        "percentComplete": 0
+        "percentComplete": 1
       },
       "geometry": {
         "type": "Polygon",
@@ -107800,13 +107800,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 11,
+        "osm": 19,
         "drcog": 798,
         "grid_ref": "88_78",
         "rooftop_count": 676,
         "grid_id": 13998,
         "city": "Denver",
-        "percentComplete": 1
+        "percentComplete": 2
       },
       "geometry": {
         "type": "Polygon",
@@ -108853,13 +108853,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 18,
+        "osm": 19,
         "drcog": 95,
         "grid_ref": "97_89",
         "rooftop_count": 82,
         "grid_id": 15449,
         "city": "Denver",
-        "percentComplete": 19
+        "percentComplete": 20
       },
       "geometry": {
         "type": "Polygon",
@@ -108931,13 +108931,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 96,
+        "osm": 97,
         "drcog": 522,
         "grid_ref": "89_79",
         "rooftop_count": 455,
         "grid_id": 14159,
         "city": "Denver",
-        "percentComplete": 18
+        "percentComplete": 19
       },
       "geometry": {
         "type": "Polygon",
@@ -109009,7 +109009,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 548,
+        "osm": 549,
         "drcog": 608,
         "grid_ref": "90_86",
         "rooftop_count": 564,
@@ -109399,7 +109399,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 556,
+        "osm": 557,
         "drcog": 603,
         "grid_ref": "89_74",
         "rooftop_count": 573,
@@ -110569,13 +110569,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 47,
+        "osm": 745,
         "drcog": 830,
         "grid_ref": "86_76",
         "rooftop_count": 745,
         "grid_id": 13676,
         "city": "Denver",
-        "percentComplete": 6
+        "percentComplete": 90
       },
       "geometry": {
         "type": "Polygon",
@@ -110608,13 +110608,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 67,
+        "osm": 105,
         "drcog": 717,
         "grid_ref": "86_82",
         "rooftop_count": 560,
         "grid_id": 13682,
         "city": "Denver",
-        "percentComplete": 9
+        "percentComplete": 15
       },
       "geometry": {
         "type": "Polygon",
@@ -110803,13 +110803,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 114,
+        "osm": 125,
         "drcog": 294,
         "grid_ref": "86_90",
         "rooftop_count": 252,
         "grid_id": 13690,
         "city": "Denver",
-        "percentComplete": 39
+        "percentComplete": 43
       },
       "geometry": {
         "type": "Polygon",
@@ -110920,13 +110920,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 9,
-        "drcog": 504,
+        "osm": 965,
+        "drcog": 1117,
         "grid_ref": "85_77",
         "rooftop_count": 964,
         "grid_id": 13517,
         "city": "Denver",
-        "percentComplete": 2
+        "percentComplete": 86
       },
       "geometry": {
         "type": "Polygon",
@@ -110959,13 +110959,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 5,
-        "drcog": 780,
+        "osm": 1156,
+        "drcog": 1337,
         "grid_ref": "85_78",
         "rooftop_count": 1174,
         "grid_id": 13518,
         "city": "Denver",
-        "percentComplete": 1
+        "percentComplete": 86
       },
       "geometry": {
         "type": "Polygon",
@@ -110998,7 +110998,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 38,
+        "osm": 40,
         "drcog": 485,
         "grid_ref": "85_80",
         "rooftop_count": 374,
@@ -111037,13 +111037,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 9,
+        "osm": 1613,
         "drcog": 1760,
         "grid_ref": "85_81",
         "rooftop_count": 1654,
         "grid_id": 13521,
         "city": "Denver",
-        "percentComplete": 1
+        "percentComplete": 92
       },
       "geometry": {
         "type": "Polygon",
@@ -111310,13 +111310,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 48,
+        "osm": 1155,
         "drcog": 1195,
         "grid_ref": "84_82",
         "rooftop_count": 1103,
         "grid_id": 13362,
         "city": "Denver",
-        "percentComplete": 4
+        "percentComplete": 97
       },
       "geometry": {
         "type": "Polygon",
@@ -111466,13 +111466,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 81,
+        "osm": 404,
         "drcog": 539,
         "grid_ref": "83_77",
         "rooftop_count": 436,
         "grid_id": 13197,
         "city": "Denver",
-        "percentComplete": 15
+        "percentComplete": 75
       },
       "geometry": {
         "type": "Polygon",
@@ -111505,13 +111505,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 48,
+        "osm": 694,
         "drcog": 844,
         "grid_ref": "83_79",
         "rooftop_count": 761,
         "grid_id": 13199,
         "city": "Denver",
-        "percentComplete": 6
+        "percentComplete": 82
       },
       "geometry": {
         "type": "Polygon",
@@ -111778,7 +111778,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 1089,
+        "osm": 1088,
         "drcog": 991,
         "grid_ref": "80_74",
         "rooftop_count": 917,
@@ -111895,13 +111895,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 104,
+        "osm": 108,
         "drcog": 164,
         "grid_ref": "80_77",
         "rooftop_count": 154,
         "grid_id": 12717,
         "city": "Denver",
-        "percentComplete": 63
+        "percentComplete": 66
       },
       "geometry": {
         "type": "Polygon",
@@ -111934,7 +111934,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 141,
+        "osm": 140,
         "drcog": 207,
         "grid_ref": "80_78",
         "rooftop_count": 175,
@@ -112012,7 +112012,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 77,
+        "osm": 78,
         "drcog": 1269,
         "grid_ref": "80_85",
         "rooftop_count": 1073,
@@ -112168,11 +112168,50 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 133,
+        "osm": 142,
         "drcog": 182,
         "grid_ref": "78_78",
         "rooftop_count": 162,
         "grid_id": 12398,
+        "city": "Denver",
+        "percentComplete": 78
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -105.01202365,
+              39.75680828
+            ],
+            [
+              -105.0030405,
+              39.75680828
+            ],
+            [
+              -105.0030405,
+              39.749902
+            ],
+            [
+              -105.01202365,
+              39.749902
+            ],
+            [
+              -105.01202365,
+              39.75680828
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm": 294,
+        "drcog": 404,
+        "grid_ref": "78_80",
+        "rooftop_count": 365,
+        "grid_id": 12400,
         "city": "Denver",
         "percentComplete": 73
       },
@@ -112181,45 +112220,6 @@
         "coordinates": [
           [
             [
-              -105.01202365,
-              39.75680828
-            ],
-            [
-              -105.0030405,
-              39.75680828
-            ],
-            [
-              -105.0030405,
-              39.749902
-            ],
-            [
-              -105.01202365,
-              39.749902
-            ],
-            [
-              -105.01202365,
-              39.75680828
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "osm": 276,
-        "drcog": 404,
-        "grid_ref": "78_80",
-        "rooftop_count": 365,
-        "grid_id": 12400,
-        "city": "Denver",
-        "percentComplete": 68
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
               -104.99405735,
               39.75680828
             ],
@@ -112246,13 +112246,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 1012,
+        "osm": 1069,
         "drcog": 783,
         "grid_ref": "78_81",
         "rooftop_count": 749,
         "grid_id": 12401,
         "city": "Denver",
-        "percentComplete": 129
+        "percentComplete": 137
       },
       "geometry": {
         "type": "Polygon",
@@ -112285,13 +112285,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 1171,
+        "osm": 1197,
         "drcog": 1078,
         "grid_ref": "78_82",
         "rooftop_count": 961,
         "grid_id": 12402,
         "city": "Denver",
-        "percentComplete": 109
+        "percentComplete": 111
       },
       "geometry": {
         "type": "Polygon",
@@ -112324,13 +112324,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 1102,
+        "osm": 1084,
         "drcog": 1142,
         "grid_ref": "78_83",
         "rooftop_count": 1077,
         "grid_id": 12403,
         "city": "Denver",
-        "percentComplete": 96
+        "percentComplete": 95
       },
       "geometry": {
         "type": "Polygon",
@@ -112597,13 +112597,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 1015,
+        "osm": 1025,
         "drcog": 898,
         "grid_ref": "77_77",
         "rooftop_count": 779,
         "grid_id": 12237,
         "city": "Denver",
-        "percentComplete": 113
+        "percentComplete": 114
       },
       "geometry": {
         "type": "Polygon",
@@ -112636,13 +112636,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 135,
+        "osm": 138,
         "drcog": 140,
         "grid_ref": "77_79",
         "rooftop_count": 111,
         "grid_id": 12239,
         "city": "Denver",
-        "percentComplete": 96
+        "percentComplete": 99
       },
       "geometry": {
         "type": "Polygon",
@@ -112675,13 +112675,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 180,
+        "osm": 186,
         "drcog": 279,
         "grid_ref": "77_80",
         "rooftop_count": 200,
         "grid_id": 12240,
         "city": "Denver",
-        "percentComplete": 65
+        "percentComplete": 67
       },
       "geometry": {
         "type": "Polygon",
@@ -112714,13 +112714,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 958,
+        "osm": 1004,
         "drcog": 1101,
         "grid_ref": "77_82",
         "rooftop_count": 909,
         "grid_id": 12242,
         "city": "Denver",
-        "percentComplete": 87
+        "percentComplete": 91
       },
       "geometry": {
         "type": "Polygon",
@@ -113026,13 +113026,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 4,
+        "osm": 1075,
         "drcog": 1214,
         "grid_ref": "87_77",
         "rooftop_count": 1090,
         "grid_id": 13837,
         "city": "Denver",
-        "percentComplete": 0
+        "percentComplete": 89
       },
       "geometry": {
         "type": "Polygon",
@@ -113065,13 +113065,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 266,
+        "osm": 272,
         "drcog": 1394,
         "grid_ref": "87_81",
         "rooftop_count": 1303,
         "grid_id": 13841,
         "city": "Denver",
-        "percentComplete": 19
+        "percentComplete": 20
       },
       "geometry": {
         "type": "Polygon",
@@ -113299,7 +113299,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 25,
+        "osm": 26,
         "drcog": 428,
         "grid_ref": "93_89",
         "rooftop_count": 379,
@@ -113377,13 +113377,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 123,
+        "osm": 122,
         "drcog": 162,
         "grid_ref": "95_89",
         "rooftop_count": 149,
         "grid_id": 15129,
         "city": "Denver",
-        "percentComplete": 76
+        "percentComplete": 75
       },
       "geometry": {
         "type": "Polygon",
@@ -113806,7 +113806,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 593,
+        "osm": 596,
         "drcog": 718,
         "grid_ref": "92_83",
         "rooftop_count": 610,
@@ -113845,7 +113845,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 437,
+        "osm": 439,
         "drcog": 488,
         "grid_ref": "92_88",
         "rooftop_count": 426,
@@ -114157,13 +114157,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 181,
+        "osm": 183,
         "drcog": 225,
         "grid_ref": "79_77",
         "rooftop_count": 187,
         "grid_id": 12557,
         "city": "Denver",
-        "percentComplete": 80
+        "percentComplete": 81
       },
       "geometry": {
         "type": "Polygon",
@@ -114196,13 +114196,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 160,
+        "osm": 171,
         "drcog": 527,
         "grid_ref": "79_79",
         "rooftop_count": 432,
         "grid_id": 12559,
         "city": "Denver",
-        "percentComplete": 30
+        "percentComplete": 32
       },
       "geometry": {
         "type": "Polygon",
@@ -114352,13 +114352,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 547,
+        "osm": 552,
         "drcog": 766,
         "grid_ref": "82_73",
         "rooftop_count": 672,
         "grid_id": 13033,
         "city": "Denver",
-        "percentComplete": 71
+        "percentComplete": 72
       },
       "geometry": {
         "type": "Polygon",
@@ -114391,7 +114391,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 405,
+        "osm": 406,
         "drcog": 501,
         "grid_ref": "82_80",
         "rooftop_count": 431,
@@ -114430,13 +114430,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 773,
+        "osm": 779,
         "drcog": 787,
         "grid_ref": "82_81",
         "rooftop_count": 758,
         "grid_id": 13041,
         "city": "Denver",
-        "percentComplete": 98
+        "percentComplete": 99
       },
       "geometry": {
         "type": "Polygon",
@@ -114742,13 +114742,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 298,
+        "osm": 318,
         "drcog": 495,
         "grid_ref": "81_80",
         "rooftop_count": 341,
         "grid_id": 12880,
         "city": "Denver",
-        "percentComplete": 60
+        "percentComplete": 64
       },
       "geometry": {
         "type": "Polygon",
@@ -114781,13 +114781,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 694,
+        "osm": 699,
         "drcog": 681,
         "grid_ref": "81_81",
         "rooftop_count": 641,
         "grid_id": 12881,
         "city": "Denver",
-        "percentComplete": 102
+        "percentComplete": 103
       },
       "geometry": {
         "type": "Polygon",
@@ -115483,13 +115483,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 8,
+        "osm": 182,
         "drcog": 229,
         "grid_ref": "93_74",
         "rooftop_count": 203,
         "grid_id": 14794,
         "city": "Denver",
-        "percentComplete": 3
+        "percentComplete": 79
       },
       "geometry": {
         "type": "Polygon",
@@ -115717,13 +115717,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 35,
+        "osm": 38,
         "drcog": 244,
         "grid_ref": "93_88",
         "rooftop_count": 204,
         "grid_id": 14808,
         "city": "Denver",
-        "percentComplete": 14
+        "percentComplete": 16
       },
       "geometry": {
         "type": "Polygon",
@@ -115912,13 +115912,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 84,
+        "osm": 87,
         "drcog": 111,
         "grid_ref": "97_90",
         "rooftop_count": 93,
         "grid_id": 15450,
         "city": "Denver",
-        "percentComplete": 76
+        "percentComplete": 78
       },
       "geometry": {
         "type": "Polygon",
@@ -115951,7 +115951,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 1245,
+        "osm": 1246,
         "drcog": 1391,
         "grid_ref": "76_76",
         "rooftop_count": 1224,
@@ -115990,7 +115990,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 1319,
+        "osm": 1322,
         "drcog": 1439,
         "grid_ref": "76_77",
         "rooftop_count": 1240,
@@ -116068,13 +116068,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 1128,
+        "osm": 1135,
         "drcog": 1307,
         "grid_ref": "76_83",
         "rooftop_count": 1124,
         "grid_id": 12083,
         "city": "Denver",
-        "percentComplete": 86
+        "percentComplete": 87
       },
       "geometry": {
         "type": "Polygon",
@@ -116419,7 +116419,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 1266,
+        "osm": 1270,
         "drcog": 1414,
         "grid_ref": "75_76",
         "rooftop_count": 1278,
@@ -116458,13 +116458,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 606,
+        "osm": 624,
         "drcog": 508,
         "grid_ref": "75_79",
         "rooftop_count": 450,
         "grid_id": 11919,
         "city": "Denver",
-        "percentComplete": 119
+        "percentComplete": 123
       },
       "geometry": {
         "type": "Polygon",
@@ -116497,13 +116497,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 251,
+        "osm": 278,
         "drcog": 397,
         "grid_ref": "75_80",
         "rooftop_count": 315,
         "grid_id": 11920,
         "city": "Denver",
-        "percentComplete": 63
+        "percentComplete": 70
       },
       "geometry": {
         "type": "Polygon",
@@ -116536,13 +116536,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 266,
+        "osm": 282,
         "drcog": 317,
         "grid_ref": "75_81",
         "rooftop_count": 309,
         "grid_id": 11921,
         "city": "Denver",
-        "percentComplete": 84
+        "percentComplete": 89
       },
       "geometry": {
         "type": "Polygon",
@@ -116575,13 +116575,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 42,
+        "osm": 75,
         "drcog": 201,
         "grid_ref": "75_83",
         "rooftop_count": 187,
         "grid_id": 11923,
         "city": "Denver",
-        "percentComplete": 21
+        "percentComplete": 37
       },
       "geometry": {
         "type": "Polygon",
@@ -117628,13 +117628,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 844,
+        "osm": 866,
         "drcog": 937,
         "grid_ref": "74_76",
         "rooftop_count": 895,
         "grid_id": 11756,
         "city": "Denver",
-        "percentComplete": 90
+        "percentComplete": 92
       },
       "geometry": {
         "type": "Polygon",
@@ -117667,13 +117667,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 349,
+        "osm": 372,
         "drcog": 536,
         "grid_ref": "74_80",
         "rooftop_count": 387,
         "grid_id": 11760,
         "city": "Denver",
-        "percentComplete": 65
+        "percentComplete": 69
       },
       "geometry": {
         "type": "Polygon",
@@ -118369,7 +118369,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 887,
+        "osm": 888,
         "drcog": 971,
         "grid_ref": "73_76",
         "rooftop_count": 934,
@@ -118642,13 +118642,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 6,
+        "osm": 30,
         "drcog": 568,
         "grid_ref": "93_75",
         "rooftop_count": 503,
         "grid_id": 14795,
         "city": "Denver",
-        "percentComplete": 1
+        "percentComplete": 5
       },
       "geometry": {
         "type": "Polygon",
@@ -118954,7 +118954,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 97,
+        "osm": 98,
         "drcog": 1314,
         "grid_ref": "80_87",
         "rooftop_count": 1171,
@@ -119383,7 +119383,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 1,
+        "osm": 0,
         "drcog": 492,
         "grid_ref": "83_89",
         "rooftop_count": 392,
@@ -121060,13 +121060,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 38,
+        "osm": 37,
         "drcog": 114,
         "grid_ref": "76_90",
         "rooftop_count": 103,
         "grid_id": 12090,
         "city": "Denver",
-        "percentComplete": 33
+        "percentComplete": 32
       },
       "geometry": {
         "type": "Polygon",
@@ -121294,13 +121294,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 6,
+        "osm": 7,
         "drcog": 258,
         "grid_ref": "77_94",
         "rooftop_count": 201,
         "grid_id": 12254,
         "city": "Denver",
-        "percentComplete": 2
+        "percentComplete": 3
       },
       "geometry": {
         "type": "Polygon",
@@ -122074,7 +122074,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 62,
+        "osm": 64,
         "drcog": 447,
         "grid_ref": "79_71",
         "rooftop_count": 415,
@@ -122113,7 +122113,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 12,
+        "osm": 13,
         "drcog": 1021,
         "grid_ref": "79_72",
         "rooftop_count": 871,
@@ -122230,7 +122230,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 14,
+        "osm": 15,
         "drcog": 1063,
         "grid_ref": "77_72",
         "rooftop_count": 941,
@@ -122386,7 +122386,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 186,
+        "osm": 185,
         "drcog": 1045,
         "grid_ref": "92_82",
         "rooftop_count": 860,
@@ -122464,7 +122464,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 4,
+        "osm": 3,
         "drcog": 1228,
         "grid_ref": "95_80",
         "rooftop_count": 1141,
@@ -122503,13 +122503,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 15,
+        "osm": 17,
         "drcog": 103,
         "grid_ref": "94_78",
         "rooftop_count": 81,
         "grid_id": 14958,
         "city": "Englewood",
-        "percentComplete": 15
+        "percentComplete": 17
       },
       "geometry": {
         "type": "Polygon",
@@ -122737,7 +122737,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 14,
+        "osm": 15,
         "drcog": 904,
         "grid_ref": "96_80",
         "rooftop_count": 799,
@@ -122776,7 +122776,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 4,
+        "osm": 6,
         "drcog": 794,
         "grid_ref": "97_75",
         "rooftop_count": 731,
@@ -122854,13 +122854,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 33,
+        "osm": 43,
         "drcog": 258,
         "grid_ref": "97_76",
         "rooftop_count": 206,
         "grid_id": 15436,
         "city": "Englewood",
-        "percentComplete": 13
+        "percentComplete": 17
       },
       "geometry": {
         "type": "Polygon",
@@ -122932,7 +122932,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 79,
+        "osm": 80,
         "drcog": 572,
         "grid_ref": "93_79",
         "rooftop_count": 469,
@@ -123010,7 +123010,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 265,
+        "osm": 275,
         "drcog": 1283,
         "grid_ref": "92_81",
         "rooftop_count": 1162,
@@ -123244,7 +123244,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 5,
+        "osm": 6,
         "drcog": 569,
         "grid_ref": "92_77",
         "rooftop_count": 592,
@@ -123400,13 +123400,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 151,
+        "osm": 152,
         "drcog": 212,
         "grid_ref": "40_68",
         "rooftop_count": 203,
         "grid_id": 6308,
         "city": "Erie",
-        "percentComplete": 71
+        "percentComplete": 72
       },
       "geometry": {
         "type": "Polygon",
@@ -123752,7 +123752,7 @@
       "type": "Feature",
       "properties": {
         "osm": 0,
-        "drcog": 16,
+        "drcog": 23,
         "grid_ref": "39_68",
         "rooftop_count": 29,
         "grid_id": 6148,
@@ -123829,13 +123829,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 14,
+        "osm": 55,
         "drcog": 131,
         "grid_ref": "40_67",
         "rooftop_count": 117,
         "grid_id": 6307,
         "city": "Erie",
-        "percentComplete": 11
+        "percentComplete": 42
       },
       "geometry": {
         "type": "Polygon",
@@ -124414,13 +124414,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 162,
+        "osm": 196,
         "drcog": 85,
         "grid_ref": "36_76",
         "rooftop_count": 5,
         "grid_id": 5676,
         "city": "Erie",
-        "percentComplete": 191
+        "percentComplete": 231
       },
       "geometry": {
         "type": "Polygon",
@@ -124804,13 +124804,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 21,
+        "osm": 23,
         "drcog": 57,
         "grid_ref": "33_75",
         "rooftop_count": 59,
         "grid_id": 5195,
         "city": "Erie",
-        "percentComplete": 37
+        "percentComplete": 40
       },
       "geometry": {
         "type": "Polygon",
@@ -124999,13 +124999,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 160,
+        "osm": 166,
         "drcog": 254,
         "grid_ref": "33_74",
         "rooftop_count": 217,
         "grid_id": 5194,
         "city": "Erie",
-        "percentComplete": 63
+        "percentComplete": 65
       },
       "geometry": {
         "type": "Polygon",
@@ -125039,12 +125039,12 @@
       "type": "Feature",
       "properties": {
         "osm": 20,
-        "drcog": 36,
+        "drcog": 38,
         "grid_ref": "33_76",
         "rooftop_count": 33,
         "grid_id": 5196,
         "city": "Erie",
-        "percentComplete": 56
+        "percentComplete": 53
       },
       "geometry": {
         "type": "Polygon",
@@ -125779,7 +125779,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 339,
+        "osm": 341,
         "drcog": 711,
         "grid_ref": "35_73",
         "rooftop_count": 711,
@@ -125896,13 +125896,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 84,
+        "osm": 119,
         "drcog": 21,
         "grid_ref": "35_76",
         "rooftop_count": 1,
         "grid_id": 5516,
         "city": "Erie",
-        "percentComplete": 400
+        "percentComplete": 567
       },
       "geometry": {
         "type": "Polygon",
@@ -125974,13 +125974,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 7,
+        "osm": 13,
         "drcog": 5,
         "grid_ref": "34_75",
         "rooftop_count": 5,
         "grid_id": 5355,
         "city": "Erie",
-        "percentComplete": 140
+        "percentComplete": 260
       },
       "geometry": {
         "type": "Polygon",
@@ -128509,13 +128509,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 0,
+        "osm": 1,
         "drcog": 1,
         "grid_ref": "74_54",
         "rooftop_count": 1,
         "grid_id": 11734,
         "city": "Golden",
-        "percentComplete": 0
+        "percentComplete": 100
       },
       "geometry": {
         "type": "Polygon",
@@ -128899,13 +128899,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 256,
+        "osm": 257,
         "drcog": 404,
         "grid_ref": "78_55",
         "rooftop_count": 374,
         "grid_id": 12375,
         "city": "Golden",
-        "percentComplete": 63
+        "percentComplete": 64
       },
       "geometry": {
         "type": "Polygon",
@@ -129289,13 +129289,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 283,
+        "osm": 288,
         "drcog": 430,
         "grid_ref": "78_54",
         "rooftop_count": 402,
         "grid_id": 12374,
         "city": "Golden",
-        "percentComplete": 66
+        "percentComplete": 67
       },
       "geometry": {
         "type": "Polygon",
@@ -129367,13 +129367,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 105,
+        "osm": 116,
         "drcog": 231,
         "grid_ref": "79_54",
         "rooftop_count": 173,
         "grid_id": 12534,
         "city": "Golden",
-        "percentComplete": 45
+        "percentComplete": 50
       },
       "geometry": {
         "type": "Polygon",
@@ -129406,13 +129406,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 350,
+        "osm": 361,
         "drcog": 661,
         "grid_ref": "79_55",
         "rooftop_count": 556,
         "grid_id": 12535,
         "city": "Golden",
-        "percentComplete": 53
+        "percentComplete": 55
       },
       "geometry": {
         "type": "Polygon",
@@ -129523,13 +129523,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 296,
+        "osm": 301,
         "drcog": 298,
         "grid_ref": "80_58",
         "rooftop_count": 249,
         "grid_id": 12698,
         "city": "Golden",
-        "percentComplete": 99
+        "percentComplete": 101
       },
       "geometry": {
         "type": "Polygon",
@@ -129952,7 +129952,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 152,
+        "osm": 153,
         "drcog": 243,
         "grid_ref": "79_56",
         "rooftop_count": 202,
@@ -130030,13 +130030,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 27,
+        "osm": 28,
         "drcog": 21,
         "grid_ref": "79_58",
         "rooftop_count": 21,
         "grid_id": 12538,
         "city": "Golden",
-        "percentComplete": 129
+        "percentComplete": 133
       },
       "geometry": {
         "type": "Polygon",
@@ -130147,7 +130147,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 15,
+        "osm": 17,
         "drcog": 333,
         "grid_ref": "82_57",
         "rooftop_count": 272,
@@ -131005,13 +131005,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 51,
+        "osm": 50,
         "drcog": 114,
         "grid_ref": "98_90",
         "rooftop_count": 105,
         "grid_id": 15610,
         "city": "Greenwood Village",
-        "percentComplete": 45
+        "percentComplete": 44
       },
       "geometry": {
         "type": "Polygon",
@@ -131785,13 +131785,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 95,
+        "osm": 97,
         "drcog": 139,
         "grid_ref": "41_67",
         "rooftop_count": 134,
         "grid_id": 6467,
         "city": "Lafayette",
-        "percentComplete": 68
+        "percentComplete": 70
       },
       "geometry": {
         "type": "Polygon",
@@ -131941,13 +131941,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 195,
+        "osm": 196,
         "drcog": 470,
         "grid_ref": "42_68",
         "rooftop_count": 382,
         "grid_id": 6628,
         "city": "Lafayette",
-        "percentComplete": 41
+        "percentComplete": 42
       },
       "geometry": {
         "type": "Polygon",
@@ -132370,7 +132370,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 212,
+        "osm": 213,
         "drcog": 270,
         "grid_ref": "42_67",
         "rooftop_count": 238,
@@ -132487,13 +132487,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 219,
+        "osm": 220,
         "drcog": 287,
         "grid_ref": "43_66",
         "rooftop_count": 249,
         "grid_id": 6786,
         "city": "Lafayette",
-        "percentComplete": 76
+        "percentComplete": 77
       },
       "geometry": {
         "type": "Polygon",
@@ -132526,13 +132526,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 444,
+        "osm": 459,
         "drcog": 881,
         "grid_ref": "43_68",
         "rooftop_count": 772,
         "grid_id": 6788,
         "city": "Lafayette",
-        "percentComplete": 50
+        "percentComplete": 52
       },
       "geometry": {
         "type": "Polygon",
@@ -133150,13 +133150,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 50,
+        "osm": 67,
         "drcog": 320,
         "grid_ref": "44_69",
         "rooftop_count": 227,
         "grid_id": 6949,
         "city": "Lafayette",
-        "percentComplete": 16
+        "percentComplete": 21
       },
       "geometry": {
         "type": "Polygon",
@@ -134125,7 +134125,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 15,
+        "osm": 16,
         "drcog": 595,
         "grid_ref": "78_70",
         "rooftop_count": 601,
@@ -134788,13 +134788,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 29,
+        "osm": 33,
         "drcog": 81,
         "grid_ref": "93_70",
         "rooftop_count": 68,
         "grid_id": 14790,
         "city": "Lakewood",
-        "percentComplete": 36
+        "percentComplete": 41
       },
       "geometry": {
         "type": "Polygon",
@@ -136309,7 +136309,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 7,
+        "osm": 8,
         "drcog": 450,
         "grid_ref": "80_64",
         "rooftop_count": 611,
@@ -136543,13 +136543,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 0,
+        "osm": 122,
         "drcog": 813,
         "grid_ref": "95_62",
         "rooftop_count": 744,
         "grid_id": 15102,
         "city": "Lakewood",
-        "percentComplete": 0
+        "percentComplete": 15
       },
       "geometry": {
         "type": "Polygon",
@@ -136660,13 +136660,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 7,
+        "osm": 3,
         "drcog": 665,
         "grid_ref": "87_65",
         "rooftop_count": 585,
         "grid_id": 13825,
         "city": "Lakewood",
-        "percentComplete": 1
+        "percentComplete": 0
       },
       "geometry": {
         "type": "Polygon",
@@ -136855,13 +136855,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 51,
+        "osm": 75,
         "drcog": 337,
         "grid_ref": "86_63",
         "rooftop_count": 275,
         "grid_id": 13663,
         "city": "Lakewood",
-        "percentComplete": 15
+        "percentComplete": 22
       },
       "geometry": {
         "type": "Polygon",
@@ -137246,7 +137246,7 @@
       "type": "Feature",
       "properties": {
         "osm": 1,
-        "drcog": 723,
+        "drcog": 745,
         "grid_ref": "79_68",
         "rooftop_count": 660,
         "grid_id": 12548,
@@ -137401,7 +137401,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 7,
+        "osm": 8,
         "drcog": 344,
         "grid_ref": "80_63",
         "rooftop_count": 314,
@@ -137440,7 +137440,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 28,
+        "osm": 29,
         "drcog": 462,
         "grid_ref": "80_67",
         "rooftop_count": 434,
@@ -137557,13 +137557,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 26,
+        "osm": 35,
         "drcog": 664,
         "grid_ref": "80_72",
         "rooftop_count": 559,
         "grid_id": 12712,
         "city": "Lakewood",
-        "percentComplete": 4
+        "percentComplete": 5
       },
       "geometry": {
         "type": "Polygon",
@@ -138103,7 +138103,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 6,
+        "osm": 7,
         "drcog": 314,
         "grid_ref": "84_66",
         "rooftop_count": 303,
@@ -138181,7 +138181,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 65,
+        "osm": 66,
         "drcog": 227,
         "grid_ref": "84_70",
         "rooftop_count": 221,
@@ -138337,7 +138337,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 3,
+        "osm": 4,
         "drcog": 817,
         "grid_ref": "85_65",
         "rooftop_count": 707,
@@ -138571,7 +138571,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 20,
+        "osm": 21,
         "drcog": 427,
         "grid_ref": "86_66",
         "rooftop_count": 381,
@@ -138922,13 +138922,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 15,
+        "osm": 16,
         "drcog": 624,
         "grid_ref": "88_62",
         "rooftop_count": 507,
         "grid_id": 13982,
         "city": "Lakewood",
-        "percentComplete": 2
+        "percentComplete": 3
       },
       "geometry": {
         "type": "Polygon",
@@ -139468,7 +139468,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 49,
+        "osm": 50,
         "drcog": 418,
         "grid_ref": "92_66",
         "rooftop_count": 310,
@@ -139585,13 +139585,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 2,
-        "drcog": 624,
+        "osm": 300,
+        "drcog": 770,
         "grid_ref": "95_63",
         "rooftop_count": 710,
         "grid_id": 15103,
         "city": "Lakewood",
-        "percentComplete": 0
+        "percentComplete": 39
       },
       "geometry": {
         "type": "Polygon",
@@ -139780,13 +139780,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 30,
+        "osm": 328,
         "drcog": 519,
         "grid_ref": "99_79",
         "rooftop_count": 435,
         "grid_id": 15759,
         "city": "Littleton",
-        "percentComplete": 6
+        "percentComplete": 63
       },
       "geometry": {
         "type": "Polygon",
@@ -139936,13 +139936,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 22,
+        "osm": 86,
         "drcog": 131,
         "grid_ref": "97_77",
         "rooftop_count": 119,
         "grid_id": 15437,
         "city": "Littleton",
-        "percentComplete": 17
+        "percentComplete": 66
       },
       "geometry": {
         "type": "Polygon",
@@ -139975,13 +139975,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 148,
+        "osm": 839,
         "drcog": 922,
         "grid_ref": "100_78",
         "rooftop_count": 828,
         "grid_id": 15918,
         "city": "Littleton",
-        "percentComplete": 16
+        "percentComplete": 91
       },
       "geometry": {
         "type": "Polygon",
@@ -140014,13 +140014,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 1,
+        "osm": 402,
         "drcog": 509,
         "grid_ref": "101_77",
         "rooftop_count": 434,
         "grid_id": 16077,
         "city": "Littleton",
-        "percentComplete": 0
+        "percentComplete": 79
       },
       "geometry": {
         "type": "Polygon",
@@ -140053,13 +140053,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 24,
+        "osm": 614,
         "drcog": 694,
         "grid_ref": "101_79",
         "rooftop_count": 621,
         "grid_id": 16079,
         "city": "Littleton",
-        "percentComplete": 3
+        "percentComplete": 88
       },
       "geometry": {
         "type": "Polygon",
@@ -140131,13 +140131,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 14,
+        "osm": 15,
         "drcog": 66,
         "grid_ref": "105_76",
         "rooftop_count": 21,
         "grid_id": 16716,
         "city": "Littleton",
-        "percentComplete": 21
+        "percentComplete": 23
       },
       "geometry": {
         "type": "Polygon",
@@ -140248,7 +140248,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 184,
+        "osm": 182,
         "drcog": 492,
         "grid_ref": "98_77",
         "rooftop_count": 422,
@@ -140287,13 +140287,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 63,
+        "osm": 516,
         "drcog": 522,
         "grid_ref": "100_77",
         "rooftop_count": 502,
         "grid_id": 15917,
         "city": "Littleton",
-        "percentComplete": 12
+        "percentComplete": 99
       },
       "geometry": {
         "type": "Polygon",
@@ -140326,13 +140326,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 8,
+        "osm": 17,
         "drcog": 196,
         "grid_ref": "104_79",
         "rooftop_count": 168,
         "grid_id": 16559,
         "city": "Littleton",
-        "percentComplete": 4
+        "percentComplete": 9
       },
       "geometry": {
         "type": "Polygon",
@@ -140365,13 +140365,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 14,
+        "osm": 16,
         "drcog": 25,
         "grid_ref": "105_77",
         "rooftop_count": 18,
         "grid_id": 16717,
         "city": "Littleton",
-        "percentComplete": 56
+        "percentComplete": 64
       },
       "geometry": {
         "type": "Polygon",
@@ -140443,13 +140443,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 52,
+        "osm": 494,
         "drcog": 599,
         "grid_ref": "99_78",
         "rooftop_count": 487,
         "grid_id": 15758,
         "city": "Littleton",
-        "percentComplete": 9
+        "percentComplete": 82
       },
       "geometry": {
         "type": "Polygon",
@@ -140560,13 +140560,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 12,
+        "osm": 319,
         "drcog": 221,
         "grid_ref": "102_76",
         "rooftop_count": 205,
         "grid_id": 16236,
         "city": "Littleton",
-        "percentComplete": 5
+        "percentComplete": 144
       },
       "geometry": {
         "type": "Polygon",
@@ -140599,13 +140599,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 3,
-        "drcog": 103,
+        "osm": 6,
+        "drcog": 154,
         "grid_ref": "103_76",
         "rooftop_count": 142,
         "grid_id": 16396,
         "city": "Littleton",
-        "percentComplete": 3
+        "percentComplete": 4
       },
       "geometry": {
         "type": "Polygon",
@@ -140638,13 +140638,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 1,
+        "osm": 492,
         "drcog": 554,
         "grid_ref": "103_79",
         "rooftop_count": 490,
         "grid_id": 16399,
         "city": "Littleton",
-        "percentComplete": 0
+        "percentComplete": 89
       },
       "geometry": {
         "type": "Polygon",
@@ -140677,13 +140677,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 17,
+        "osm": 22,
         "drcog": 148,
         "grid_ref": "103_80",
         "rooftop_count": 140,
         "grid_id": 16400,
         "city": "Littleton",
-        "percentComplete": 11
+        "percentComplete": 15
       },
       "geometry": {
         "type": "Polygon",
@@ -140716,13 +140716,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 3,
+        "osm": 440,
         "drcog": 530,
         "grid_ref": "102_79",
         "rooftop_count": 434,
         "grid_id": 16239,
         "city": "Littleton",
-        "percentComplete": 1
+        "percentComplete": 83
       },
       "geometry": {
         "type": "Polygon",
@@ -140756,7 +140756,7 @@
       "type": "Feature",
       "properties": {
         "osm": 1,
-        "drcog": 547,
+        "drcog": 678,
         "grid_ref": "104_72",
         "rooftop_count": 580,
         "grid_id": 16552,
@@ -145123,13 +145123,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 164,
+        "osm": 171,
         "drcog": 377,
         "grid_ref": "44_64",
         "rooftop_count": 330,
         "grid_id": 6944,
         "city": "Louisville",
-        "percentComplete": 44
+        "percentComplete": 45
       },
       "geometry": {
         "type": "Polygon",
@@ -146020,13 +146020,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 25,
+        "osm": 27,
         "drcog": 51,
         "grid_ref": "47_65",
         "rooftop_count": 52,
         "grid_id": 7425,
         "city": "Louisville",
-        "percentComplete": 49
+        "percentComplete": 53
       },
       "geometry": {
         "type": "Polygon",
@@ -146176,7 +146176,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 423,
+        "osm": 424,
         "drcog": 795,
         "grid_ref": "45_64",
         "rooftop_count": 787,
@@ -146800,13 +146800,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 5,
+        "osm": 6,
         "drcog": 109,
         "grid_ref": "92_57",
         "rooftop_count": 102,
         "grid_id": 14617,
         "city": "Morrison",
-        "percentComplete": 5
+        "percentComplete": 6
       },
       "geometry": {
         "type": "Polygon",
@@ -146839,13 +146839,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 29,
+        "osm": 31,
         "drcog": 66,
         "grid_ref": "92_58",
         "rooftop_count": 62,
         "grid_id": 14618,
         "city": "Morrison",
-        "percentComplete": 44
+        "percentComplete": 47
       },
       "geometry": {
         "type": "Polygon",
@@ -146995,7 +146995,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 1,
+        "osm": 2,
         "drcog": 460,
         "grid_ref": "57_83",
         "rooftop_count": 378,
@@ -147034,13 +147034,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 13,
+        "osm": 50,
         "drcog": 596,
         "grid_ref": "59_79",
         "rooftop_count": 535,
         "grid_id": 9359,
         "city": "Northglenn",
-        "percentComplete": 2
+        "percentComplete": 8
       },
       "geometry": {
         "type": "Polygon",
@@ -147073,13 +147073,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 26,
+        "osm": 40,
         "drcog": 207,
         "grid_ref": "59_80",
         "rooftop_count": 173,
         "grid_id": 9360,
         "city": "Northglenn",
-        "percentComplete": 13
+        "percentComplete": 19
       },
       "geometry": {
         "type": "Polygon",
@@ -147424,13 +147424,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 8,
+        "osm": 61,
         "drcog": 371,
         "grid_ref": "57_79",
         "rooftop_count": 334,
         "grid_id": 9039,
         "city": "Northglenn",
-        "percentComplete": 2
+        "percentComplete": 16
       },
       "geometry": {
         "type": "Polygon",
@@ -148633,13 +148633,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 68,
-        "drcog": 70,
+        "osm": 77,
+        "drcog": 75,
         "grid_ref": "107_105",
         "rooftop_count": 58,
         "grid_id": 17065,
         "city": "Parker",
-        "percentComplete": 97
+        "percentComplete": 103
       },
       "geometry": {
         "type": "Polygon",
@@ -149101,13 +149101,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 261,
+        "osm": 266,
         "drcog": 326,
         "grid_ref": "106_103",
         "rooftop_count": 318,
         "grid_id": 16903,
         "city": "Parker",
-        "percentComplete": 80
+        "percentComplete": 82
       },
       "geometry": {
         "type": "Polygon",
@@ -149686,13 +149686,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 100,
+        "osm": 109,
         "drcog": 130,
         "grid_ref": "112_104",
         "rooftop_count": 74,
         "grid_id": 17864,
         "city": "Parker",
-        "percentComplete": 77
+        "percentComplete": 84
       },
       "geometry": {
         "type": "Polygon",
@@ -150895,13 +150895,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 21,
+        "osm": 26,
         "drcog": 40,
         "grid_ref": "113_104",
         "rooftop_count": 31,
         "grid_id": 18024,
         "city": "Parker",
-        "percentComplete": 53
+        "percentComplete": 65
       },
       "geometry": {
         "type": "Polygon",
@@ -151675,13 +151675,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 9,
+        "osm": 88,
         "drcog": 119,
         "grid_ref": "94_77",
         "rooftop_count": 98,
         "grid_id": 14957,
         "city": "Sheridan",
-        "percentComplete": 8
+        "percentComplete": 74
       },
       "geometry": {
         "type": "Polygon",
@@ -152260,13 +152260,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 3,
+        "osm": 4,
         "drcog": 9,
         "grid_ref": "51_80",
         "rooftop_count": 7,
         "grid_id": 8080,
         "city": "Thornton",
-        "percentComplete": 33
+        "percentComplete": 44
       },
       "geometry": {
         "type": "Polygon",
@@ -152806,7 +152806,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 19,
+        "osm": 17,
         "drcog": 439,
         "grid_ref": "63_84",
         "rooftop_count": 386,
@@ -155068,7 +155068,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 11,
+        "osm": 12,
         "drcog": 346,
         "grid_ref": "50_86",
         "rooftop_count": 330,
@@ -155263,13 +155263,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 12,
+        "osm": 15,
         "drcog": 46,
         "grid_ref": "51_87",
         "rooftop_count": 48,
         "grid_id": 8087,
         "city": "Thornton",
-        "percentComplete": 26
+        "percentComplete": 33
       },
       "geometry": {
         "type": "Polygon",
@@ -156355,13 +156355,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 3,
+        "osm": 43,
         "drcog": 412,
         "grid_ref": "58_72",
         "rooftop_count": 327,
         "grid_id": 9192,
         "city": "Westminster",
-        "percentComplete": 1
+        "percentComplete": 10
       },
       "geometry": {
         "type": "Polygon",
@@ -157369,7 +157369,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 1,
+        "osm": 2,
         "drcog": 543,
         "grid_ref": "51_79",
         "rooftop_count": 509,
@@ -157642,13 +157642,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 147,
+        "osm": 149,
         "drcog": 189,
         "grid_ref": "58_73",
         "rooftop_count": 109,
         "grid_id": 9193,
         "city": "Westminster",
-        "percentComplete": 78
+        "percentComplete": 79
       },
       "geometry": {
         "type": "Polygon",
@@ -157681,7 +157681,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 13,
+        "osm": 14,
         "drcog": 582,
         "grid_ref": "66_76",
         "rooftop_count": 478,
@@ -158032,7 +158032,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 39,
+        "osm": 40,
         "drcog": 398,
         "grid_ref": "59_68",
         "rooftop_count": 366,
@@ -158344,13 +158344,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 34,
+        "osm": 48,
         "drcog": 438,
         "grid_ref": "61_67",
         "rooftop_count": 375,
         "grid_id": 9667,
         "city": "Westminster",
-        "percentComplete": 8
+        "percentComplete": 11
       },
       "geometry": {
         "type": "Polygon",
@@ -158422,7 +158422,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 316,
+        "osm": 317,
         "drcog": 348,
         "grid_ref": "61_72",
         "rooftop_count": 246,
@@ -158461,13 +158461,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 79,
+        "osm": 93,
         "drcog": 65,
         "grid_ref": "61_73",
         "rooftop_count": 42,
         "grid_id": 9673,
         "city": "Westminster",
-        "percentComplete": 122
+        "percentComplete": 143
       },
       "geometry": {
         "type": "Polygon",
@@ -160645,13 +160645,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 7,
+        "osm": 9,
         "drcog": 175,
         "grid_ref": "74_64",
         "rooftop_count": 178,
         "grid_id": 11744,
         "city": "Wheat Ridge",
-        "percentComplete": 4
+        "percentComplete": 5
       },
       "geometry": {
         "type": "Polygon",
@@ -160684,7 +160684,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 16,
+        "osm": 17,
         "drcog": 931,
         "grid_ref": "74_71",
         "rooftop_count": 806,
@@ -163726,13 +163726,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 11,
+        "osm": 32,
         "drcog": 270,
         "grid_ref": "101_71",
         "rooftop_count": 215,
         "grid_id": 16071,
         "city": "Littleton",
-        "percentComplete": 4
+        "percentComplete": 12
       },
       "geometry": {
         "type": "Polygon",
@@ -165910,13 +165910,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 24,
+        "osm": 25,
         "drcog": 544,
         "grid_ref": "105_70",
         "rooftop_count": 506,
         "grid_id": 16710,
         "city": "Littleton",
-        "percentComplete": 4
+        "percentComplete": 5
       },
       "geometry": {
         "type": "Polygon",
@@ -165989,7 +165989,7 @@
       "type": "Feature",
       "properties": {
         "osm": 0,
-        "drcog": 2,
+        "drcog": 1,
         "grid_ref": "106_60",
         "rooftop_count": 2,
         "grid_id": 16860,
@@ -166027,13 +166027,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 0,
-        "drcog": 1,
+        "osm": 1,
+        "drcog": 2,
         "grid_ref": "106_61",
         "rooftop_count": 1,
         "grid_id": 16861,
         "city": "Littleton",
-        "percentComplete": 0
+        "percentComplete": 50
       },
       "geometry": {
         "type": "Polygon",
@@ -166534,13 +166534,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 19,
-        "drcog": 7,
+        "osm": 28,
+        "drcog": 8,
         "grid_ref": "107_106",
         "rooftop_count": 7,
         "grid_id": 17066,
         "city": "Parker",
-        "percentComplete": 271
+        "percentComplete": 350
       },
       "geometry": {
         "type": "Polygon",
@@ -166652,12 +166652,12 @@
       "type": "Feature",
       "properties": {
         "osm": 5,
-        "drcog": 4,
+        "drcog": 6,
         "grid_ref": "107_61",
         "rooftop_count": 5,
         "grid_id": 17021,
         "city": "Littleton",
-        "percentComplete": 125
+        "percentComplete": 83
       },
       "geometry": {
         "type": "Polygon",
@@ -173983,13 +173983,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 0,
+        "osm": 1,
         "drcog": 2,
         "grid_ref": "44_96",
         "rooftop_count": 2,
         "grid_id": 6976,
         "city": "Brighton",
-        "percentComplete": 0
+        "percentComplete": 50
       },
       "geometry": {
         "type": "Polygon",
@@ -174100,13 +174100,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 0,
-        "drcog": 4,
+        "osm": 5,
+        "drcog": 3,
         "grid_ref": "45_95",
         "rooftop_count": 4,
         "grid_id": 7135,
         "city": "Brighton",
-        "percentComplete": 0
+        "percentComplete": 167
       },
       "geometry": {
         "type": "Polygon",
@@ -175504,7 +175504,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 14,
+        "osm": 15,
         "drcog": 1163,
         "grid_ref": "64_82",
         "rooftop_count": 984,
@@ -176479,7 +176479,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 20,
+        "osm": 21,
         "drcog": 298,
         "grid_ref": "68_80",
         "rooftop_count": 254,
@@ -177259,13 +177259,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 19,
+        "osm": 15,
         "drcog": 82,
         "grid_ref": "70_81",
         "rooftop_count": 81,
         "grid_id": 11121,
         "city": "Denver",
-        "percentComplete": 23
+        "percentComplete": 18
       },
       "geometry": {
         "type": "Polygon",
@@ -177961,13 +177961,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 37,
+        "osm": 64,
         "drcog": 612,
         "grid_ref": "72_78",
         "rooftop_count": 523,
         "grid_id": 11438,
         "city": "Denver",
-        "percentComplete": 6
+        "percentComplete": 10
       },
       "geometry": {
         "type": "Polygon",
@@ -178000,13 +178000,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 12,
+        "osm": 17,
         "drcog": 58,
         "grid_ref": "72_79",
         "rooftop_count": 55,
         "grid_id": 11439,
         "city": "Denver",
-        "percentComplete": 21
+        "percentComplete": 29
       },
       "geometry": {
         "type": "Polygon",
@@ -179678,12 +179678,12 @@
       "type": "Feature",
       "properties": {
         "osm": 24,
-        "drcog": 359,
+        "drcog": 383,
         "grid_ref": "95_65",
         "rooftop_count": 352,
         "grid_id": 15105,
         "city": "Lakewood",
-        "percentComplete": 7
+        "percentComplete": 6
       },
       "geometry": {
         "type": "Polygon",
@@ -180029,7 +180029,7 @@
       "type": "Feature",
       "properties": {
         "osm": 0,
-        "drcog": 799,
+        "drcog": 806,
         "grid_ref": "96_65",
         "rooftop_count": 704,
         "grid_id": 15265,
@@ -180263,7 +180263,7 @@
       "type": "Feature",
       "properties": {
         "osm": 20,
-        "drcog": 865,
+        "drcog": 905,
         "grid_ref": "96_63",
         "rooftop_count": 763,
         "grid_id": 15263,
@@ -180302,12 +180302,12 @@
       "type": "Feature",
       "properties": {
         "osm": 16,
-        "drcog": 630,
+        "drcog": 821,
         "grid_ref": "96_64",
         "rooftop_count": 734,
         "grid_id": 15264,
         "city": "Lakewood",
-        "percentComplete": 3
+        "percentComplete": 2
       },
       "geometry": {
         "type": "Polygon",
@@ -181589,7 +181589,7 @@
       "type": "Feature",
       "properties": {
         "osm": 0,
-        "drcog": 51,
+        "drcog": 222,
         "grid_ref": "99_72",
         "rooftop_count": 348,
         "grid_id": 15752,
@@ -181666,13 +181666,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 18,
+        "osm": 19,
         "drcog": 59,
         "grid_ref": "99_62",
         "rooftop_count": 36,
         "grid_id": 15742,
         "city": "Lakewood",
-        "percentComplete": 31
+        "percentComplete": 32
       },
       "geometry": {
         "type": "Polygon",
@@ -181822,7 +181822,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 29,
+        "osm": 30,
         "drcog": 516,
         "grid_ref": "99_67",
         "rooftop_count": 456,
@@ -181900,13 +181900,13 @@
     {
       "type": "Feature",
       "properties": {
-        "osm": 14,
+        "osm": 15,
         "drcog": 70,
         "grid_ref": "99_69",
         "rooftop_count": 85,
         "grid_id": 15749,
         "city": "Denver",
-        "percentComplete": 20
+        "percentComplete": 21
       },
       "geometry": {
         "type": "Polygon",
