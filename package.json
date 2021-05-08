@@ -15,7 +15,7 @@
     "@turf/length": "^6.0.2",
     "@turf/turf": "^5.1.6",
     "clean": "^4.0.2",
-    "lodash": "^4.17.13",
+    "lodash": "^4.17.21",
     "topojson": "^3.0.2",
     "turf-clip": "0.0.1"
   }
